@@ -2,12 +2,13 @@ module.exports = {
     theme: 'reco',
     cache: false,
     title: '墨萧随笔',
+    description: '墨萧随笔-主要专注于前端开发技术相关的知识、经验分享，同时也会包含python等其他技术栈以及技术问题的记录和生活札记',
     themeConfig: {
         logo: '/favicon.png',
         type: 'blog',
         subSidebar: 'auto',
         sidebar: {
-            '/frontend/': ['',]
+            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API']
         },
         search: true,
         nav: [
@@ -41,10 +42,9 @@ module.exports = {
             'vuepress-plugin-sponsor',
             {
                 theme: 'simple',
-                alipay: '/sponsor-qrcode/qrcode-wechat.jpg',
+                alipay: '/sponsor-qrcode/qrcode-alipay.jpg',
                 wechat: '/sponsor-qrcode/qrcode-wechat.jpg',
-                qq: '/sponsor-qrcode/qrcode-wechat.jpg',
-                paypal: 'https://www.paypal.me/yokefellow',
+                qq: '/sponsor-qrcode/qrcode-qq.jpg',
                 duration: 2000
             }
         ],
@@ -66,5 +66,8 @@ module.exports = {
         '/': {
             lang: 'zh-CN'
         }
+    },
+    markdown: {
+        lineNumbers: true
     }
 }
