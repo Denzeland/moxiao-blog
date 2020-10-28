@@ -8,7 +8,7 @@ module.exports = {
         type: 'blog',
         subSidebar: 'auto',
         sidebar: {
-            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API']
+            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API', 'TypeScript-understand']
         },
         search: true,
         nav: [

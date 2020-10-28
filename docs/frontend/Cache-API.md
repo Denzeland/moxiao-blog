@@ -14,13 +14,13 @@ ServiceWorker API给了开发人员对浏览器缓存更多的控制，虽然Eta
 
 ## 检测浏览器是否支持Cache API
 
-```js
+``` js
 if('caches' in window) {
   // Has support!
 }
 ```
 
-::: tip
+::: tip 注意的点
 判断浏览器是否支持缓存， 就是看有没有caches这个对象
 :::
 
@@ -28,7 +28,7 @@ if('caches' in window) {
 
 创建缓存需要调用caches.open方法， 传入缓存名称：
 
-```js
+``` js
 caches.open('test-cache').then(function(cache) {
   // Cache is created and accessible
 });
@@ -42,7 +42,7 @@ caches.open('test-cache').then(function(cache) {
 
  要一次添加多个URL缓存，可以使用addAll方法：
 
-```js
+``` js
  caches.open('test-cache').then(function(cache) { 
   cache.addAll(['/', '/images/logo.png'])
     .then(function() { 
@@ -52,14 +52,14 @@ caches.open('test-cache').then(function(cache) {
 ```
 要添加单个url缓存，可以使用add方法：
 
-```js
+``` js
 caches.open('test-cache').then(function(cache) {
   cache.add('/page/1');  // "/page/1" URL will be fetched and cached!
 });
 ```
 也支持自定义Request对象：
 
-```js
+``` js
 caches.open('test-cache').then(function(cache) {
   cache.add(new Request('/page/1', { /* request options */ }));
 });
@@ -67,7 +67,7 @@ caches.open('test-cache').then(function(cache) {
 
 和add方法类似，put方法可以用来添加url及对应的response对象：
 
-```js
+``` js
 fetch('/page/1').then(function(response) {
   return caches.open('test-cache').then(function(cache) {
     return cache.put('/page/1', response);
@@ -78,7 +78,7 @@ fetch('/page/1').then(function(response) {
 
  查看被缓存的Request，可以用keys方法遍历：
 
- ```js
+ ``` js
  caches.open('test-cache').then(function(cache) { 
   cache.keys().then(function(cachedRequests) { 
     console.log(cachedRequests); // [Request, Request]
@@ -102,7 +102,7 @@ Request {
 
  要查看对应的Response对象可以调用cache.match或者cache.matchAll：
 
- ```js
+ ``` js
  caches.open('test-cache').then(function(cache) {
   cache.match('/page/1').then(function(matchedResponse) {
     console.log(matchedResponse);
@@ -125,7 +125,7 @@ Response {
 
 使用delete方法：
 
-```js
+``` js
 caches.open('test-cache').then(function(cache) {
   cache.delete('/page/1');
 });
@@ -134,7 +134,7 @@ caches.open('test-cache').then(function(cache) {
 
 要获取已经存在的缓存名称，使用caches.keys：
 
-```js
+``` js
 caches.keys().then(function(cacheKeys) { 
   console.log(cacheKeys); // ex: ["test-cache"]
 });
@@ -144,7 +144,7 @@ caches.keys().then(function(cacheKeys) {
 
  调用caches.delete传入缓存名称
 
- ```js
+ ``` js
  caches.delete('test-cache').then(function() { 
   console.log('Cache successfully deleted!'); 
 });
@@ -152,7 +152,7 @@ caches.keys().then(function(cacheKeys) {
 
 当用新的缓存替换时经常会删除缓存（会触发重新安装新的service worker）:
 
-```js
+``` js
 // Assuming `CACHE_NAME` is the newest name
 // Time to clean up the old!
 var CACHE_NAME = 'version-8';

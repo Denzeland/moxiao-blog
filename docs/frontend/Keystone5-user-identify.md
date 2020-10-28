@@ -13,7 +13,7 @@ showSponsor: true
 按官方的说法，Keystone 5是面向未来的一次重构， 自带GraphQL支持的高度可扩展的体系结构和一个漂亮的管理界面。使用Keystone 5只需关注数据模型层可以自动生成相应的GraphQL服务，对于前端发开服务端应用非常方便。最近几天我试用了一下，感觉确实很强大，下面记录一下我在Keystone 5集成用户认证的过程。
 使用passoort中间件完成用户认证，因为完成的是用户名密码认证，所以使用passport-local这个包，会话存储在服务端（我实现的是存储在MongoDB），使用express-session来支持会话，connect-mongo用来把会话存储在MongoDB，使用connect-flash来实现会话flash消息，最后因为我比较偏好handlebars模板引擎，所以我使用express-handlebars来支持handlebars模板。首先安装这些模块：
 
-```shell
+``` shell
 npm install passport, passport-local, express-session, connect-mongo, connect-flash, express-handlebars
 ```
 
@@ -22,7 +22,7 @@ Keystone是对express更抽象的封装，要在应用添加自己的路由处�
  
 首先是session的配置，这里我把我的配置贴出来：
 
-```js
+``` js
 const express = require('express')
 const session = require('express-session');
 const SessionMongoStore = require('connect-mongo')(session);
@@ -42,7 +42,7 @@ const mxSessionConfig = {
 
 配置验证策略：
 
-```js
+``` js
 const passport = require('passport')
 const LocalStrategy = require('passport-local').Strategy;
 const userList = keystone.createList('User', UserSchema);
@@ -70,7 +70,7 @@ passport.use(new LocalStrategy(
 
  到这里基本上就配置好了，req对象有session和user这两个对象，最后注册这两个中间件就可以了。最后再附上登录和注册的逻辑：
 
- ```js
+ ``` js
  module.exports = {
   configureExpress: app => {
   	app.use(session(mxSessionConfig));
