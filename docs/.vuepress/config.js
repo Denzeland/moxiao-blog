@@ -94,6 +94,15 @@ module.exports = {
             twitterUser: 'harry',
             fallbackImage: '/fallbackimage.png',
         }],
+        ["vuepress-plugin-code-copy", {
+            successText: '复制成功!'
+        }
+        ],
+        [
+            'crisp', {
+                siteID: "20de650e-477b-4d5d-b048-0c26c12f3cfb" // if you don't have a crisp account go to <https://crisp.chat/en/> and create an account then get the website ID and put it here.
+            }
+        ],
         // ['sitemap', {
         //     hostname: 'http://blog.zdctech.top/',
         //     outFile: 'sitemap.txt'
@@ -137,7 +146,7 @@ module.exports = {
                         position: "right", // 显示位置：left/right(default: 'right')
                         width: 95, // 模型的长度(default: 135)
                         height: 200, // 模型的高度(default: 300)
-                        hOffset: 65, //  水平偏移(default: 65)
+                        hOffset: 80, //  水平偏移(default: 65)
                         vOffset: 0, //  垂直偏移(default: 0)
                     },
                     mobile: {
@@ -254,6 +263,30 @@ module.exports = {
                         artist: '零一九零贰',
                         url: 'https://qn.zdctech.top/%E5%BF%98%E5%B7%9D%E5%BD%BC%E5%B2%B8.mp3',
                         cover: 'https://qn.zdctech.top/%E5%BF%98%E5%B7%9D%E5%BD%BC%E5%B2%B8.jpg'
+                    },
+                    {
+                        name: '烟火人间',
+                        artist: '添儿呗',
+                        url: 'https://qn.zdctech.top/%E7%83%9F%E7%81%AB%E4%BA%BA%E9%97%B4.mp3',
+                        cover: 'https://qn.zdctech.top/%E7%83%9F%E7%81%AB%E4%BA%BA%E9%97%B4.jpg'
+                    },
+                    {
+                        name: '赤伶',
+                        artist: 'HITA',
+                        url: 'https://qn.zdctech.top/%E8%B5%A4%E4%BC%B6.mp3',
+                        cover: 'https://qn.zdctech.top/%E8%B5%A4%E4%BC%B6.jpg'
+                    },
+                    {
+                        name: '执迷不悟',
+                        artist: '铁脑袋mp3',
+                        url: 'https://qn.zdctech.top/%E6%89%A7%E8%BF%B7%E4%B8%8D%E6%82%9F.mp3',
+                        cover: 'https://qn.zdctech.top/%E6%89%A7%E8%BF%B7%E4%B8%8D%E6%82%9F.jpg'
+                    },
+                    {
+                        name: '大天蓬',
+                        artist: '李袁杰',
+                        url: 'https://qn.zdctech.top/%E5%A4%A7%E5%A4%A9%E8%93%AC.mp3',
+                        cover: 'https://qn.zdctech.top/%E5%A4%A7%E5%A4%A9%E8%93%AC.jpg'
                     },
                 ]
             }
