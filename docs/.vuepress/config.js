@@ -103,6 +103,12 @@ module.exports = {
                 siteID: "20de650e-477b-4d5d-b048-0c26c12f3cfb" // if you don't have a crisp account go to <https://crisp.chat/en/> and create an account then get the website ID and put it here.
             }
         ],
+        [
+            "vuepress-plugin-google-adsense",
+            {
+                ad_client: "ca-pub-6181973021923509" // replace it with your ad_client
+            }
+        ],
         // ['sitemap', {
         //     hostname: 'http://blog.zdctech.top/',
         //     outFile: 'sitemap.txt'
