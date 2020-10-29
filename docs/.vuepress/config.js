@@ -1,24 +1,62 @@
 module.exports = {
     theme: 'reco',
-    cache: false,
+    // cache: false,
     title: '墨萧随笔',
-    description: '墨萧随笔-主要专注于前端开发技术相关的知识、经验分享，同时也会包含python等其他技术栈以及技术问题的记录和生活札记',
+    description: '墨萧随笔-让时间见证我们共同的成长',
     themeConfig: {
         logo: '/favicon.png',
         type: 'blog',
         subSidebar: 'auto',
         sidebar: {
-            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API', 'TypeScript-understand']
+            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API', 'TypeScript-understand', 'npm-history-docs']
         },
         search: true,
         nav: [
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+            {
+                text: 'python资源',
+                items: [
+                    {
+                        text: 'web服务',
+                        items: [
+                            { text: 'Django', link: 'https://docs.djangoproject.com/zh-hans/3.0/', target: '_blank' },
+                            { text: 'Twisted', link: 'https://www.twistedmatrix.com/trac/', target: '_blank' },
+                            { text: 'Flask', link: 'https://dormousehole.readthedocs.io/en/latest/', target: '_blank' },
+                            { text: 'uWSGI', link: 'https://uwsgi-docs-zh.readthedocs.io/zh_CN/latest/', target: '_blank' },
+                        ]
+                    },
+                    {
+                        text: '工具包/库',
+                        items: [
+                            { text: 'Jinja2', link: 'http://docs.jinkan.org/docs/jinja2/', target: '_blank' },
+                            { text: 'Requests', link: 'https://cn.python-requests.org/zh_CN/latest/user/quickstart.html', target: '_blank' },
+                            { text: 'Beautiful Soup', link: 'https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html', target: '_blank' },
+                            { text: 'NumPy', link: 'https://www.numpy.org.cn/en/', target: '_blank' },
+                            { text: 'Pandas', link: 'https://www.pypandas.cn/', target: '_blank' },
+                            { text: 'Matplotlib', link: 'https://www.matplotlib.org.cn/', target: '_blank' },
+                            { text: 'OpenCV', link: 'https://opencv.org/', target: '_blank' },
+                            { text: 'SQLAlchemy', link: 'https://www.osgeo.cn/sqlalchemy/orm/tutorial.html', target: '_blank' },
+                            { text: 'tkinter', link: 'https://docs.python.org/3/library/tkinter.html#module-tkinter', target: '_blank' },
+                            { text: 'PyQt5', link: 'https://pypi.org/project/PyQt5/', target: '_blank' },
+                        ]
+                    },
+                    {
+                        text: '深度学习',
+                        items: [
+                            { text: 'TensorFlow', link: 'https://tensorflow.google.cn/', target: '_blank' },
+                            { text: 'Keras', link: 'https://keras.io/zh/', target: '_blank' },
+                            { text: 'PyTorch', link: 'https://pytorch.org/', target: '_blank' },
+                            { text: 'Kivy', link: 'https://kivy.org/#home', target: '_blank' },
+                        ]
+                    },
+                ]
+            }
         ],
         authorAvatar: 'http://qn.zdctech.top/202005/img_1460hei-bai-2.jpg',
         // 博客配置
         blogConfig: {
             category: {
-                location: 2,     // 在导航栏菜单中所占的位置，默认2
+                location: 1,     // 在导航栏菜单中所占的位置，默认2
                 text: '分类' // 默认文案 “分类”
             },
             tag: {
@@ -97,8 +135,8 @@ module.exports = {
                     model: 'haru/01',
                     display: {
                         position: "right", // 显示位置：left/right(default: 'right')
-                        width: 135, // 模型的长度(default: 135)
-                        height: 300, // 模型的高度(default: 300)
+                        width: 95, // 模型的长度(default: 135)
+                        height: 200, // 模型的高度(default: 300)
                         hOffset: 65, //  水平偏移(default: 65)
                         vOffset: 0, //  垂直偏移(default: 0)
                     },
