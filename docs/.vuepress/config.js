@@ -10,11 +10,23 @@ module.exports = {
         logo: '/favicon.png',
         type: 'blog',
         subSidebar: 'auto',
+        author: "墨萧",
+        smoothScroll: true,
         sidebar: {
-            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API', 'TypeScript-understand', 'npm-history-docs']
+            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API', 'TypeScript-understand', 'npm-history-docs'],
+            '/summary/': ['', 'ubuntu-odoo12']
         },
         search: true,
+        friendLink: [
+            {
+                title: '虚位以待',
+                desc: '如您不嫌弃，可以联系我在这里放置您的网址',
+                logo: "/favicon.png",
+                link: 'http://blog.zdctech.top/'
+            },
+        ],
         nav: [
+            { text: '杂项记录', link: '/summary/', icon: 'reco-document' },
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
             {
                 text: 'python资源',
@@ -107,8 +119,30 @@ module.exports = {
             }
         ],
         ['vuepress-plugin-baidu-autopush'],
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp, lang) => {
+                    const moment = require('moment')
+                    moment.locale(lang)
+                    return moment(timestamp).format("YYYY MM DD HH:mm")
+                }
+            }
+        ],
+        // 更新刷新插件
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: {
+                message: "发现新内容可用",
+                buttonText: "刷新"
+            }
+        }],
+        // ['seo'],
         // ['sitemap', {
         //     hostname: 'https://blog.zdctech.top',
+        //     transformer: (timestamp, lang) => {
+        //         return new Date(timestamp).toLocaleDateString();
+        //     }
         // }],
         // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
         //     width: '300px', // 默认 260px
@@ -161,9 +195,43 @@ module.exports = {
                 }
             }
         ],
+        // 音乐插件，暂时用下面的
+        // ['meting', {
+        //     //metingApi: "https://meting.sigure.xyz/api/music",
+        //     meting: {
+        //         // 网易
+        //         server: "netease",
+        //         // 读取歌单
+        //         type: "playlist",
+        //         mid: "696441716",
+        //     },
+        //     // 不配置该项的话不会出现全局播放器
+        //     aplayer: {
+        //         // 吸底模式
+        //         fixed: true,
+        //         mini: true,
+        //         // 自动播放
+        //         autoplay: true,
+        //         // 歌曲栏折叠
+        //         listFolded: true,
+        //         // 颜色
+        //         theme: '#f9bcdd',
+        //         // 播放顺序为随机
+        //         order: 'random',
+        //         // 初始音量
+        //         volume: 0.1,
+        //         // 关闭歌词显示
+        //         lrcType: 0
+        //     },
+        //     mobile: {
+        //         // 手机端去掉cover图
+        //         cover: false,
+        //     }
+        // }],
         [
             '@vuepress-reco/vuepress-plugin-bgm-player',
             {
+                autoShrink: true,
                 audios: [
                     {
                         name: '平凡之路',
