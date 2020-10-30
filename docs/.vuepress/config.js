@@ -3,6 +3,9 @@ module.exports = {
     // cache: false,
     title: '墨萧随笔',
     description: '墨萧随笔-让时间见证我们共同的成长',
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.png' }]
+    ],
     themeConfig: {
         logo: '/favicon.png',
         type: 'blog',
@@ -103,9 +106,9 @@ module.exports = {
                 siteID: "20de650e-477b-4d5d-b048-0c26c12f3cfb" // if you don't have a crisp account go to <https://crisp.chat/en/> and create an account then get the website ID and put it here.
             }
         ],
+        ['vuepress-plugin-baidu-autopush'],
         // ['sitemap', {
-        //     hostname: 'http://blog.zdctech.top/',
-        //     outFile: 'sitemap.txt'
+        //     hostname: 'https://blog.zdctech.top',
         // }],
         // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
         //     width: '300px', // 默认 260px
