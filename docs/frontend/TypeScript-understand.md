@@ -1,7 +1,7 @@
 ---
 title: 理解TypeScript
 date: 2020-10-28
-sidebar: auto
+sidebar: 'auto'
 categories:
  - web前端
 tags:

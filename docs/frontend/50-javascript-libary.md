@@ -2,7 +2,7 @@
 title: 50个实用的JavaScript插件和库
 description: 50个实用的JavaScript插件和库
 date: 2020-05-09
-sidebar: auto
+sidebar: 'auto'
 categories:
  - web前端
 tags:

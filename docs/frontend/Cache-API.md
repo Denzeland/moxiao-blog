@@ -1,7 +1,7 @@
 ---
 title: Cache API
 date: 2020-10-27
-sidebar: auto
+sidebar: 'auto'
 categories:
  - web前端
 tags:

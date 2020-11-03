@@ -2,7 +2,7 @@
 title: 杂项记录
 description: 记录下在开发过程中遇到的问题，包括不限于前端，后端，大数据，人工智能等各种技术
 date: 2020-05-10
-sidebar: auto
+sidebar: 'auto'
 showSponsor: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 在Keystone 5完成用户认证
 date: 2020-10-27
-sidebar: auto
+sidebar: 'auto'
 categories:
  - web前端
 tags:

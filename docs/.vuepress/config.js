@@ -14,13 +14,13 @@ module.exports = {
         smoothScroll: true,
         sidebar: {
             '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API', 'TypeScript-understand', 'npm-history-docs'],
-            '/summary/': ['', 'ubuntu-odoo12']
+            '/summary/': ['', 'ubuntu-odoo12', 'linux-bootsrap', 'node-async', 'async-func', 'deno-intrdu', 'javascript-requestpayment', 'web-components', 'DOM-measure', 'visualization-js-library']
         },
         search: true,
         friendLink: [
             {
                 title: '虚位以待',
-                desc: '如您不嫌弃，可以联系我在这里放置您的网址',
+                desc: '您可以在页面右下角联系我或留言您的网站链接、标题、描述、logo信息，期待您的加入！',
                 logo: "/favicon.png",
                 link: 'http://blog.zdctech.top/'
             },
