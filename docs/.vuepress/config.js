@@ -3,15 +3,30 @@ module.exports = {
     // cache: false,
     title: '墨萧随笔',
     description: '墨萧随笔-让时间见证我们共同的成长',
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.png' }]
+    ],
     themeConfig: {
         logo: '/favicon.png',
         type: 'blog',
         subSidebar: 'auto',
+        author: "墨萧",
+        smoothScroll: true,
         sidebar: {
-            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API', 'TypeScript-understand', 'npm-history-docs']
+            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API', 'TypeScript-understand', 'npm-history-docs'],
+            '/summary/': ['', 'ubuntu-odoo12', 'linux-bootsrap', 'node-async', 'async-func', 'deno-intrdu', 'javascript-requestpayment', 'web-components', 'DOM-measure', 'visualization-js-library']
         },
         search: true,
+        friendLink: [
+            {
+                title: '虚位以待',
+                desc: '您可以在页面右下角联系我或留言您的网站链接、标题、描述、logo信息，期待您的加入！',
+                logo: "/favicon.png",
+                link: 'http://blog.zdctech.top/'
+            },
+        ],
         nav: [
+            { text: '杂项记录', link: '/summary/', icon: 'reco-document' },
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
             {
                 text: 'python资源',
@@ -103,15 +118,31 @@ module.exports = {
                 siteID: "20de650e-477b-4d5d-b048-0c26c12f3cfb" // if you don't have a crisp account go to <https://crisp.chat/en/> and create an account then get the website ID and put it here.
             }
         ],
+        ['vuepress-plugin-baidu-autopush'],
         [
-            "vuepress-plugin-google-adsense",
+            '@vuepress/last-updated',
             {
-                ad_client: "ca-pub-6181973021923509" // replace it with your ad_client
+                transformer: (timestamp, lang) => {
+                    const moment = require('moment')
+                    moment.locale(lang)
+                    return moment(timestamp).format("YYYY MM DD HH:mm")
+                }
             }
         ],
+        // 更新刷新插件
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: {
+                message: "发现新内容可用",
+                buttonText: "刷新"
+            }
+        }],
+        // ['seo'],
         // ['sitemap', {
-        //     hostname: 'http://blog.zdctech.top/',
-        //     outFile: 'sitemap.txt'
+        //     hostname: 'https://blog.zdctech.top',
+        //     transformer: (timestamp, lang) => {
+        //         return new Date(timestamp).toLocaleDateString();
+        //     }
         // }],
         // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
         //     width: '300px', // 默认 260px
@@ -164,9 +195,43 @@ module.exports = {
                 }
             }
         ],
+        // 音乐插件，暂时用下面的
+        // ['meting', {
+        //     //metingApi: "https://meting.sigure.xyz/api/music",
+        //     meting: {
+        //         // 网易
+        //         server: "netease",
+        //         // 读取歌单
+        //         type: "playlist",
+        //         mid: "696441716",
+        //     },
+        //     // 不配置该项的话不会出现全局播放器
+        //     aplayer: {
+        //         // 吸底模式
+        //         fixed: true,
+        //         mini: true,
+        //         // 自动播放
+        //         autoplay: true,
+        //         // 歌曲栏折叠
+        //         listFolded: true,
+        //         // 颜色
+        //         theme: '#f9bcdd',
+        //         // 播放顺序为随机
+        //         order: 'random',
+        //         // 初始音量
+        //         volume: 0.1,
+        //         // 关闭歌词显示
+        //         lrcType: 0
+        //     },
+        //     mobile: {
+        //         // 手机端去掉cover图
+        //         cover: false,
+        //     }
+        // }],
         [
             '@vuepress-reco/vuepress-plugin-bgm-player',
             {
+                autoShrink: true,
                 audios: [
                     {
                         name: '平凡之路',

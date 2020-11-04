@@ -1,7 +1,8 @@
 ---
 title: npm history模块文档
+description: npm history模块中文文档
 date: 2020-10-29
-sidebar: auto
+sidebar: 'auto'
 categories:
  - web前端
 tags:
@@ -189,8 +190,8 @@ history对象可以使用以下方法以编程方式改变当前位置:
 - [`history.push(to: To, state?: State)`](https://github.com/ReactTraining/history/blob/28c89f4091ae9e1b0001341ea60c629674e83627/docs/api-reference.md#history.push)
 - [`history.replace(to: To, state?: State)`](https://github.com/ReactTraining/history/blob/28c89f4091ae9e1b0001341ea60c629674e83627/docs/api-reference.md#history.replace)
 - [`history.go(delta: number)`](https://github.com/ReactTraining/history/blob/28c89f4091ae9e1b0001341ea60c629674e83627/docs/api-reference.md#history.go)
-- [`history.back()`](https://github.com/ReactTraining/history/blob/28c89f4091ae9e1b0001341ea60c629674e83627/docs/api-reference.md#history.back)
-- [`history.forward()`](https://github.com/ReactTraining/history/blob/28c89f4091ae9e1b0001341ea60c629674e83627/docs/api-reference.md#history.forward)
+- [`history.goBack()`](https://github.com/ReactTraining/history/blob/28c89f4091ae9e1b0001341ea60c629674e83627/docs/api-reference.md#history.back)
+- [`history.goForward()`](https://github.com/ReactTraining/history/blob/28c89f4091ae9e1b0001341ea60c629674e83627/docs/api-reference.md#history.forward)
 
 下面有例子：
 
@@ -214,7 +215,7 @@ history.push({
 // Go back to the previous history entry. The following
 // two lines are synonymous.
 history.go(-1);
-history.back();
+history.goBack();
 ```
 
 ## 阻塞导航

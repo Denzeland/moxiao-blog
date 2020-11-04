@@ -1,5 +1,6 @@
 ---
 title: 开发者的UI设计资源
+description: 开发者的UI设计资源
 date: 2020-10-27
 sidebar: auto
 categories:
@@ -130,7 +131,7 @@ showSponsor: true
 
 | Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
 | ----------------------- | ------------------ |
-| [Color Brewer 2](https://colorbrewer2.org/)| The original color palette generator, also supporting color blindness. Probably the scientifically best option. Also probably not the prettiest. | 
+| [Color Brewer 2](https://colorbrewer2.org/)| The original color palette generator, also supporting color blindness. Probably the scientifically best option. Also probably not the prettiest. |
 | [Colormind.io](http://colormind.io)| Color palette generator |
 | [ColorCurves.app](https://colorcurves.app)| Color palette generator that uses curves to generate color palettes |
 | [Coolors](https://coolors.co)| Create the perfect palette or get inspired by thousands of beautiful color schemes |
@@ -280,7 +281,7 @@ showSponsor: true
 | [Linea](https://linea.io/)| Linea: Featuring 750+ Free Icons |
 | [Unicons](https://iconscout.com/unicons)| A set of 1100+ Free line style icons available as web font, SVG icons, and as components for JS frameworks like React, Vue and React Native. |
 | [Mobirise Icons](https://mobiriseicons.com/)| A free, open source set of 150 elegant, pixel-perfect linear icons, available as web icon font and SVG icons. |
-| [Line Awesome](https://icons8.com/line-awesome/)| It is a free alternative for Font Awesome, flat icons that offer complete coverage of the main Font Awesome icon set. | 
+| [Line Awesome](https://icons8.com/line-awesome/)| It is a free alternative for Font Awesome, flat icons that offer complete coverage of the main Font Awesome icon set. |
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
