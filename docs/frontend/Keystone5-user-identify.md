@@ -8,6 +8,7 @@ tags:
  - 前端
  - Keystone.js
 showSponsor: true
+featured: true
 ---
 
 按官方的说法，Keystone 5是面向未来的一次重构， 自带GraphQL支持的高度可扩展的体系结构和一个漂亮的管理界面。使用Keystone 5只需关注数据模型层可以自动生成相应的GraphQL服务，对于前端发开服务端应用非常方便。最近几天我试用了一下，感觉确实很强大，下面记录一下我在Keystone 5集成用户认证的过程。

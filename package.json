@@ -17,6 +17,7 @@
     "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.5.7",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-blog-featured": "0.0.4",
     "vuepress-plugin-helper-live2d": "^1.0.2",
     "vuepress-plugin-meting": "^0.1.1",
     "vuepress-plugin-seo": "^0.1.4",
