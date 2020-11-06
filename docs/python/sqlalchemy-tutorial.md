@@ -179,3 +179,121 @@ for dict_row in result.mappings():
 ... )
 ```
 
+在这个定义中，[`Table`](https://docs.sqlalchemy.org/en/14/core/metadata.html#sqlalchemy.schema.Table)表示数据库表，并将其本身分配给 [`MetaData`](https://docs.sqlalchemy.org/en/14/core/metadata.html#sqlalchemy.schema.MetaData)集合，[`Column`](https://docs.sqlalchemy.org/en/14/core/metadata.html#sqlalchemy.schema.Column)数据库表中的一列， 并将其本身分配给[`Table`](https://docs.sqlalchemy.org/en/14/core/metadata.html#sqlalchemy.schema.Table)对象，[`Table.c`](https://docs.sqlalchemy.org/en/14/core/metadata.html#sqlalchemy.schema.Table.c)可以访问到列的集合：
+
+```python
+>>> user_table.c.name
+Column('name', String(length=30), table=<user_account>)
+
+>>> user_table.c.keys()
+['id', 'name', 'fullname']
+```
+
+[`Integer`](https://docs.sqlalchemy.org/en/14/core/type_basics.html#sqlalchemy.types.Integer), [`String`](https://docs.sqlalchemy.org/en/14/core/type_basics.html#sqlalchemy.types.String) 表示列的数据类型
+
+### 定义数据库约束
+
+[`Column.primary_key`](https://docs.sqlalchemy.org/en/14/core/metadata.html#sqlalchemy.schema.Column.params.primary_key)参数定义了主键约束，外键约束可以在列的定义中调用`ForeignKey`，非空约束可以用参数`nullable`定义：
+
+```python
+>>> from sqlalchemy import ForeignKey
+>>> address_table = Table(
+...     "address",
+...     metadata,
+...     Column('id', Integer, primary_key=True),
+...     Column('user_id', ForeignKey('user_account.id'), nullable=False),
+...     Column('email_address', String, nullable=False)
+... )
+```
+
+### 触发数据库定义语言
+
+数据库定义好了以后，可以使用`metadata.create_all(engine)`在目标数据库产生变更：
+
+```python
+>>> metadata.create_all(engine)
+```
+
+产生的sql语句:
+
+```python
+BEGIN (implicit)
+PRAGMA main.table_...info("user_account")
+...
+PRAGMA main.table_...info("address")
+...
+CREATE TABLE user_account (
+    id INTEGER NOT NULL,
+    name VARCHAR(30),
+    fullname VARCHAR,
+    PRIMARY KEY (id)
+)
+...
+CREATE TABLE address (
+    id INTEGER NOT NULL,
+    user_id INTEGER NOT NULL,
+    email_address VARCHAR NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY(user_id) REFERENCES user_account (id)
+)
+...
+COMMIT
+```
+
+### 使用ORM来定义表的元数据
+
+在使用ORM时，元数据集合仍然存在，但是它本身包含在一个称为注册表[`registry`](https://docs.sqlalchemy.org/en/14/orm/mapping_api.html#sqlalchemy.orm.registry)的仅使用ORM的对象中，ORM定义的表映射类都是继承自注册表产生的`Base`类， `Base`类有两种方式产生：
+
+```python
+>>> from sqlalchemy.orm import registry
+>>> mapper_registry = registry()
+>>> Base = mapper_registry.generate_base()
+
+>>> mapper_registry.metadata
+MetaData()
+```
+
+```python
+from sqlalchemy.orm import declarative_base
+Base = declarative_base()
+```
+
+- 定义映射类：
+
+```python
+>>> from sqlalchemy.orm import relationship
+>>> class User(Base):
+...     __tablename__ = 'user_account'
+...
+...     id = Column(Integer, primary_key=True)
+...     name = Column(String(30))
+...     fullname = Column(String)
+...
+...     addresses = relationship("Address", back_populates="user")
+...
+...     def __repr__(self):
+...        return f"User(id={self.id!r}, name={self.name!r}, fullname={self.fullname!r})"
+
+>>> class Address(Base):
+...     __tablename__ = 'address'
+...
+...     id = Column(Integer, primary_key=True)
+...     email_address = Column(String, nullable=False)
+...     user_id = Column(Integer, ForeignKey('user_account.id'))
+...
+...     user = relationship("User", back_populates="addresses")
+...
+...     def __repr__(self):
+...         return f"Address(id={self.id!r}, email_address={self.email_address!r})"
+```
+
+查看[`Table`](https://docs.sqlalchemy.org/en/14/core/metadata.html#sqlalchemy.schema.Table) 对象可以使用__table__属性：
+
+```python
+>>> User.__table__
+Table('user_account', MetaData(),
+    Column('id', Integer(), table=<user_account>, primary_key=True, nullable=False),
+    Column('name', String(length=30), table=<user_account>),
+    Column('fullname', String(), table=<user_account>), schema=None)
+```
+

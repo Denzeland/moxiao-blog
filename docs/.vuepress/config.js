@@ -137,7 +137,6 @@ module.exports = {
                 buttonText: "刷新"
             }
         }],
-        ['blog-featured'],
         // ['seo'],
         // ['sitemap', {
         //     hostname: 'https://blog.zdctech.top',
