@@ -59,6 +59,9 @@ COMMIT
 
 ::: tip 不同数据库差异
 有的数据库要求指定String类型列的长度， 有的数据库要求根据序列生成主键， 因此下面是一个比较完整的定义：
+
+```python
+from sqlalchemy import Sequence
 class User(Base):
     __tablename__ = 'users'
     id = Column(Integer, Sequence('user_id_seq'), primary_key=True)
@@ -66,9 +69,11 @@ class User(Base):
     fullname = Column(String(50))
     nickname = Column(String(50))
 
-​    def __repr__(self):
-​        return "<User(name='%s', fullname='%s', nickname='%s')>" % (
-​                                self.name, self.fullname, self.nickname)
+    def __repr__(self):
+        return "<User(name='%s', fullname='%s', nickname='%s')>" % (
+                                self.name, self.fullname, self.nickname)
+```
+
 :::
 
 ## 创建类的实例
@@ -261,7 +266,7 @@ ed
 <User(name='ed', fullname='Ed Jones', nickname='eddie')>
 ```
 
-### 常见的过滤操作符
+### 常见的过滤运算符
 
 - [`ColumnOperators.__eq__()`](https://docs.sqlalchemy.org/en/14/core/sqlelement.html#sqlalchemy.sql.expression.ColumnOperators.__eq__):
 
@@ -594,7 +599,7 @@ query.outerjoin(User.addresses)   # LEFT OUTER JOIN
 >>> from sqlalchemy.orm import aliased
 >>> adalias1 = aliased(Address)
 >>> adalias2 = aliased(Address)
-SQL>>> for username, email1, email2 in \
+>>> for username, email1, email2 in \
 ...     session.query(User.name, adalias1.email_address, adalias2.email_address).\
 ...     join(User.addresses.of_type(adalias1)).\
 ...     join(User.addresses.of_type(adalias2)).\
@@ -679,4 +684,53 @@ jack
 >>> session.query(Address).\
 ...         filter(~Address.user.has(User.name=='jack')).all()
 []
+```
+
+### 常见关系运算符
+
+下面列出了所有的用于构建关系的运算符，所有列表项都链接到官方详细使用说明文档：
+
+- [`Comparator.__eq__()`](https://docs.sqlalchemy.org/en/14/orm/internals.html#sqlalchemy.orm.RelationshipProperty.Comparator.__eq__) - 多对一相等比较:
+
+```python
+query.filter(Address.user == someuser)
+```
+
+- [`Comparator.__ne__()`](https://docs.sqlalchemy.org/en/14/orm/internals.html#sqlalchemy.orm.RelationshipProperty.Comparator.__ne__)- 多对一不相等比较:
+
+```python
+query.filter(Address.user != someuser)
+```
+
+- IS NULL - 多对一比较, 背后使用的[`Comparator.__eq__()`](https://docs.sqlalchemy.org/en/14/orm/internals.html#sqlalchemy.orm.RelationshipProperty.Comparator.__eq__)进行比较:
+
+```python
+query.filter(Address.user == None)
+```
+
+- [`Comparator.contains()`](https://docs.sqlalchemy.org/en/14/orm/internals.html#sqlalchemy.orm.RelationshipProperty.Comparator.contains) - 包含，用于一对多集合:
+
+```python
+query.filter(User.addresses.contains(someaddress))
+```
+
+- [`Comparator.any()`](https://docs.sqlalchemy.org/en/14/orm/internals.html#sqlalchemy.orm.RelationshipProperty.Comparator.any) - 用于一对多集合：
+
+```python
+query.filter(User.addresses.any(Address.email_address == 'bar'))
+
+# also takes keyword arguments:
+query.filter(User.addresses.any(email_address='bar'))
+```
+
+- [`Comparator.has()`](https://docs.sqlalchemy.org/en/14/orm/internals.html#sqlalchemy.orm.RelationshipProperty.Comparator.has) - 用于标量查询：
+
+```python
+query.filter(Address.user.has(name='ed'))
+```
+
+- [`Query.with_parent()`](https://docs.sqlalchemy.org/en/14/orm/query.html#sqlalchemy.orm.Query.with_parent) - 用于任何关系：
+
+```python
+session.query(Address).with_parent(someuser, 'addresses')
 ```
