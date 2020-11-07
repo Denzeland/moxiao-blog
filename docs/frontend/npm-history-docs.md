@@ -4,12 +4,10 @@ description: npm history模块中文文档
 date: 2020-10-29
 sidebar: 'auto'
 categories:
- - web前端
+ - web前端圈
 tags:
  - 前端
- - history API
  - 路由
-showSponsor: true
 ---
 
 history是一个管理历史会话的npm包，它抽象出各种环境中的差异，并提供一个最小的API，以管理历史堆栈、导航和持久化会话之间的状态。

@@ -3,9 +3,10 @@ title: Ubuntu源码安装odoo12
 description: Ubuntu源码安装odoo12
 date: 2020-05-10
 sidebar: auto
+categories:
+ - 拨荆集录
 tags:
  - odoo
-showSponsor: true
 ---
 
 1. **安装依赖**

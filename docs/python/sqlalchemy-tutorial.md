@@ -3,11 +3,10 @@ title: SQLAlchemy基础教程
 date: 2020-11-04
 sidebar: 'auto'
 categories:
- - python
+ - python集录
 tags:
  - python
  - SQLAlchemy
-showSponsor: true
 ---
 
 SQLAlchemy主要由两个不同的api构成，分别被称为**Core**和**ORM**。**Core**是SQLAlchemy作为“数据库工具包”的基础架构。这个库提供了一些工具，用于管理与数据库的连接、与数据库查询和结果进行交互以及编程地构造SQL语句。**ORM**构建在**Core**之上，提供可选的对象关系映射功能。ORM提供了一个额外的配置层，允许将用户定义的Python类映射到数据库表和其他构造，以及称为**Session**（会话）的对象持久性机制。然后，它扩展了核心级SQL表达式语言，允许根据用户定义的对象组合和调用SQL查询。对于SQLAlchemy的使用，将从下面6个方面进行介绍：

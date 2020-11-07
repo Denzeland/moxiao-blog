@@ -1,12 +1,13 @@
 ---
 title: async函数 - 提高 Promise 的易用性
 description: ES6新增的异步控制语法async函数的基本使用和原理
+categories:
+ - web前端圈
 date: 2020-05-10
 sidebar: 'auto'
 tags:
  - javascript
  - 前端
-showSponsor: true
 ---
 
 如果在函数定义之前使用了 `async` 关键字，就可以在函数内使用 await，可以利用它们像编写同步代码那样编写基于 Promise 的代码，而且还不会阻塞主线程。当 `await` 某个 Promise 时，函数暂停执行，直至该 Promise 产生结果，并且暂停并不会阻塞主线程。 如果 Promise 执行，则会返回值。 如果 Promise 拒绝，则会抛出拒绝的值，如下基本写法：

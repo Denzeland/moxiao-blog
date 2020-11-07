@@ -4,11 +4,10 @@ description: 本文是SQLAlchemy高级抽象层ORM的中文教程，也是对SQL
 date: 2020-11-06
 sidebar: 'auto'
 categories:
- - python
+ - python集录
 tags:
  - python
  - SQLAlchemy
-showSponsor: true
 ---
 
 > 这篇文档是我对官方文档学习理解后的一个整理记录，以供自己查询，[原文地址](https://docs.sqlalchemy.org/en/14/orm/tutorial.html)

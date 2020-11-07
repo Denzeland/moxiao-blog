@@ -1,6 +1,6 @@
 ---
 home: true
-bgImage: 'http://qn.zdctech.top/202005/v2osk-1z2niibpg5a-unsplash.jpg'
+bgImage: 'https://qn.zdctech.top/moxiaobg-1.jpg'
 bgImageStyle: {
   height: '350px'
 }

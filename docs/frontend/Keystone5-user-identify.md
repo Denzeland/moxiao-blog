@@ -3,12 +3,10 @@ title: 在Keystone 5完成用户认证
 date: 2020-10-27
 sidebar: 'auto'
 categories:
- - web前端
+ - web前端圈
 tags:
  - 前端
- - Keystone.js
-showSponsor: true
-featured: true
+ - node.js
 ---
 
 按官方的说法，Keystone 5是面向未来的一次重构， 自带GraphQL支持的高度可扩展的体系结构和一个漂亮的管理界面。使用Keystone 5只需关注数据模型层可以自动生成相应的GraphQL服务，对于前端发开服务端应用非常方便。最近几天我试用了一下，感觉确实很强大，下面记录一下我在Keystone 5集成用户认证的过程。
@@ -20,7 +18,7 @@ npm install passport, passport-local, express-session, connect-mongo, connect-fl
 
 Keystone是对express更抽象的封装，要在应用添加自己的路由处理、中间件，可以利用Keystone CLI接受的一个导出函数configureExpress来配置express，也可以像官方文档里描述的自定义服务。两者区别是前者是在 所有中间件加载之前配置express，而后者是在Keystone的中间件配置之后配置express。我采用的是第一种方式。整个实现最重要的是正确配置passport，以及利用Keystone生成的GraphQL服务查询用户信息。
 下面的代码都在主文件index.js中，建users表的代码这里就不贴出来了，在新建项目时选择Starter项目，会有用户表创建的代码，这里主要讲如何集成自己应用的用户认证。
- 
+
 首先是session的配置，这里我把我的配置贴出来：
 
 ``` js
@@ -138,4 +136,4 @@ passport.use(new LocalStrategy(
         }
       });
 }}
-```
+ ```

@@ -3,11 +3,10 @@ title: 理解TypeScript
 date: 2020-10-28
 sidebar: 'auto'
 categories:
- - web前端
+ - web前端圈
 tags:
  - 前端
  - TypeScript
-showSponsor: true
 ---
 
 随着javascript应用范畴扩展到浏览器之外， 现在被越来越多的应用于后端服务、混合手机应用、云计算、设计神经网络甚至控制机器人。JavaScript的多功能性及其高采用率带来了对可伸缩、安全、高性能和特性丰富的JavaScript应用程序的日益增长的需求。这进而产生了对工具、库和框架的需求，这些工具、库和框架使编写满足这些期望的应用程序变得更容易、更快。
@@ -32,7 +31,7 @@ TypeScript被设计成一种强类型语言，在编译到JavaScript的过程中
  TypeScript提供的语法糖将允许我们显著减少代码的占用空间，同时增加代码的表达能力。TypeScript使得编写面向对象的代码变得轻而易举。它为我们提供了类、接口和模块，这些类、接口和模块允许我们在封装的可重用结构中正确地组织我们的代码，使其易于维护和扩展。在类中，我们还可以通过使用TypeScript提供的修饰符(public、private和protected)来指定类属性和方法的可见性级别。这些特性都极大方便了面向对象编程的开发模式。
  零负担
  作为TypeScript开发人员，我们在两种不同的上下文中工作——设计和执行。在设计上下文中，我们直接使用TypeScript来编写应用程序。但是浏览器不能直接执行TypeScript，所以在执行上下文中，我们所有的TypeScript代码都被编译成JavaScript代码，然后由它的目标平台(例如浏览器)执行。TypeScript不受支持的特性只是从编译后的代码中删除—这称为类型擦除。它们的删除不会影响代码的功能，因为这些独特的特性只是为了帮助TypeScript增强开发人员的体验，它们不会超出或覆盖JavaScript语言的核心内容。
- 
+
 
 ## TypeScript核心组件
 
@@ -107,4 +106,4 @@ npm install -g typescript 或  yarn global add typescript
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
-```
+  ```

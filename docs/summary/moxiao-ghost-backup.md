@@ -3,9 +3,12 @@ title: 墨萧随笔ghost博客备份
 description: 记录墨萧随笔ghost博客备份内容，不公开
 date: 2020-11-03
 sidebar: 'auto'
+categories:
+ - 拨荆集录
 publish: false
 keys:
  - 'e10adc3949ba59abbe56e057f20f883e'
+showSponsor: true
 ---
 
 ## Code injection

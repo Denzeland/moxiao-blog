@@ -4,11 +4,10 @@ description: 50个实用的JavaScript插件和库
 date: 2020-05-09
 sidebar: 'auto'
 categories:
- - web前端
+ - web前端圈
 tags:
  - 前端
  - 前端学习资源
-showSponsor: true
 ---
 
  JavaScript生态已经非常庞大和完善，对于web开发各种能碰到的问题基本都有现成的解决方案。这里介绍的JavaScript插件和库都提供了一个简单而具体的功能，都是轻量级的帮助web开发者解决实际问题插件，库或UI组件，比如创建滑块、图像库、响应菜单、模式窗口和许多其他常见组件。

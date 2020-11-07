@@ -3,10 +3,11 @@ title: 数据分析和可视化JavaScript库
 description: ES6新增的异步控制语法async函数的基本使用和原理
 date: 2020-06-03
 sidebar: 'auto'
+categories:
+ - web前端圈
 tags:
  - javascript
  - 前端
-showSponsor: true
 ---
 
 全球各地的企业，无论行业垂直与否，都意识到了数据驱动决策的重要性。数据分析是目前世界上最流行的话题之一，不同领域的企业越来越关注从数据中获得有意义的见解，以了解过去和未来的趋势。在本文中，我们将精选出4个有用的JavaScript库，它们对于数据分析和可视化非常有用

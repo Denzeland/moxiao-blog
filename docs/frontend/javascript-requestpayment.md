@@ -3,10 +3,11 @@ title: Javascript支付请求API
 description: 本文介绍一个新的web API-Payment Request API，介绍了什么是Payment Request API，目标是什么和基本的使用方法。
 date: 2020-05-13
 sidebar: 'auto'
+categories:
+ - web前端圈
 tags:
  - javascript
  - 前端
-showSponsor: true
 ---
 
 在传统的支付流程中，我们首次在网站结算时，比如信用卡支付的场景，往往要填写卡号，到期时间，身份信息， 收货地址等信息，而且不同的网站都需要重复输入这些信息， 这是很繁琐的， 可能用户因为没有带卡在身上无法填写信息而放弃支付。Javascript支付请求API（Payment Request API）正是为了解决这个问题而提出的。

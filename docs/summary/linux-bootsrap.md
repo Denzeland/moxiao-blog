@@ -3,9 +3,10 @@ title: Linux系统的启动过程
 description: Linux系统的启动过程
 date: 2020-05-10
 sidebar: 'auto'
+categories:
+ - 拨荆集录
 tags:
  - linux
-showSponsor: true
 ---
 
 Linux系统的启动过程是一个非常复杂的过程， 总体概括起来包括内核的启动和用户空间的启动。自底向上的启动过程是BIOS-引导装载程序-内核-init进程-其他用户进程，下面简要概述这两部分的启动过程：

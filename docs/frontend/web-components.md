@@ -3,9 +3,10 @@ title: Web Components概览
 description: 本文从整体的概念出发，力求简单而清晰的阐明Web Components这一技术，能对Web Components有个大体上的认识。
 date: 2020-05-12
 sidebar: 'auto'
+categories:
+ - web前端圈
 tags:
  - 前端
-showSponsor: true
 ---
 
  Web Components是由Alex Russell在2011年的Fronteers大会上正式提出的，并由谷歌在2013年开始标准化。目前谷歌大约10%的页面都是由Web Components构建的，并且目前几大主流前端框架正在集成Web Components，所以目前学习了解这一项新技术还是很有必要的。

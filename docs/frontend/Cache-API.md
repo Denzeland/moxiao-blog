@@ -3,11 +3,10 @@ title: Cache API
 date: 2020-10-27
 sidebar: 'auto'
 categories:
- - web前端
+ - web前端圈
 tags:
  - 前端
- - Cache API
-showSponsor: true
+ - javascript
 ---
 
 ServiceWorker API给了开发人员对浏览器缓存更多的控制，虽然Etag也能实现缓存效果，但是用JavaScript代码控制缓存可以有更大的灵活性，可以控制什么应该缓存，什么不应该缓存，达到更好的离线使用效果。当然使用Cache API控制缓存，也意味着必须自己做清理工作。下面具体看看缓存添加、获取、删除的操作；
@@ -98,7 +97,7 @@ Request {
   url: "https://fullhost.tld/images/logo.png"
 }
 */
-```
+ ```
 
  要查看对应的Response对象可以调用cache.match或者cache.matchAll：
 
@@ -120,7 +119,7 @@ Response {
   type: "basic",
   url: "https://davidwalsh.name/page/1"
 }
-```
+ ```
 ##  删除缓存的Request
 
 使用delete方法：
@@ -148,7 +147,7 @@ caches.keys().then(function(cacheKeys) {
  caches.delete('test-cache').then(function() { 
   console.log('Cache successfully deleted!'); 
 });
-```
+ ```
 
 当用新的缓存替换时经常会删除缓存（会触发重新安装新的service worker）:
 

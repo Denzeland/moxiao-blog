@@ -1,6 +1,6 @@
 module.exports = {
     theme: 'reco',
-    // cache: false,
+    cache: false,
     title: '墨萧随笔',
     description: '墨萧随笔-让时间见证我们共同的成长',
     head: [
@@ -13,20 +13,34 @@ module.exports = {
         author: "墨萧",
         smoothScroll: true,
         sidebar: {
-            '/frontend/': ['', 'Keystone5-user-identify', 'Cache-API', 'TypeScript-understand', 'npm-history-docs'],
-            '/summary/': ['', 'ubuntu-odoo12', 'linux-bootsrap', 'node-async', 'async-func', 'deno-intrdu', 'javascript-requestpayment', 'web-components', 'DOM-measure', 'visualization-js-library']
+            '/frontend/': [
+                'ui-resource-for-developer',
+                'Keystone5-user-identify',
+                'Cache-API',
+                'TypeScript-understand',
+                'npm-history-docs',
+                'javascript-requestpayment',
+                'web-components',
+                'DOM-measure',
+                'visualization-js-library',
+                'async-func',
+            ],
+            '/summary/': [
+                'ubuntu-odoo12', 
+                'linux-bootsrap', 
+                'deno-intrdu'
+            ]
         },
         search: true,
         friendLink: [
             {
                 title: '虚位以待',
-                desc: '您可以在页面右下角联系我或留言您的网站链接、标题、描述、logo信息，期待您的加入！',
+                desc: '您可以联系我或留言您的网站链接、标题、描述、logo信息，欢迎互换友链！',
                 logo: "/favicon.png",
                 link: 'http://blog.zdctech.top/'
             },
         ],
         nav: [
-            { text: '杂项记录', link: '/summary/', icon: 'reco-document' },
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
             {
                 text: 'python资源',
@@ -61,7 +75,7 @@ module.exports = {
                             { text: 'TensorFlow', link: 'https://tensorflow.google.cn/', target: '_blank' },
                             { text: 'Keras', link: 'https://keras.io/zh/', target: '_blank' },
                             { text: 'PyTorch', link: 'https://pytorch.org/', target: '_blank' },
-                            { text: 'Kivy', link: 'https://kivy.org/#home', target: '_blank' },
+                            // { text: 'Kivy', link: 'https://kivy.org/#home', target: '_blank' },
                         ]
                     },
                 ]

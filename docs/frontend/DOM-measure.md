@@ -3,10 +3,11 @@ title: DOM元素尺寸获取和形变关系
 description: 主要对各种使用JavaScript来获取DOM元素的尺寸的方法和属性做了一个简要的介绍，理解这些获取宽高方式的区别有助于在实际开发中不至于混乱
 date: 2020-05-14
 sidebar: 'auto'
+categories:
+ - web前端圈
 tags:
  - javascript
  - 前端
-showSponsor: true
 ---
 
  使用JavaScript来获取DOM元素的尺寸主要是有下面的方法和元素的属性：

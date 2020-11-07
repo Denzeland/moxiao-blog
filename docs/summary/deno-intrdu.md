@@ -3,10 +3,10 @@ title: Deno 1.0我们需要了解的
 description: Deno 1.0最终版本即将发布，本文是对Deno的一个整体上比较全面的介绍，从安全到标准库，第三方库等，包管理等都做了介绍，能对Deno有个整体的认识。
 date: 2020-05-12
 sidebar: 'auto'
+categories:
+ - 拨荆集录
 tags:
- - node.js
- - 前端
-showSponsor: true
+ - Deno
 ---
 
 Deno是一个JavaScript/TypeScript运行环境，由[Node.js](https://blog.logrocket.com/node-js-12/)创造者Ryan Dahl在2018年开发的一个项目，项目的起因也是来自于他自己所说的[关于Node.js我后悔的10件事](https://www.youtube.com/watch?v=M3BM9TB-8yA)。区别于Node.js底层采用C++语言，Deno内核采用Rust语言编写，事件循环采用Rust实现的[Tokio](https://tokio.rs/)，以及用来解释执行JavaScript的V8引擎，并且内置TypeScript支持。经过近两年的等待，目前1.0版本的API已经冻结，官方预计在5月13日发布。
