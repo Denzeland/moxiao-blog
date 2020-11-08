@@ -12,7 +12,7 @@ typora-root-url: ..\.vuepress\public
 
 ![](/headerimage.png)
 
-要做出一个好的应用，需要经过良好的设计。而设计需要的资源对于设计师特别是程序员在没有设计师的配合帮助下进行产品设计至关重要，毕竟程序员往往欠缺设计方面的能力。下面是一份由一位美国程序员[Brad Traversy](https://github.com/bradtraversy)发起并经过社区成员精心挑选的**可免费商用**的UI设计资源列表，我翻译了一份中文，[原项目点这里](https://github.com/bradtraversy/design-resources-for-developers)，在有需要的时候看看这些站点，或许会有帮助。
+要做出一个好的应用，需要经过良好的设计。而设计需要的资源对于设计师特别是程序员在没有设计师的配合帮助下进行产品设计至关重要，毕竟程序员往往欠缺设计方面的能力。下面是一份由一位美国程序员[Brad Traversy](https://github.com/bradtraversy)发起并经过社区成员精心挑选的**可免费商用**的UI设计资源列表，我翻译了一份中文（翻译还在进行中...），[原项目点这里](https://github.com/bradtraversy/design-resources-for-developers)，在有需要的时候看看这些站点，或许会有帮助。
 
 ::: warning 警告
 这里列出的资源大多为英文站点，部分资源需要科学上网
@@ -26,217 +26,217 @@ typora-root-url: ..\.vuepress\public
 
 >带有各种不同格式（例如PSD, Sketch, Figma等）UI组件的网站和资源，这些资源对于开发web组件、UI会带来不错的灵感
 
-| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [UI Design Daily](https://uidesigndaily.com/)                | 各种格式非常棒的UI组件                                       |
-| [100 Daily UI](https://100dailyui.webflow.io/)               | 适合于产品、元素、屏幕的免费Figma库                          |
-| [Sketch App Sources](https://www.sketchappsources.com/)      | 非常多的Sketch UI，线框图，图标等等                          |
-| [Humaaans](https://www.humaaans.com/)                        | Cool illustrations of people with the ability to mix and match |
-| [Paaatterns](https://products.ls.graphics/paaatterns/)       | Free collection of beautiful patterns for all vector formats |
-| [thepatternlibrary](http://thepatternlibrary.com/)           | Free beautiful background patterns                           |
-| [404 illustration](https://error404.fun/)                    | free illustrations for 404  pages                            |
-| [Drawkit.io](https://www.drawkit.io/)                        | Illustrations for designers and startups                     |
-| [Undraw.co](https://undraw.co/)                              | Open-source illustrations for any idea you can imagine and create |
-| [Manypixels.co](https://www.manypixels.co/gallery/)          | Monochromatic, Isometric high-quality illustrations          |
-| [Open Peeps](https://www.openpeeps.com/)                     | Hand drawn illustration library                              |
-| [UI Space](https://uispace.net/)                             | Thousands of great UI freebies                               |
-| [Animations.co](http://animaticons.co/)                      | Beautiful, customizable animated GIF icons                   |
-| [Uplabs](https://www.uplabs.com/)                            | High-quality design resources (Free & Premium)               |
-| [InvisionApp](https://www.invisionapp.com/inside-design/design-resources/) | Library of free, high-quality UI kits, icon packs, and mockups |
-| [Open Doodles](https://www.opendoodles.com/)                 | A Free Set of Sketchy Illustrations                          |
-| [Avataaars](https://avataaars.com/)                          | Free sketch library of avatars illustrations by Pablo Stanley |
-| [FreebieSketch](http://freebiesketch.com/)                   | Free Sketch designs, wireframes, illustrations, and more.    |
-| [Blush](https://blush.design/)                               | Free customizable illustrations with Figma Plugin            |
-| [Hero Patterns](http://www.heropatterns.com/)                | A collection of repeatable SVG background patterns           |
-| [IsoFlat](https://isoflat.com/)                              | A Free collection of Isometric SVG graphic resources         |
-| [Hero Patterns](http://www.heropatterns.com/)                | A collection of repeatable SVG background patterns           |
-| [IRA Design](https://iradesign.io/)                          | An open-source gradient illustrations collection by creative tim. |
-| [Storytale.io](https://storytale.io/freebies/)               | Subset of Storytale free quality illustrations               |
-| [icons8.com/illustrations](https://icons8.com/illustrations) | Free vector illustrations to class up your project           |
-| [Patternico](https://patternico.com)                         | Seamless Pattern Maker                                       |
-| [Freellustrations](https://freellustrations.com/)            | Free Background Images for awesome landing Pages             |
-| [Pixeltrue Illustrations](https://www.pixeltrue.com/illustrations) | Free Animated Illustrations                                  |
-| [Abstract User Avatar API](https://www.abstractapi.com/user-avatar-api) | API to create simple yet flexible user avatars from user names or emails |
-| [sketchvalley](https://sketchvalley.com/)                    | Download free PNG, SVG or AI file .                          |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述                                                |
+| ------------------------------------------------------------ | --------------------------------------------------- |
+| [UI Design Daily](https://uidesigndaily.com/)                | 各种格式非常棒的UI组件                              |
+| [100 Daily UI](https://100dailyui.webflow.io/)               | 适合于产品、元素、屏幕的免费Figma库                 |
+| [Sketch App Sources](https://www.sketchappsources.com/)      | 非常多的Sketch UI，线框图，图标等等                 |
+| [Humaaans](https://www.humaaans.com/)                        | 可以自由混合搭配设计人物插画的设计资料库            |
+| [Paaatterns](https://products.ls.graphics/paaatterns/)       | 免费漂亮的矢量格式模板集合                          |
+| [thepatternlibrary](http://thepatternlibrary.com/)           | 免费漂亮的背景图案                                  |
+| [404 illustration](https://error404.fun/)                    | 为404页面设计的免费插图                             |
+| [Drawkit.io](https://www.drawkit.io/)                        | 为设计师和初创公司提供插图                          |
+| [Undraw.co](https://undraw.co/)                              | 你能想象并创建的开源插画                            |
+| [Manypixels.co](https://www.manypixels.co/gallery/)          | 单色，等距高质量插图                                |
+| [Open Peeps](https://www.openpeeps.com/)                     | 手绘插画图素材库                                    |
+| [UI Space](https://uispace.net/)                             | 有数以千计的免费UI资源                              |
+| [Animations.co](http://animaticons.co/)                      | 漂亮的，可定制的GIF动画图标                         |
+| [Uplabs](https://www.uplabs.com/)                            | 高品质的设计资源(免费及付费)                        |
+| [InvisionApp](https://www.invisionapp.com/inside-design/design-resources/) | 免费的、高质量的UI工具包、图标包和模型库            |
+| [Open Doodles](https://www.opendoodles.com/)                 | 一套免费的写生插画集                                |
+| [Avataaars](https://avataaars.com/)                          | 由Pablo Stanley提供的免费头像插画素描库             |
+| [FreebieSketch](http://freebiesketch.com/)                   | 免费素描设计，线框图，插图，还有更多资源            |
+| [Blush](https://blush.design/)                               | 免费自定义插图与Figma插件                           |
+| [Hero Patterns](http://www.heropatterns.com/)                | 可重复的SVG背景模板的集合                           |
+| [IsoFlat](https://isoflat.com/)                              | 免费的SVG等距图形资源集合                           |
+| [Hero Patterns](http://www.heropatterns.com/)                | 可重复的SVG背景模板的集合                           |
+| [IRA Design](https://iradesign.io/)                          | 由具有创造力的tim创建的开源渐变的插画集             |
+| [Storytale.io](https://storytale.io/freebies/)               | 富有故事性的免费高质量插画                          |
+| [icons8.com/illustrations](https://icons8.com/illustrations) | 可用于项目中的免费矢量插画                          |
+| [Patternico](https://patternico.com)                         | 可在线制作无缝图案                                  |
+| [Freellustrations](https://freellustrations.com/)            | 登录页面的免费背景图                                |
+| [Pixeltrue Illustrations](https://www.pixeltrue.com/illustrations) | 免费动画插图                                        |
+| [Abstract User Avatar API](https://www.abstractapi.com/user-avatar-api) | 可以从用户名或电子邮件创建简单而灵活的用户头像的API |
+| [sketchvalley](https://sketchvalley.com/)                    | 下载免费的PNG, SVG 或AI文件                         |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Fonts
+## 字体
 
->Websites that offer free fonts as well as font-based tools
+> 提供免费字体和基于字体工具的网站
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Google Fonts](https://fonts.google.com/)| Library of around 1000 free licensed font families |
-| [DaFont](https://www.dafont.com/)| Archive of freely downloadable fonts |
-| [Use & Modify](https://usemodify.com/)| Personal selection of beautiful, classy, punk, professional, incomplete, weird typefaces |
-| [1001 Free Fonts](https://www.1001freefonts.com/)| I think the name speaks for itself :smirk: |
-| [Font Squirrel](https://www.fontsquirrel.com/)| Font Squirrel scours the internet for high quality, legitimately free fonts |
-| [Font Fabric](https://www.fontfabric.com/free-fonts/)| A digital type foundry crafting retail fonts and custom typography for various brands |
-| [Tiff](https://tiff.herokuapp.com/)| A type diff tool that visually contrasts the differences between two fonts  |
-| [TypeKit Practice](https://practice.typekit.com/)| Learn about typography practices |
-| [Fontjoy](https://fontjoy.com/)| Generate font pairing in one click |
-| [Golden Ratio](https://grtcalculator.com/)| Golden Ratio Typography Calculator |
-| [FontSpark](https://fontspark.app/) | Discover Better Fonts |
-| [FontGet](https://www.fontget.com/) | Has a variety of fonts available to download and sorted neatly with tags |
+| [Google Fonts](https://fonts.google.com/)| 大约1000免费许可字体家族素材库 |
+| [DaFont](https://www.dafont.com/)| 可免费下载字体的存档 |
+| [Use & Modify](https://usemodify.com/)| 适合个人选择的美丽，优雅，专业，怪异的字体 |
+| [1001 Free Fonts](https://www.1001freefonts.com/)| 提供的​资源​就​如同​名字​一样:smirk: |
+| [Font Squirrel](https://www.fontsquirrel.com/)| Font Squirrel提供互联网的高质量，合法的免费字体 |
+| [Font Fabric](https://www.fontfabric.com/free-fonts/)| 可以制作精美适合零售业务的手工字体和适用各种品牌的印刷字体 |
+| [Tiff](https://tiff.herokuapp.com/)| 在视觉上对比两种字体类型差异的工具 |
+| [TypeKit Practice](https://practice.typekit.com/)| 学习排版实践 |
+| [Fontjoy](https://fontjoy.com/)| 只需一次单击就能生成字体配对 |
+| [Golden Ratio](https://grtcalculator.com/)| 黄金比例排版计算器 |
+| [FontSpark](https://fontspark.app/) | 发现更好的字体 |
+| [FontGet](https://www.fontget.com/) | 有各种各样的字体可供下载和排序整齐的标签 |
 | [FontPair](https://fontpair.co/) | Helps you pair Google Fonts together |
-| [Font Space](https://www.fontspace.com/)| A designer-centered free font website that has quick customizable previews |
-| [Abstract Fonts](http://www.abstractfonts.com/)| Fonts free for personal and commercial use |
-| [Free Typography](https://freetypography.com/)| A list of high quality fonts |
-| [Leon Sans](https://github.com/cmiscm/leonsans/)| A geometric sans-serif typeface made with code |
-| [Lexend](https://www.lexend.com/)| A variable font empirically shown to significantly improve reading-proficiency |
-| [Fonts for Apple Platforms](https://developer.apple.com/fonts/)| Get the details, frameworks, and tools you need to use system fonts for Apple platforms in your apps |
-| [SFWin](https://github.com/blaisck/sfwin/)| San Francisco Fonts for Windows 10 and non-Apple Platform |
-| [Font Flipper](https://fontflipper.com/)| Preview 800+ Google Fonts on top of your own designs, without having to download the fonts |
-| [Fonts Arena](https://fontsarena.com/) | Free curated fonts |
-| [Befonts](https://befonts.com/) | High quality fonts for free |
-| [Arabic fonts](https://arabicfonts.net/) | Arabic fonts for free |
-| [FontDrop](https://fontdrop.info) | Simple and easy way to view the contents of font files |
-| [Open Foundry](https://open-foundry.com) | FREE platform for curated open-source typefaces |
-| [Glyphter](https://glyphter.com) | Upload your own SVGS and turn them into font files. Useful if you want a smaller library loaded  |
-| [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) |  A Hassle-Free Way to Self-Host Google Fonts |
-| [Rough Font Awesome](https://djamshed.github.io/rough-awesome-font/dist/)| When RoughJS meets Font Awesome |
+| [Font Space](https://www.fontspace.com/)| 有快速自定义预览并且以设计者为中心的免费字体网站 |
+| [Abstract Fonts](http://www.abstractfonts.com/)| 供个人和商业免费使用的字体 |
+| [Free Typography](https://freetypography.com/)| 一个高质量字体的列表 |
+| [Leon Sans](https://github.com/cmiscm/leonsans/)| 一种用代码制作的几何无衬线字体 |
+| [Lexend](https://www.lexend.com/)| 实验表明，可变字体能显著提高阅读熟练度 |
+| [Fonts for Apple Platforms](https://developer.apple.com/fonts/)| 获取在应用程序中使用Apple平台系统字体所需的细节、框架和工具 |
+| [SFWin](https://github.com/blaisck/sfwin/)| Windows 10和非苹果平台的San Francisco字体 |
+| [Font Flipper](https://fontflipper.com/)| 预览800+谷歌字体在您自己的设计之上，无需下载字体 |
+| [Fonts Arena](https://fontsarena.com/) | 免费的拉丁文字体 |
+| [Befonts](https://befonts.com/) | 免费提供高质量的字体 |
+| [Arabic fonts](https://arabicfonts.net/) | 免费使用阿拉伯字体 |
+| [FontDrop](https://fontdrop.info) | 简单和容易的方式来查看字体文件的内容 |
+| [Open Foundry](https://open-foundry.com) | 拉丁文开源字体的免费平台 |
+| [Glyphter](https://glyphter.com) | 上传你自己的svg并把它们转换成字体文件。如果想要加载较小的库，这很有用 |
+| [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts) | 自托管谷歌字体的省事的方式 |
+| [Rough Font Awesome](https://djamshed.github.io/rough-awesome-font/dist/)| 当RoughJS遇上Font Awesome |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Colors
+## 颜色
 
->Websites and resources that help with choices related to colors
+>帮助选择相关颜色的网站和资源
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Color Brewer 2](https://colorbrewer2.org/)| The original color palette generator, also supporting color blindness. Probably the scientifically best option. Also probably not the prettiest. |
-| [Colormind.io](http://colormind.io)| Color palette generator |
-| [ColorCurves.app](https://colorcurves.app)| Color palette generator that uses curves to generate color palettes |
-| [Coolors](https://coolors.co)| Create the perfect palette or get inspired by thousands of beautiful color schemes |
-| [HTML Color Codes](https://htmlcolorcodes.com/)| Get HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names |
-| [Colors & Fonts](https://www.colorsandfonts.com/)| A curated library of colors, fonts and resources |
-| [Palette List](https://www.palettelist.com/)| Pick 2 colors you like and the tool generates thousands of palettes for you. |
-| [Google Material Color Tool](https://material.io/resources/color/)| Official Google Material Color Palette Tool|
-| [Material Palette](https://www.materialpalette.com/)| Free to pick palettes, icons and colors for Material Design|
-| [ColorSpace](https://mycolor.space/)| Generate nice color palettes from one color |
-| [FlatUIColors](https://flatuicolors.com)| Beautiful set of color palettes in various flavors |
-| [Adobe Color](https://color.adobe.com/create)| Create color palettes, extract gradients from images, etc. |
-| [Colorsinspo](https://colorsinspo.com/) | All-in-one resource for finding everything about colors |
-| [ColorsWall](https://colorswall.com/) | Place to store your color palettes and generate palette in one click |
-| [Happyhues](https://www.happyhues.co/) | Happy Hues is a color palette inspiration site that acts as a real-world example as to how the colors could be used in your design projects by Mackenzie Child |
-| [Adobe Trends](https://color.adobe.com/trends)| Discover current color trends in different industries from the creative communities on Behance and Adobe Stock|
-| [Color Hunt](https://colorhunt.co/)| A free and open platform for color inspiration with thousands of trendy hand-picked color palettes |
-| [Gradient Hunt](https://gradienthunt.com/)| A free and open platform for gradient inspiration with thousands of trendy hand-picked color gradients |
-| [Web Gradients](https://webgradients.com/)| A free website to find good CSS gradients |
-| [ColorBox](https://www.colorbox.io)| A free website to produce color set |
-| [CSS gradient](https://cssgradient.io/)| A free website to make custom gradient and some examples of gradient |
-| [gradienta](https://gradienta.io/)| A pure css and jpg gradients |
-| [UI Gradients](https://uigradients.com/)| UI gradients color generator |
-| [Palette Generator](https://palettegenerator.colorion.co/)| Generate new color palette with every spacebar press |
-| [Material Palettes](https://material.colorion.co/)| 1000+ Material Design palettes |
-| [Grabient](https://www.grabient.com/) | Gradient Selector |
-| [ShadeSwash](https://shadeswash.netlify.app/) | Quickly generate shades of any color |
-| [BrandColors](http://brandcolors.net/) | The biggest collection of official brand color codes  |
-| [BRAND PALETTES](https://brandpalettes.com/) | Logo Color Codes and Palettes  |
-| [Material Design Palette Generator](http://mcg.mbitson.com) | Generate theme and color palette Material Design-like |
-| [Colorate](https://colorate.azurewebsites.net/) | Color scheme tool for designers and developers. This will help you draw inspiration and serve as a resource for your color work. |
-| [0to255](https://www.0to255.com/) | A color tool that makes it easy to lighten and darken colors. It’s perfect for hover states, borders, gradients, and more. |
-| [Color Blender](https://meyerweb.com/eric/tools/color-blend) | A tool that shows the midpoint colors between two colors |
-| [Gradient Buttons](https://gradientbuttons.colorion.co/) | Ready to use copy/paste gradient buttons |
-| [Khroma](http://khroma.co/) | Khroma uses AI to learn which colors you like and creates limitless palettes for you to discover, search, and save. |
-| [whocanuse](https://whocanuse.com) | A tool that brings attention and understanding to how color contrast can affect different people with visual impairments.
-| [Colorable](https://colorable.jxnblk.com/) | Color combination contrast tester |
-| [Color Hex Picker](https://colorhexpicker.com) | Tool to get hex code along with name of the color. |
-| [Saruwakakun](https://saruwakakun.com/en/color-ideas) | The stunning color scheme for website & App Designs with previews |
-| [Paletton](https://paletton.com/)| Paletton.com is a designer color tool designed for creating color combinations that work together well.|
-| [Colorzilla](https://www.colorzilla.com/) | A powerful online Photoshop-like CSS gradient editor |
-| [Image Color Picker](https://image-color.com/) | Image color picker and palette generator |
-| [CombineCOLORS](https://combinecolors.com/) | Color mixing tool |
-| [Color Lovers](https://www.colourlovers.com/palettes) | it will show the color schemes which are popular in outside world |
-| [HTML CSS Color](https://www.htmlcsscolor.com/) | Free online Color (USA) or Colour (British) tools: information, gradient generator, color wheels etc. |
-| [HEX Color Codes](https://hexcolorcodes.org/) | It gets HTML color codes, Hex color codes, RGB and HSL values with our color picker, color chart and HTML color names. |
-| [CoolHue 2.0](https://webkul.github.io/coolhue/) | A free tool that shows different gradient examples in CSS and PNG format |
-| [Colors.lol](https://colors.lol/) | Interesting color palettes generated by a Twitter bot, there are hex codes and descriptive names for each color. |
-| [colors.dopely](https://colors.dopely.top/) | Super-fast and simple color palette generator, palettes can be saved and shared in seconds. |
-| [UIColor Picker](https://uicolorpicker.com/) | A collection of UI Colors with hex codes available to be copied in just one click. |
+| [Color Brewer 2](https://colorbrewer2.org/)| 原来的调色板生成器，也支持色盲人士，可能是科学上最好的选择，也可能不是最漂亮的。 |
+| [Colormind.io](http://colormind.io)| 调色盘生成器 |
+| [ColorCurves.app](https://colorcurves.app)| 颜色调色板的生成器，使用曲线来生成颜色调色板 |
+| [Coolors](https://coolors.co)| 创造完美的调色板，或者从成千上万个漂亮的配色方案中获得灵感 |
+| [HTML Color Codes](https://htmlcolorcodes.com/)| 获取HTML颜色代码，十六进制颜色代码，RGB和HSL值与我们的颜色选择器，颜色图表和HTML颜色名称 |
+| [Colors & Fonts](https://www.colorsandfonts.com/)| 仔细挑选的颜色、字体和其他资源的素材库 |
+| [Palette List](https://www.palettelist.com/)| 选择两种你喜欢的颜色，这个工具会为你生成数以千计的调色板。 |
+| [Google Material Color Tool](https://material.io/resources/color/)| 谷歌官方Material调色板工具 |
+| [Material Palette](https://www.materialpalette.com/)| 适合Material设计的自由选择调色板，图标和颜色 |
+| [ColorSpace](https://mycolor.space/)| 从一种颜色生成漂亮的调色板 |
+| [FlatUIColors](https://flatuicolors.com)| 不同种类的漂亮调色板 |
+| [Adobe Color](https://color.adobe.com/create)| 创建调色板，从图像中提取梯度，等等。 |
+| [Colorsinspo](https://colorsinspo.com/) | 寻找一切关于颜色的一应俱全的资源 |
+| [ColorsWall](https://colorswall.com/) | 放置以存储您的调色板并且只需单击一下就能生成调色板 |
+| [Happyhues](https://www.happyhues.co/) | Happy Hues是一个由Mackenzie Child创造的调色板灵感网站并且可以作为一个现实世界的例子如何在你的设计项目中使用颜色 |
+| [Adobe Trends](https://color.adobe.com/trends)| 从Behance和Adobe Stock上的创意社区中发现不同行业的当前颜色趋势 |
+| [Color Hunt](https://colorhunt.co/)| 一个自由和开放的平台，为色彩灵感与数以千计的时尚的手选调色板 |
+| [Gradient Hunt](https://gradienthunt.com/)| 一个自由和开放的平台，为渐变的灵感与数以千计的时尚的手工选择的颜色渐变 |
+| [Web Gradients](https://webgradients.com/)| 一个免费的网站，可以在上面找到好的CSS渐变 |
+| [ColorBox](https://www.colorbox.io)| 一个免费的网站，以生产颜色集 |
+| [CSS gradient](https://cssgradient.io/)| 一个免费的网站，可以生成自定义渐变并且有一些渐变的例子 |
+| [gradienta](https://gradienta.io/)| 一个纯css和jpg渐变 |
+| [UI Gradients](https://uigradients.com/)| UI渐变颜色生成器 |
+| [Palette Generator](https://palettegenerator.colorion.co/)| 生成新的调色板与每个空格键按 |
+| [Material Palettes](https://material.colorion.co/)| 1000多个Material设计调色板 |
+| [Grabient](https://www.grabient.com/) | 渐变选择器 |
+| [ShadeSwash](https://shadeswash.netlify.app/) | 快速生成任何颜色的阴影 |
+| [BrandColors](http://brandcolors.net/) | 最大的官方品牌颜色编码集合 |
+| [BRAND PALETTES](https://brandpalettes.com/) | Logo颜色代码和调色板 |
+| [Material Design Palette Generator](http://mcg.mbitson.com) | 生成类Material设计的主题和调色板 |
+| [Colorate](https://colorate.azurewebsites.net/) | 为设计师和开发人员而设计的色彩方案工具，这将帮助你获得灵感，并为你的色彩工作提供资源。 |
+| [0to255](https://www.0to255.com/) | 很容易加深和变亮颜色的色彩工具，对悬浮状态, 边框, 渐变和其他的设计很不错 |
+| [Color Blender](https://meyerweb.com/eric/tools/color-blend) | 显示两种颜色之间的中点颜色的工具 |
+| [Gradient Buttons](https://gradientbuttons.colorion.co/) | 准备使用复制/粘贴渐变按钮 |
+| [Khroma](http://khroma.co/) | Khroma使用AI来学习你喜欢的颜色，并为你创建无限的调色板来发现、搜索和保存。 |
+| [whocanuse](https://whocanuse.com) | 这是一个让人们注意和理解颜色对比如何影响不同有视觉障碍的人的工具。 |
+| [Colorable](https://colorable.jxnblk.com/) | 色彩组合对比测试仪 |
+| [Color Hex Picker](https://colorhexpicker.com) | 得到十六进制代码连同颜色名称的工具 |
+| [Saruwakakun](https://saruwakakun.com/en/color-ideas) | 令人惊叹的配色方案的网站和应用程序设计与预览 |
+| [Paletton](https://paletton.com/)| Paletton.com是一个设计色彩的工具，设计用来创建色彩组合，使其很好地协同工作。 |
+| [Colorzilla](https://www.colorzilla.com/) | 一个功能强大的在线类ps式CSS渐变编辑器 |
+| [Image Color Picker](https://image-color.com/) | 图像颜色选择器和调色板生成器 |
+| [CombineCOLORS](https://combinecolors.com/) | 调色工具 |
+| [Color Lovers](https://www.colourlovers.com/palettes) | 它将展示在外面世界流行的配色方案 |
+| [HTML CSS Color](https://www.htmlcsscolor.com/) | 免费在线颜色工具：信息，渐变生成器，色轮等 |
+| [HEX Color Codes](https://hexcolorcodes.org/) | 可以获取HTML颜色代码，十六进制颜色代码，RGB和HSL值与我们的颜色选择器，颜色图表和HTML颜色名称。 |
+| [CoolHue 2.0](https://webkul.github.io/coolhue/) | 一个免费的工具，分别以CSS和PNG格式显示不同的渐变例子 |
+| [Colors.lol](https://colors.lol/) | 由Twitter机器人生成的有趣的调色板，每种颜色都有十六进制代码和描述性名称。 |
+| [colors.dopely](https://colors.dopely.top/) | 超级快速和简单的颜色调色板生成器，调色板可以在几秒钟内保存和共享。 |
+| [UIColor Picker](https://uicolorpicker.com/) | 一个用户界面颜色与十六进制代码的集合，可一键复制 |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Icons
+## 图标
 
->Resources for Icons including png, svg and more
+>图标的素材资源，包括png、svg等
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [UXWing](https://uxwing.com/)| Well Optimized, Free icons for commercial use |
-| [Shapedfonts Iconclub](https://shapedfonts.com/iconclub/)| 8000+ free icons |
-| [Feather Icons](https://feathericons.com/)| Beautiful, customizable open source icons |
-| [Tabler Icons](https://tablericons.com/)| 470+ highly customizable open source SVG icons |
-| [Simple Icons](https://simpleicons.org/)| 1307 Free SVG icons for popular brands |
-| [Instant Logo Search](http://instantlogosearch.com/)| thousands of free brands logos ( SVG - PNG ) |
-| [Linear Icons](https://linearicons.com/free)| 1000+ Ultra crisp vector icons |
-| [Icons8](https://icons8.com/)| Free icons, photos, vectors and tools |
-| [Flat Icon](https://www.flaticon.com/)| The largest database of free icons in PNG, SVG, EPS, PSD and BASE 64 formats  |
-| [The Noun Project](https://thenounproject.com/)| Over 2 Million curated icons, created by a global community |
-| [Iconscout](https://iconscout.com/)| Free Download Icons illustrations 照片素材库 at one place  |
-| [Nucleo App](https://nucleoapp.com/)| Nucleo is a beautiful library of 27500 icons, and a powerful application to collect, customize and export all your icons. (Free & Paid) |
-| [Icon-icons.com](https://icon-icons.com/)| Free Icons PNG, ICO, ICNS and Vector file SVG  |
-| [Bootstrap Icons](https://icons.getbootstrap.com/)| Free Icons built for Bootstrap but they'll work in any project  |
-| [Remix Icon](https://remixicon.com/)| Simply Delightful Icon System |
-| [Iconmonstr](https://iconmonstr.com/) | Discover 4496+ free icons in 313 collections |
-| [Vivid.js](https://webkul.github.io/vivid/)| Ready to use Free and Open Source SVG Icons Pack JavaScript Library. |
-| [Iconfinder](https://www.iconfinder.com/)| Free and premium vector icons in SVG, PNG, CSH and AI format  |
-| [Lordicon](https://lordicon.com/free-icons) | 50 free animated interactive icons |
-| [UseAnimations](https://useanimations.com/) | Free Animated Icons in SVG and Json Format(for lottie)  |
-| [css.gg](https://css.gg/) | 700+ Open-source CSS, SVG and Figma UI Icons Available in SVG Sprite, styled-components, NPM & API |
-| [SVGPorn](https://svgporn.com) | 1000+ high-quality SVG logos |
-| [Payment System Logos](https://github.com/mpay24/payment-logos/) | Logos for payment systems available in png and svg |
-| [Browser Logos](https://github.com/alrra/browser-logos/) | High resolution web browser logos |
-| [IconBros](https://www.iconbros.com) | 7843+ free icons grouped in 182 collections |
-| [LogoHub](https://logohub.io/) | Generate and download your logo for free in PNG and SVG format |
-| [Material Design Icons](https://materialdesignicons.com/) | An icon collection allowing designers and developers targeting various platforms to download icons in the format, color and size they need for any project. |
-| [Heroicons](https://heroicons.dev/) | Free, open source icons from the creators of Tailwind CSS. |
-| [Zondicons](https://www.zondicons.com/icons.html) | A set of free premium SVG icons for you to use on your digital products. |
-| [Endless Icons](http://endlessicons.com/) | A website offering a number of free icons. Icons are tagged and also compressed into kits. |
-| [Icomoon](https://icomoon.io/app/) |Browse 5500+ Free Icons. Add any set you wish to easily browse and search its icons. |
-| [Eva Icons](https://akveo.github.io/eva-icons/#/) |Eva Icons is a pack of more than 480 beautifully crafted Open Source icons for common actions and items. |
-| [Cryptoicons](http://cryptoicons.co/) | A set of 430 crypto and fiat currency icons. Completely free. |
-| [Ikonate](https://ikonate.com/) | Fully customizable & accessible vector icons |
-| [appicon](https://appicon.co/)| Quickly generate app icons in different sizes for your IOS, macOS and Android projects|
-| [LineIcons](https://lineicons.com) | 2000+ Essential Line Icons for Designers and Developers |
-| [Evericons](https://www.figma.com/resources/assets/evericons-for-figma/) | Evericons is a big pack of over 460 free icons designed by Aleksey Popov. |
-| [SVG Repo](https://www.svgrepo.com/) | Download free SVG Vectors for commercial use. |
-| [Convertio](https://convertio.co/png-svg/) | Convert PNG files to SVG online & free. (One of the services provided by it.) |
-| [CSS ICON](https://cssicon.space/) | Icon set made with pure css code, no dependencies, "grab and go" icons |
-| [Unified icons](https://iconify.design/) |Thousands of icons, one unified framework. One library, over 40,000 vector icons. |
-| [System UIcons](https://systemuicons.com/) |220+ icons in a growing collection. |
+| [UXWing](https://uxwing.com/)| 做了很好的优化，免费的图标用于商业用途 |
+| [Shapedfonts Iconclub](https://shapedfonts.com/iconclub/)| 8000多个免费图标 |
+| [Feather Icons](https://feathericons.com/)| 漂亮的，可定制的开源图标 |
+| [Tabler Icons](https://tablericons.com/)| 470多个高度可定制的开源SVG图标 |
+| [Simple Icons](https://simpleicons.org/)| 1307个流行品牌的svg图标 |
+| [Instant Logo Search](http://instantlogosearch.com/)| 成千上万的免费品牌logo (SVG - PNG) |
+| [Linear Icons](https://linearicons.com/free)| 线性矢量图标包括免费和付费版本 |
+| [Icons8](https://icons8.com/)| 免费的图标，照片，矢量图和工具 |
+| [Flat Icon](https://www.flaticon.com/)| 有最大的数据库的PNG, SVG, EPS, PSD和BASE 64格式免费图标 |
+| [The Noun Project](https://thenounproject.com/)| 超过200万个精挑细选的图标，由一个全球社区创建 |
+| [Iconscout](https://iconscout.com/)| 只需在一个地方就可以免费下载图标插画照片素材库 |
+| [Nucleo App](https://nucleoapp.com/)| Nucleo是一个有27500个图标的漂亮库，也是一个收集、自定义和导出所有图标的强大应用程序。(有免费和付费版) |
+| [Icon-icons.com](https://icon-icons.com/)| 免费图标PNG, ICO, ICNS和矢量文件SVG |
+| [Bootstrap Icons](https://icons.getbootstrap.com/)| 为Bootstrap构建的免费的图标，但他们也可以工作在任何项目 |
+| [Remix Icon](https://remixicon.com/)| 简单易用的图标系统 |
+| [Iconmonstr](https://iconmonstr.com/) | 在313个收藏中发现4496+免费图标 |
+| [Vivid.js](https://webkul.github.io/vivid/)| 准备使用免费和开源的SVG图标包JavaScript库。 |
+| [Iconfinder](https://www.iconfinder.com/)| 免费和高级SVG, PNG, CSH和AI格式的矢量图标 |
+| [Lordicon](https://lordicon.com/free-icons) | 50个免费的动画可交互图标 |
+| [UseAnimations](https://useanimations.com/) | SVG和Json格式的免费动画图标(用于lottie) |
+| [css.gg](https://css.gg/) | 700多个开放源码的CSS、SVG和Figma UI图标可用在SVG Sprite、样式组件、NPM和API中 |
+| [SVGPorn](https://svgporn.com) | 1000多个高质量的SVG logo |
+| [Payment System Logos](https://github.com/mpay24/payment-logos/) | 以png和svg格式提供的支付系统logo |
+| [Browser Logos](https://github.com/alrra/browser-logos/) | 高分辨率网页浏览器Logo |
+| [IconBros](https://www.iconbros.com) | 在182个收藏中的7843个自由图标组 |
+| [LogoHub](https://logohub.io/) | 生成并免费下载PNG和SVG格式的Logo |
+| [Material Design Icons](https://materialdesignicons.com/) | 一个图标集合，允许设计人员和开发人员针对各种平台以及任何项目下载图标的格式，颜色和大小 |
+| [Heroicons](https://heroicons.dev/) | 免费的，开放源码的图标，来自Tailwind CSS的创建者。 |
+| [Zondicons](https://www.zondicons.com/icons.html) | 一组免费的高级SVG图标，供您在数字产品上使用。 |
+| [Endless Icons](http://endlessicons.com/) | 提供大量免费图标的网站。图标被标记并压缩到工具包中。 |
+| [Icomoon](https://icomoon.io/app/) |浏览5500+免费图标。添加任何您希望轻松浏览和搜索其图标的设置。 |
+| [Eva Icons](https://akveo.github.io/eva-icons/#/) |Eva Icons是一个包含超过480个制作精美的开源图标库，用于常见的操作和项目。 |
+| [Cryptoicons](http://cryptoicons.co/) | 一套430个密码和法定货币图标。完全免费的。 |
+| [Ikonate](https://ikonate.com/) | 完全可定制和可访问的矢量图标 |
+| [appicon](https://appicon.co/)| 为你的IOS, macOS和Android项目快速生成不同大小的应用图标 |
+| [LineIcons](https://lineicons.com) | 为设计师和开发人员制作的2000多个基本线图标 |
+| [Evericons](https://www.figma.com/resources/assets/evericons-for-figma/) | Evericons是由Aleksey Popov设计的460多个免费图标。 |
+| [SVG Repo](https://www.svgrepo.com/) | 下载用于商业用途的免费SVG矢量图标 |
+| [Convertio](https://convertio.co/png-svg/) | 免费在线转换PNG文件到SVG文件（这只是它提供的服务之一） |
+| [CSS ICON](https://cssicon.space/) | 纯css代码制作的图标集，没有依赖，“抓取和释放”图标 |
+| [Unified icons](https://iconify.design/) |数以千计的图标，一个统一的框架。一个库，超过40000个矢量图标。 |
+| [System UIcons](https://systemuicons.com/) |220多个图标并且收录在不断增长 |
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Favicons
+## 网站图标
 
->Resources for Favicons
+>网站图标资源集
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Favicon.io](https://favicon.io/)| Generate a favicon from text, from an image, or from an emoji. Download in .ico and .png formats |
-| [Favicomatic](https://favicomatic.com/)| Generate favicons of all the sizes and formats as well as the HTML code needed to support every possible browser or device |
-| [Favicon Generator](http://tools.dynamicdrive.com/favicon/)| Generate favicon ico files for your website |
-| [RealFaviconGenerator](https://realfavicongenerator.net/)| Generate icons for all platforms (Windows, iOS, Android) |
-| [FontIcon](https://gauger.io/fonticon/)| Generate favicons and images from Font Awesome icons |
+| [Favicon.io](https://favicon.io/)| 从文字、图片或表情符号中生成一个favicon，并以.ico 和 .png格式下载 |
+| [Favicomatic](https://favicomatic.com/)| 生成所有大小和格式的favicon，以及支持所有可能的浏览器或设备所需的HTML代码 |
+| [Favicon Generator](http://tools.dynamicdrive.com/favicon/)| 为您的网站生成favicon ico文件 |
+| [RealFaviconGenerator](https://realfavicongenerator.net/)| 为所有平台(Windows, iOS, Android)生成图标 |
+| [FontIcon](https://gauger.io/fonticon/)| 从Awesome icons生成favicons和图像 |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Icon Fonts
+## 图标字体
 
->Resources for Icon Fonts
+>图标字体资源集
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
 | [Font Awesome](https://fontawesome.com/)| The web's most popular icon set and toolkit  |
 | [Line Awesome](https://icons8.com/line-awesome)| Swap in replacement of Font Awesome with modern line icons |
@@ -261,7 +261,7 @@ typora-root-url: ..\.vuepress\public
 | [Mobirise Icons](https://mobiriseicons.com/)| A free, open source set of 150 elegant, pixel-perfect linear icons, available as web icon font and SVG icons. |
 | [Line Awesome](https://icons8.com/line-awesome/)| It is a free alternative for Font Awesome, flat icons that offer complete coverage of the main Font Awesome icon set. |
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## 照片素材库
@@ -297,7 +297,7 @@ typora-root-url: ..\.vuepress\public
 | [FoodiesFeed](https://www.foodiesfeed.com/)| Food photo stock |
 | [Nappy](https://www.nappy.co/)| A website offering Beautiful, high-res photos of black and brown people.|
 | [Generated Photos](https://generated.photos/)| Unique AI Generated model photos|
-| [Reshot](https://www.reshot.com/)| Uniquely free photos. Handpicked, non-stocky images.
+| [Reshot](https://www.reshot.com/)| Uniquely free photos. Handpicked, non-stocky images. |
 | [Free Images](https://www.freeimages.com/)| Find and download free 照片素材库 - all free for personal and commercial use|
 | [Lorem Picsum](https://picsum.photos/)| An easy to use API to get beautiful placeholder images. Size and other parameters can be specified. |
 | [scienceimage](https://www.scienceimage.csiro.au) | An image library specializing in science and nature images |
@@ -306,7 +306,7 @@ typora-root-url: ..\.vuepress\public
 | [Creative Commons](https://search.creativecommons.org) | Search for free images to reuse.
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Stock Videos
@@ -326,7 +326,7 @@ typora-root-url: ..\.vuepress\public
 | [SplitShire](https://www.splitshire.com/)| Beautiful & exclusive free stock videos & photos |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Stock Music & Sound Effects
@@ -344,7 +344,7 @@ typora-root-url: ..\.vuepress\public
 | [Unminus](https://www.unminus.com/)| Free Premium Music for Your Projects 🎁 Royalty Free. Cleared for YouTube. |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Vectors & Clip Art
@@ -376,7 +376,7 @@ typora-root-url: ..\.vuepress\public
 | [Clker](http://www.clker.com) | Free clip art you can use for anything you like |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Product & Image Mockups
@@ -398,7 +398,7 @@ typora-root-url: ..\.vuepress\public
 | [Device Shots](https://deviceshots.com/)| Create high-resolution device mockups for social media, for free |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## HTML & CSS Templates
@@ -435,7 +435,7 @@ typora-root-url: ..\.vuepress\public
 
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## CSS Frameworks
@@ -484,7 +484,7 @@ typora-root-url: ..\.vuepress\public
 | [Metro 4](https://metroui.org.ua/index.html)| Create your site quickly and effectively with Metro 4. impressive components library built on html, css, javascript. |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## CSS Methodologies
@@ -499,7 +499,7 @@ typora-root-url: ..\.vuepress\public
 | [SMACSS](http://smacss.com/) | SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## CSS Animations
@@ -527,7 +527,7 @@ typora-root-url: ..\.vuepress\public
 | [SVG Artista](https://svgartista.net/)| A useful tool to animate stroke and fill properties in SVG images with plain CSS code |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Javascript Animation Libraries
@@ -557,7 +557,7 @@ typora-root-url: ..\.vuepress\public
 
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## UI Components & Kits
@@ -601,7 +601,7 @@ typora-root-url: ..\.vuepress\public
 | [Meraki UI Components](https://merakiui.com/)| Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid. |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 
@@ -650,7 +650,7 @@ typora-root-url: ..\.vuepress\public
 | [particles-bg](https://github.com/lindelof/particles-bg)| A React particles animation background component |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Vue UI
@@ -680,7 +680,7 @@ typora-root-url: ..\.vuepress\public
 | [Particles.vue3](https://particles.matteobruni.it/)| A lightweight Vue 3.x component for creating particles |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Angular UI
@@ -703,7 +703,7 @@ typora-root-url: ..\.vuepress\public
 | [Multi select dropdown](https://www.npmjs.com/package/ng-multiselect-dropdown) | for multi select drop-dowm in forms |
 | [NG Particles](https://particles.matteobruni.it/)| A lightweight Angular component for creating particles |
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Svelte UI
@@ -718,7 +718,7 @@ typora-root-url: ..\.vuepress\public
 | [Svelte Particles](https://particles.matteobruni.it/)| A lightweight Svelte component for creating particles |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Design Systems & Style Guides
@@ -762,7 +762,7 @@ typora-root-url: ..\.vuepress\public
 | [Laws of UX](https://lawsofux.com/) | A collection of the key maxims that designers must consider when building user interfaces. |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Online Design Tools
@@ -804,14 +804,14 @@ typora-root-url: ..\.vuepress\public
 | [Flex Malven](http://flexbox.malven.co/)| A flexbox grid cheatsheet to reference when working with flexbox |
 | [Smart Upscaler](https://icons8.com/upscaler) | Upscale images by 2-4x resolution |
 | [GetAvataaars](https://getavataaars.com/) | Fun and Colorful free avatars web generator tool by Fang-Pen Lin using Pablo Stanley sketch library |
-| [Big Heads](https://github.com/RobertBroersma/bigheads) | Easily generate avatars for your projects with Big Heads by Robert Broersma.
+| [Big Heads](https://github.com/RobertBroersma/bigheads) | Easily generate avatars for your projects with Big Heads by Robert Broersma. |
 | [Webflow](https://webflow.com/) | Break the code barrier, Build better business websites, faster. Without coding. |
 | [Trace](https://stickermule.com/trace) | Instantly remove the background from your photos |
 | [Neumorphism.io](https://neumorphism.io/#55b9f3) | Generate Soft-UI CSS shadow code |
 | [DB Designer](https://app.dbdesigner.net/) | Design your database for free online |
 | [Ui Bakery](https://uibakery.io/) | Create full-fledged web apps visually |
 | [Faux](http://knutsynstad.com/fauxcode/) | Turn real code into faux code |
-| [Rive](https://rive.app/) | Real-time interactive design tool that allows you to design, animate, and immediately integrate your assets into any platform.
+| [Rive](https://rive.app/) | Real-time interactive design tool that allows you to design, animate, and immediately integrate your assets into any platform. |
 | [Unscreen](https://www.unscreen.com/) | Remove Video Background 100% Automatically and Free |
 | [Kodeshot](https://www.kodeshot.net/) | Convert your source code into nice pictures for your articles, tweets, messages, posts... |
 | [Wix](https://www.wix.com/) | Create a Website You’re Proud Of |
@@ -819,11 +819,11 @@ typora-root-url: ..\.vuepress\public
 | [Framer](https://www.framer.com/) | Is prototyping tool for teams |
 | [Draw.io](https://www.draw.io/) | Free online diagram editor tool |
 | [UXWing SVG Editor](https://uxwing.com/svg-icon-editor)| Creating and Edit SVG Online |
-| [CSS Arrow](http://www.cssarrowplease.com/)| Create and export CSS code for a custom box with an arrow extending out from the side. Great for tooltips, flyouts and the like. | 
+| [CSS Arrow](http://www.cssarrowplease.com/)| Create and export CSS code for a custom box with an arrow extending out from the side. Great for tooltips, flyouts and the like. |
 | [Lucidchart](https://www.lucidchart.com/pages/)| Diagramming and visualization tools that allows creating databases, flowcharts, boards, floor-maps, and much more. 3 multi-page documents on the free tier |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Downloadable Design Software
@@ -849,7 +849,7 @@ typora-root-url: ..\.vuepress\public
 | [Colorpicker](https://colorpicker.fr)| Open Source colors software: Retrieve, manipulate and store your colors easily! |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Design Inspiration
@@ -891,7 +891,7 @@ typora-root-url: ..\.vuepress\public
 
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Image Compression
@@ -900,8 +900,8 @@ typora-root-url: ..\.vuepress\public
 
 | Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
 | ----------------------- | ------------------ |
-| [TinyPNG](https://tinypng.com/)| Smart PNG and JPEG compression
-| [Optimizilla](https://imagecompressor.com/)| Online JPEG and PNG optimizer / compressor with settings and archive download
+| [TinyPNG](https://tinypng.com/)| Smart PNG and JPEG compression |
+| [Optimizilla](https://imagecompressor.com/)| Online JPEG and PNG optimizer / compressor with settings and archive download |
 | [Compressor.io](https://compressor.io/)| JPEG, PNG, GIF, SVG Compression |
 | [Squoosh.app](https://squoosh.app/)| Image compression from Google Chrome Labs |
 | [BulkResizePhotos](https://bulkresizephotos.com/)| Bulk image resizing, compression & converting that perform all the tasks within the browser (It works offline) |
@@ -918,7 +918,7 @@ typora-root-url: ..\.vuepress\public
 | [OnlinePngtools](https://onlinepngtools.com/resize-png)| Resize png for without losing transparent background. |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Chrome Extensions
@@ -955,7 +955,7 @@ typora-root-url: ..\.vuepress\public
 | [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg) | Wappalyzer is a technology profiler that shows you what websites are built with. |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## Others
@@ -998,5 +998,5 @@ typora-root-url: ..\.vuepress\public
 | [Match Stick](https://matchstick.xyz/) | Visually compare your code and designs. Compare your mockups with your live website to pinpoint any missing details. |
 
 <div align="right">
-    <b><a href="#列表目录">↥ Back To Top</a></b>
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
