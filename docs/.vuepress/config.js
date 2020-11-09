@@ -26,8 +26,8 @@ module.exports = {
                 'async-func',
             ],
             '/summary/': [
-                'ubuntu-odoo12', 
-                'linux-bootsrap', 
+                'ubuntu-odoo12',
+                'linux-bootsrap',
                 'deno-intrdu'
             ]
         },
@@ -105,6 +105,9 @@ module.exports = {
         startYear: '2017'
     },
     plugins: [
+        [require('vue-github-buttons/plugins/vuepress'), {
+            useCache: true
+        }],
         [
             'vuepress-plugin-sponsor',
             {

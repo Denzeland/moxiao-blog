@@ -12,7 +12,7 @@ typora-root-url: ..\.vuepress\public
 
 ![](/headerimage.png)
 
-要做出一个好的应用，需要经过良好的设计。而设计需要的资源对于设计师特别是程序员在没有设计师的配合帮助下进行产品设计至关重要，毕竟程序员往往欠缺设计方面的能力。下面是一份由一位美国程序员[Brad Traversy](https://github.com/bradtraversy)发起并经过社区成员精心挑选的**可免费商用**的UI设计资源列表，我翻译了一份中文（翻译还在进行中...），[原项目点这里](https://github.com/bradtraversy/design-resources-for-developers)，在有需要的时候看看这些站点，或许会有帮助。
+要做出一个好的应用，需要经过良好的设计。而设计需要的资源对于设计师特别是程序员在没有设计师的配合帮助下进行产品设计至关重要，毕竟程序员往往欠缺设计方面的能力。下面是一份由一位美国程序员[Brad Traversy](https://github.com/bradtraversy)发起并经过社区成员精心挑选的**可免费商用**的UI设计资源列表，我翻译了一份中文（翻译还在进行中...），[原项目点这里](https://github.com/bradtraversy/design-resources-for-developers)，在有需要的时候看看这些站点，或许会有帮助。如果您喜欢这个项目，或者这个列表对您有一点帮助，欢迎点个star<span style="display: inline-block; position: relative; top: 8px;"><gh-btns-star slug="Denzeland/design-resources-for-developers-cn" show-count></gh-btns-star></span>
 
 ::: warning 警告
 这里列出的资源大多为英文站点，部分资源需要科学上网
@@ -238,16 +238,16 @@ typora-root-url: ..\.vuepress\public
 
 | 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Font Awesome](https://fontawesome.com/)| The web's most popular icon set and toolkit  |
-| [Line Awesome](https://icons8.com/line-awesome)| Swap in replacement of Font Awesome with modern line icons |
-| [Material Icons](https://material.io/resources/icons/)| Material design icon library |
-| [IonIcons](http://ionicons.com/)| Beautifully crafted open source icons from Ionic team |
-| [Zurb Foundation Icons](https://zurb.com/playground/foundation-icon-fonts-3)| Customizable Foundation icons |
-| [Fontisto Icons](https://fontisto.com/)| Fontisto the iconic font and css toolkit · 616+ free icons  |
-| [Boxicons](https://boxicons.com/)| Boxicons is a free collection of carefully crafted open source icons  |
-| [Icofont](https://icofont.com/)| 2100+ free icons to spice up your creative designs  |
-| [Material Palette](https://www.materialpalette.com/icons)| Free to pick palettes, icons and colors for Material Design]|
-| [Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/index.html) | Material design icon font |
+| [Font Awesome](https://fontawesome.com/)| 网络上最流行的图标集和工具包 |
+| [Line Awesome](https://icons8.com/line-awesome)| 将Font Awesome图表替换成线性图标 |
+| [Material Icons](https://material.io/resources/icons/)| Material设计图标库 |
+| [IonIcons](http://ionicons.com/)| Ionic团队开源的精心制作的图标 |
+| [Zurb Foundation Icons](https://zurb.com/playground/foundation-icon-fonts-3)| 可自定义的基础图标（有616个是免费的） |
+| [Fontisto Icons](https://fontisto.com/)| Fontisto图标字体和CSS工具包 |
+| [Boxicons](https://boxicons.com/)| Boxicons是一个精心制作的开源图标的免费集合 |
+| [Icofont](https://icofont.com/)| 2100多个免费图标丰富您的创意设计 |
+| [Material Palette](https://www.materialpalette.com/icons)| 免费选择调色板，图标和颜色的Material设计 |
+| [Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/index.html) | Material设计图标字体 |
 | [Vscode Codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html) | The icon font from Visual Studio Code |
 | [Devicon](https://konpa.github.io/devicon/) | Devicon is a set of icons representing programming languages, designing & development tools |
 | [PaymentFont](https://github.com/AlexanderPoellmann/PaymentFont) | A sleek web font for payment operators and methods. Featuring 116 icons |

@@ -38,3 +38,24 @@ publish: false
     }
 ```
 
+## 添加vue-github-buttons组件
+
+在vuepress中引用vue-github-buttons组件时遇到“global is not defined”错误，导致无法渲染， 经过查找原因，修改了安装的模块vue-github-buttons的源码才把问题解决了，下面记录具体的修改内容：
+
+- 在node_modules/vue-github-buttons/plugins/vuepress/index.js文件中将import VueGitHubButtons from 'vue-github-buttons'改为import VueGitHubButtons from 'vue-github-buttons/dist/vue-github-buttons.es.js'
+
+- 在node_modules/vue-github-buttons/dist/vue-github-buttons.es.js文件中把下面的一段代码注释掉，并删除最后的map文件引用：
+
+  ```js
+  // {
+  //     var nodeFetch = require('node-fetch');
+  //     if (global && !global.fetch) {
+  //         global.fetch = nodeFetch;
+  //         global.Headers = nodeFetch.Headers;
+  //         global.Request = nodeFetch.Request;
+  //         global.Response = nodeFetch.Response;
+  //     }
+  // }
+  ```
+
+经过以上修改再编译就不会报错。
