@@ -12,7 +12,7 @@ typora-root-url: ..\.vuepress\public
 
 ![](/headerimage.png)
 
-要做出一个好的应用，需要经过良好的设计。而设计需要的资源对于设计师特别是程序员在没有设计师的配合帮助下进行产品设计至关重要，毕竟程序员往往欠缺设计方面的能力。下面是一份由一位美国程序员[Brad Traversy](https://github.com/bradtraversy)发起并经过社区成员精心挑选的**可免费商用**的UI设计资源列表，我翻译了一份中文（翻译还在进行中...），[原项目点这里](https://github.com/bradtraversy/design-resources-for-developers)，在有需要的时候看看这些站点，或许会有帮助。如果您喜欢这个项目，或者这个列表对您有一点帮助，欢迎点个star<span style="display: inline-block; position: relative; top: 8px;"><gh-btns-star slug="Denzeland/design-resources-for-developers-cn" show-count></gh-btns-star></span>
+要做出一个好的应用，需要经过良好的设计。而设计需要的资源对于设计师特别是程序员在没有设计师的配合帮助下进行产品设计至关重要，毕竟程序员往往欠缺设计方面的能力。下面是一份由一位美国程序员[Brad Traversy](https://github.com/bradtraversy)发起并经过社区成员精心挑选的**可免费商用**的UI设计资源列表，我翻译了一份中文（翻译还在进行中...），[原项目点这里](https://github.com/bradtraversy/design-resources-for-developers)，在有需要的时候看看这些站点，或许会产生灵感。如果您喜欢这个项目，或者这个列表对您有一点帮助，欢迎点个star<span style="display: inline-block; position: relative; top: 8px;"><gh-btns-star slug="Denzeland/design-resources-for-developers-cn" show-count></gh-btns-star></span>
 
 ::: warning 警告
 这里列出的资源大多为英文站点，部分资源需要科学上网
@@ -248,72 +248,72 @@ typora-root-url: ..\.vuepress\public
 | [Icofont](https://icofont.com/)| 2100多个免费图标丰富您的创意设计 |
 | [Material Palette](https://www.materialpalette.com/icons)| 免费选择调色板，图标和颜色的Material设计 |
 | [Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/index.html) | Material设计图标字体 |
-| [Vscode Codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html) | The icon font from Visual Studio Code |
-| [Devicon](https://konpa.github.io/devicon/) | Devicon is a set of icons representing programming languages, designing & development tools |
-| [PaymentFont](https://github.com/AlexanderPoellmann/PaymentFont) | A sleek web font for payment operators and methods. Featuring 116 icons |
-| [Weather Icons](https://erikflowers.github.io/weather-icons/) | Weather Icons is the only icon font with 222 weather themed icons |
-| [Stroke 7](https://themes-pixeden.com/font-demos/7-stroke/index.html) | 202 thin stroke icons inspired by iOS 7 |
-| [Jam Icons](https://jam-icons.com/) | 890+ handcrafted icons to make your web app awesome |
-| [Fontastic.me](http://fontastic.me/) | Create your custom icon fonts in seconds. Over 9,000 icons available to pick from or upload your custom svg |
-| [Fontello](http://fontello.com/)| 200+ web icons where you can customize the names or codes of icons. |
-| [Linea](https://linea.io/)| Linea: Featuring 750+ Free Icons |
-| [Unicons](https://iconscout.com/unicons)| A set of 1100+ Free line style icons available as web font, SVG icons, and as components for JS frameworks like React, Vue and React Native. |
-| [Mobirise Icons](https://mobiriseicons.com/)| A free, open source set of 150 elegant, pixel-perfect linear icons, available as web icon font and SVG icons. |
-| [Line Awesome](https://icons8.com/line-awesome/)| It is a free alternative for Font Awesome, flat icons that offer complete coverage of the main Font Awesome icon set. |
+| [Vscode Codicons](https://microsoft.github.io/vscode-codicons/dist/codicon.html) | 来自Visual Studio Code的字体图标 |
+| [Devicon](https://konpa.github.io/devicon/) | Devicon是一组表示编程语言、设计和开发工具的图标 |
+| [PaymentFont](https://github.com/AlexanderPoellmann/PaymentFont) | 对于支付运营商和方法比较好看的web字体，有116个特色图标 |
+| [Weather Icons](https://erikflowers.github.io/weather-icons/) | Weather Icons是唯一的带有222种天气主题图标的图标字体 |
+| [Stroke 7](https://themes-pixeden.com/font-demos/7-stroke/index.html) | 202个受iOS 7启发的细笔画图标 |
+| [Jam Icons](https://jam-icons.com/) | 890多个手工制作的图标，让你的网页应用更有逼格 |
+| [Fontastic.me](http://fontastic.me/) | 只需几秒钟就能创建您的自定义图标字体。超过9000个图标可供选择或上传您的自定义svg |
+| [Fontello](http://fontello.com/)| 200多个网页图标，你可以自定义图标名称或代码 |
+| [Linea](https://linea.io/)| Linea:具有750多种免费图标 |
+| [Unicons](https://iconscout.com/unicons)| 一组1100多个自由线条风格的图标，可以作为web字体、SVG图标，也可以作为React、Vue和React Native等JS框架的组件 |
+| [Mobirise Icons](https://mobiriseicons.com/)| 一个免费的、开放源码的150个优雅的、像素完美的线性图标，可以作为web图标字体和SVG图标使用 |
+| [Line Awesome](https://icons8.com/line-awesome/)| 它是Font Awesome的一个免费替代方案，平面图标完整涵盖了主要的Font Awesome图标集 |
 <div align="right">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 ## 照片素材库
 
->Websites that offer free 照片素材库 of all kinds for your websites and apps
+>免费提供适合你的网站和应用程序所有种类需求的照片素材库的网站
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Pexels](https://www.pexels.com/)| Free 照片素材库 shared by talented creators |
-|  [Unsplash](https://unsplash.com/) | The internet’s source of freely usable images |
-| [Pixabay](https://pixabay.com/)| Over 1.7 million+ high-quality stock images and videos |
-| [Magdeleine](https://magdeleine.co/)| Gallery & free high-resolution photo everyday |
-| [Picspree](https://picspree.com)| Royalty free images, 照片素材库, illustrations, and vectors |
-| [Burst](https://burst.shopify.com/)| Free 照片素材库 collections |
-| [Gratisography](https://gratisography.com/)| Free collection of free high-resolution pictures |
-| [Life of Pix](https://www.lifeofpix.com/)| Free high-resolution photography |
-| [Stock Snap](https://stocksnap.io/)| Hundreds of high quality photos added weekly |
-| [Morguefile](https://morguefile.com/)| Over 350,000 free 照片素材库 for commercial use |
-| [Kaboom Pics](https://kaboompics.com/)| Stock photography and color palettes. Good for product images |
-| [New Old Stock](https://nos.twnsnd.co/)| Stock vintage photos |
-| [Pic Jumbo](https://picjumbo.com/)| Good collections of different types of photos |
-| [Public Domain Pictures](https://www.publicdomainpictures.net/en/)| Public domain images of all types |
-| [Find A Photo](https://www.chamberofcommerce.org/findaphoto/)| Searches multiple stock photo websites |
-| [Stockvault](http://www.stockvault.net/)| Categorized 照片素材库 |
-| [Placeholder](https://placeholder.com/)| A free image placeholder service for the web. You can specify image size and format |
-| [Realistic Shots](https://realisticshots.com/)| Free high-resolution 照片素材库 |
-| [Negative Space](https://negativespace.co/)| High-Resolution Free 照片素材库 |
-| [SkitterPhoto](https://skitterphoto.com/)| Free high-resolution photography |
-| [PicoGraphy](https://picography.co/)| Gorgeous, High-Resolution, Free Photos |
-| [Wunder Stock](https://wunderstock.com/)| Stunningly amazing free photos |
-| [PxHere](https://pxhere.com/)| Free Images & Free 照片素材库 - PxHere |
-| [Piqsels](https://piqsels.com/)| Royalty Free 照片素材库 |
-| [FoodiesFeed](https://www.foodiesfeed.com/)| Food photo stock |
-| [Nappy](https://www.nappy.co/)| A website offering Beautiful, high-res photos of black and brown people.|
-| [Generated Photos](https://generated.photos/)| Unique AI Generated model photos|
-| [Reshot](https://www.reshot.com/)| Uniquely free photos. Handpicked, non-stocky images. |
-| [Free Images](https://www.freeimages.com/)| Find and download free 照片素材库 - all free for personal and commercial use|
-| [Lorem Picsum](https://picsum.photos/)| An easy to use API to get beautiful placeholder images. Size and other parameters can be specified. |
-| [scienceimage](https://www.scienceimage.csiro.au) | An image library specializing in science and nature images |
-| [Integration & Application Network Image Library](https://ian.umces.edu/imagelibrary) | Free images to provide scientists, resource managers, government agencies, community groups and graphics professionals with a resource for enhancing science communication. |
-| [Saxifraga](http://www.freenatureimages.eu) | Free nature images |
-| [Creative Commons](https://search.creativecommons.org) | Search for free images to reuse.
+| [Pexels](https://www.pexels.com/)| 由一群才华横溢的创作者分享的免费照片素材库 |
+|  [Unsplash](https://unsplash.com/) | 互联网上免费使用的图片来源 |
+| [Pixabay](https://pixabay.com/)| 超过170万高质量的图片和视频 |
+| [Magdeleine](https://magdeleine.co/)| 每天都有画廊和免费的高分辨率照片 |
+| [Picspree](https://picspree.com)| 免版税的图像, 照片素材库, 插图，和矢量图 |
+| [Burst](https://burst.shopify.com/)| 免费的照片素材库合集 |
+| [Gratisography](https://gratisography.com/)| 免费收集的免费高清图片 |
+| [Life of Pix](https://www.lifeofpix.com/)| 免费高清摄影 |
+| [Stock Snap](https://stocksnap.io/)| 每周增加数百张高质量的照片 |
+| [Morguefile](https://morguefile.com/)| 可以商业使用的超过350,000张免费照片素材库 |
+| [Kaboom Pics](https://kaboompics.com/)| 摄影图片库和调色板，对包装对产品形象很好 |
+| [New Old Stock](https://nos.twnsnd.co/)| 经典的老照片库 |
+| [Pic Jumbo](https://picjumbo.com/)| 非常好的不同类型的照片集合 |
+| [Public Domain Pictures](https://www.publicdomainpictures.net/en/)| 各种类型的公共域图像 |
+| [Find A Photo](https://www.chamberofcommerce.org/findaphoto/)| 可以搜索多个照片素材库网站 |
+| [Stockvault](http://www.stockvault.net/)| 分门别类的照片素材库 |
+| [Placeholder](https://placeholder.com/)| 一个免费的用于web占位符图像的素材库，可以指定图像大小和格式 |
+| [Realistic Shots](https://realisticshots.com/)| 免费的高分辨率照片素材库 |
+| [Negative Space](https://negativespace.co/)| 高清晰度的免费照片素材库 |
+| [SkitterPhoto](https://skitterphoto.com/)| 免费高清摄影图片 |
+| [PicoGraphy](https://picography.co/)| 华丽，高分辨率，免费照片 |
+| [Wunder Stock](https://wunderstock.com/)| 非常惊人的免费照片 |
+| [PxHere](https://pxhere.com/)| PxHere是一个免费图片和免费照片素材库 |
+| [Piqsels](https://piqsels.com/)| 可以免费使用的照片素材库 |
+| [FoodiesFeed](https://www.foodiesfeed.com/)| 食物照片素材库 |
+| [Nappy](https://www.nappy.co/)| 一个提供漂亮的，高分辨率的黑色和棕色人的照片的网站。 |
+| [Generated Photos](https://generated.photos/)| 独特的人工智能生成的模特照片 |
+| [Reshot](https://www.reshot.com/)| 独特的免费照片，精心挑选的图像，质量都比较高 |
+| [Free Images](https://www.freeimages.com/)| 搜索并下载照片素材库 - 所有照片都可免费供个人和商业使用 |
+| [Lorem Picsum](https://picsum.photos/)| 个易于使用的API来获得漂亮的占位符图像，可以指定大小和其他参数。 |
+| [scienceimage](https://www.scienceimage.csiro.au) | 专注于科学和自然图像的一个图片素材库 |
+| [Integration & Application Network Image Library](https://ian.umces.edu/imagelibrary) | 提供科学家，资源经理，政府机构，社区团体和图形专业人员用来加强科学传播的资源的免费图片 |
+| [Saxifraga](http://www.freenatureimages.eu) | 免费自然景观图像 |
+| [Creative Commons](https://search.creativecommons.org) | 搜索可用的免费图片 |
 
 <div align="right">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Stock Videos
+## 视频素材库
 
->Websites that offer free stock videos of all kinds for your websites and apps
+>为你的各种类型的网站和应用提供免费的视频素材资源的网站
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
 | [Pexels](https://www.pexels.com/videos)| Largest library of free to use videos, donated by the community |
 | [Pixabay](https://www.pixabay.com/videos)| Large library of free to use videos, donated by the community similar to Pexels |
