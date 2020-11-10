@@ -215,7 +215,7 @@ typora-root-url: ..\.vuepress\public
 | [CSS ICON](https://cssicon.space/) | 纯css代码制作的图标集，没有依赖，“抓取和释放”图标 |
 | [Unified icons](https://iconify.design/) |数以千计的图标，一个统一的框架。一个库，超过40000个矢量图标。 |
 | [System UIcons](https://systemuicons.com/) |220多个图标并且收录在不断增长 |
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -231,7 +231,7 @@ typora-root-url: ..\.vuepress\public
 | [RealFaviconGenerator](https://realfavicongenerator.net/)| 为所有平台(Windows, iOS, Android)生成图标 |
 | [FontIcon](https://gauger.io/fonticon/)| 从Awesome icons生成favicons和图像 |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -263,7 +263,7 @@ typora-root-url: ..\.vuepress\public
 | [Unicons](https://iconscout.com/unicons)| 一组1100多个自由线条风格的图标，可以作为web字体、SVG图标，也可以作为React、Vue和React Native等JS框架的组件 |
 | [Mobirise Icons](https://mobiriseicons.com/)| 一个免费的、开放源码的150个优雅的、像素完美的线性图标，可以作为web图标字体和SVG图标使用 |
 | [Line Awesome](https://icons8.com/line-awesome/)| 它是Font Awesome的一个免费替代方案，平面图标完整涵盖了主要的Font Awesome图标集 |
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -308,7 +308,7 @@ typora-root-url: ..\.vuepress\public
 | [Saxifraga](http://www.freenatureimages.eu) | 免费自然景观图像 |
 | [Creative Commons](https://search.creativecommons.org) | 搜索可用的免费图片 |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -318,67 +318,67 @@ typora-root-url: ..\.vuepress\public
 
 | 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Pexels](https://www.pexels.com/videos)| Largest library of free to use videos, donated by the community |
-| [Pixabay](https://www.pixabay.com/videos)| Large library of free to use videos, donated by the community similar to Pexels |
-| [Coverr.co](https://coverr.co/)| Beautiful free stock video footage |
-| [Videezy](https://www.videezy.com/)| Free HD stock footage & 4K videos |
-| [Mix Kit](https://mixkit.co/)| Stock video clips & music |
-| [Life Of Vids](https://www.lifeofvids.com/)| Free video clips and loops |
-| [Videvo](https://www.videvo.net/stock-video-footage/)| Free and premium stock videos |
-| [Loopvidz](http://stock.loopvidz.com/)| Free To Use Cinema graphs Created With VIMAGE App |
-| [SplitShire](https://www.splitshire.com/)| Beautiful & exclusive free stock videos & photos |
+| [Pexels](https://www.pexels.com/videos)| 一个由由社区捐赠的最大的免费视频素材库 |
+| [Pixabay](https://www.pixabay.com/videos)| 一个类似Pexels也是由由社区捐赠可免费使用视频的大型素材库 |
+| [Coverr.co](https://coverr.co/)| 非常好看的免费视频片段素材库 |
+| [Videezy](https://www.videezy.com/)| 免费的HD视频片段库和4K视频 |
+| [Mix Kit](https://mixkit.co/)| 视频剪辑和音乐的素材库 |
+| [Life Of Vids](https://www.lifeofvids.com/)| 免费视频剪辑和循环 |
+| [Videvo](https://www.videvo.net/stock-video-footage/)| 有免费也有付费的视频素材 |
+| [Loopvidz](http://stock.loopvidz.com/)| 使用VIMAGE App创建的可以免费使用的电影视频 |
+| [SplitShire](https://www.splitshire.com/)| 非常漂亮并且是独家发行的免费视频和照片库 |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Stock Music & Sound Effects
+## 音乐素材和音效
 
->Websites that offer free stock music and/or sound effects
+>免费提供音乐素材并且（或者）带有音效的网站
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Free Stock Music](https://www.free-stock-music.com/)| Royalty free stock music for YouTube videos, podcasts, etc |
-| [Bensound](https://www.bensound.com/)| Download Royalty Free Music for free and use it in your project |
-| [Mixkit](https://mixkit.co/free-stock-music/)| Free music for your projects |
-| [Freesound](https://freesound.org/)| Free stock music and sounds |
-| [Free Music Archive](https://freemusicarchive.org/)|  Collaborative database of creative-commons licensed sound for musicians and sound lovers  |
-| [Musopen](https://musopen.org/music/)| An online copyright free classical music library |
-| [Unminus](https://www.unminus.com/)| Free Premium Music for Your Projects 🎁 Royalty Free. Cleared for YouTube. |
+| [Free Stock Music](https://www.free-stock-music.com/)| 为YouTube视频、播客等提供免费音乐 |
+| [Bensound](https://www.bensound.com/)| 下载免版税的音乐并在你的项目中使用 |
+| [Mixkit](https://mixkit.co/free-stock-music/)| 为您的项目提供免费音乐 |
+| [Freesound](https://freesound.org/)| 免费的音乐和声音素材库 |
+| [Free Music Archive](https://freemusicarchive.org/)|  使用创作共用许可协议为音乐家和声音爱好者提供声音的协作数据库  |
+| [Musopen](https://musopen.org/music/)| 一个在线版权免费的古典音乐素材库 |
+| [Unminus](https://www.unminus.com/)| 在你的项目中可使用的免版权费的音乐🎁 适合YouTube频道 |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Vectors & Clip Art
+## 矢量图片和剪贴画
 
->Free vectors, clipart, illustrations, patterns and more
+>免费矢量图，剪纸艺术，插图，图案还有更多
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Vecteezy](https://www.vecteezy.com/)| Find and download free vector art |
-| [Freepik](https://www.freepik.com)| Free vectors, 照片素材库, PSD and icons |
-| [Free Vectors](https://www.freevectors.net/)| Community of vector lovers who share free vector graphics |
-| [PNGTree](https://pngtree.com/free-vectors)| png, backgrounds, templates, text effects |
-| [Vector4Free](https://www.vector4free.com/)| Free vector graphics |
-| [Retro Vectors](http://retrovectors.com/)| Vintage vectors and graphics |
-| [Freeble](http://freebbble.com/)| Vectors, patterns, mockups and more |
-| [Lukaszadam](https://lukaszadam.com/)| Free Vector artworks |
-| [Illlustrations](https://illlustrations.co/)| Beautiful 100 Illustrations - png, svg |
-| [Clipart](https://www.clipart.email/)| Choose great clipart, png, coloring pages, drawings and more for your projects from the free collection! |
-| [Growwwkit illustrations](https://growwwkit.com/illustrations/phonies)| A set of 8 simple, black & white, stylish illustrations |
-| [World Vector Logo](https://worldvectorlogo.com/)| Download vector logos of brands you love |
-| [trianglify.io](https://trianglify.io/) | Generate low-poly backgrounds, textures, and vectors |
-| [blob](https://blobs.app/) | Generate Blob shapes for Web and Flutter apps |
-| [HiClipart](https://www.hiclipart.com/)| A community for designers to share & download transparent background PNG cliparts |
-| [Stories by Freepik](https://stories.freepik.com/) | A collection of free and customizable illustrations for projects |
-| [Black Illustrations](https://www.blackillustrations.com/) | Beautiful illustrations of black people (free and premium) |
-| [Delesign](https://delesign.com/free-designs/graphics) | A collection of free illustrations and more |
-| [Custom Shape Dividers](https://www.shapedivider.app/) | Free tool to make it easier for designers and developers to export a beautiful SVG shape divider |
-| [Servier Medical Art](https://smart.servier.com) | 3000 free medical images to illustrate your publications and PowerPoint presentations |
-| [Clker](http://www.clker.com) | Free clip art you can use for anything you like |
+| [Vecteezy](https://www.vecteezy.com/)| 找到并下载免费的矢量艺术图片 |
+| [Freepik](https://www.freepik.com)| 免费的矢量图, 照片素材库, PSD和图表 |
+| [Free Vectors](https://www.freevectors.net/)| 共享免费矢量图形的矢量爱好者的社区 |
+| [PNGTree](https://pngtree.com/free-vectors)| png图片，背景，模板，文本效果 |
+| [Vector4Free](https://www.vector4free.com/)| 免费的矢量图形 |
+| [Retro Vectors](http://retrovectors.com/)| 复古的矢量图和图形 |
+| [Freeble](http://freebbble.com/)| 矢量图形, 模板, 实物模型还有更多 |
+| [Lukaszadam](https://lukaszadam.com/)| 免费矢量艺术作品 |
+| [Illlustrations](https://illlustrations.co/)| 超漂亮的100多个png, svg插画 |
+| [Clipart](https://www.clipart.email/)| 收集了很多免费的适合你项目使用的漂亮的剪纸艺术，png，着色页，绘图还有更多 |
+| [Growwwkit illustrations](https://growwwkit.com/illustrations/phonies)| 一套有8个简单，黑白，时尚的插图 |
+| [World Vector Logo](https://worldvectorlogo.com/)| 下载你喜欢的矢量格式Logo |
+| [trianglify.io](https://trianglify.io/) | 生成低多边形背景、纹理和矢量 |
+| [blob](https://blobs.app/) | 为Web和Flutter app生成各种水滴状形状 |
+| [HiClipart](https://www.hiclipart.com/)| 一个为设计师分享和下载透明背景的PNG剪纸艺术的社区 |
+| [Stories by Freepik](https://stories.freepik.com/) | 适合项目使用的免费和可定制的插图集合 |
+| [Black Illustrations](https://www.blackillustrations.com/) | 好看的黑人插图(有免费和付费版) |
+| [Delesign](https://delesign.com/free-designs/graphics) | 免费插图还有更多的收集 |
+| [Custom Shape Dividers](https://www.shapedivider.app/) | 一个让设计师和开发人员更容易导出一个漂亮的SVG形状分割器免费工具 |
+| [Servier Medical Art](https://smart.servier.com) | 3000幅免费的医学图像，用于演示您的出版物和PowerPoint演示文稿 |
+| [Clker](http://www.clker.com) | 一些免费剪辑艺术，您可以用在任何您喜欢的地方 |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -400,7 +400,7 @@ typora-root-url: ..\.vuepress\public
 | [Mockuphone](https://mockuphone.com/)| 100% free mockups for all devices including IOS, Android, Windows Phone, Laptop & Desktop and TV |
 | [Device Shots](https://deviceshots.com/)| Create high-resolution device mockups for social media, for free |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -437,7 +437,7 @@ typora-root-url: ..\.vuepress\public
 | [All-Free-Download](https://all-free-download.com/free-website-templates/free-html-css-templates.html) | Download free-website-templates |
 
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -486,7 +486,7 @@ typora-root-url: ..\.vuepress\public
 | [Halfmoon UI](https://www.gethalfmoon.com/)| A responsive and lightweight framework, designed for quickly building beautiful dashboards and product pages. |
 | [Metro 4](https://metroui.org.ua/index.html)| Create your site quickly and effectively with Metro 4. impressive components library built on html, css, javascript. |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -501,7 +501,7 @@ typora-root-url: ..\.vuepress\public
 | [BEM](http://getbem.com/) | Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development. |
 | [SMACSS](http://smacss.com/) | SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -529,7 +529,7 @@ typora-root-url: ..\.vuepress\public
 | [thoughtbot](https://thoughtbot.com/blog/transitions-and-transforms)| CSS Transitions and Transformations for Beginners |
 | [SVG Artista](https://svgartista.net/)| A useful tool to animate stroke and fill properties in SVG images with plain CSS code |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -559,7 +559,7 @@ typora-root-url: ..\.vuepress\public
 | [Owl carousel](https://owlcarousel2.github.io/OwlCarousel2/)| Free responsive jQuery carousel |
 
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -603,7 +603,7 @@ typora-root-url: ..\.vuepress\public
 | [Stitches](https://stitches.hyperyolo.com/)| An HTML template generator using functional css. |
 | [Meraki UI Components](https://merakiui.com/)| Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid. |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -652,7 +652,7 @@ typora-root-url: ..\.vuepress\public
 | [React tsParticles](https://particles.matteobruni.it/)| A lightweight React component for creating particles |
 | [particles-bg](https://github.com/lindelof/particles-bg)| A React particles animation background component |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -682,7 +682,7 @@ typora-root-url: ..\.vuepress\public
 | [Particles.vue](https://particles.matteobruni.it/)| A lightweight Vue 2.x component for creating particles |
 | [Particles.vue3](https://particles.matteobruni.it/)| A lightweight Vue 3.x component for creating particles |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -705,7 +705,7 @@ typora-root-url: ..\.vuepress\public
 | [Pagination for datatables](https://www.npmjs.com/package/ngx-pagination) | npm library for pagination |
 | [Multi select dropdown](https://www.npmjs.com/package/ng-multiselect-dropdown) | for multi select drop-dowm in forms |
 | [NG Particles](https://particles.matteobruni.it/)| A lightweight Angular component for creating particles |
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -720,7 +720,7 @@ typora-root-url: ..\.vuepress\public
 | [Svelte Flat UI](https://svelteui.js.org/#/checkbox)|UI library for Svelte based on Flat Design |
 | [Svelte Particles](https://particles.matteobruni.it/)| A lightweight Svelte component for creating particles |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -764,7 +764,7 @@ typora-root-url: ..\.vuepress\public
 | [Asphalt](https://asphalt.gojek.io/) | Gojek’s design language system. A collection of guidelines and components to create amazing user experiences. |
 | [Laws of UX](https://lawsofux.com/) | A collection of the key maxims that designers must consider when building user interfaces. |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -825,7 +825,7 @@ typora-root-url: ..\.vuepress\public
 | [CSS Arrow](http://www.cssarrowplease.com/)| Create and export CSS code for a custom box with an arrow extending out from the side. Great for tooltips, flyouts and the like. |
 | [Lucidchart](https://www.lucidchart.com/pages/)| Diagramming and visualization tools that allows creating databases, flowcharts, boards, floor-maps, and much more. 3 multi-page documents on the free tier |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -851,7 +851,7 @@ typora-root-url: ..\.vuepress\public
 | [Inpixio photo Editor](https://www.inpixio.com/free-photo-editor)| Free Photo Editor: For windows only |
 | [Colorpicker](https://colorpicker.fr)| Open Source colors software: Retrieve, manipulate and store your colors easily! |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -893,7 +893,7 @@ typora-root-url: ..\.vuepress\public
 | [SiteSee](https://sitesee.co/) | A curated gallery of beautiful and modern websites. |
 
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -920,7 +920,7 @@ typora-root-url: ..\.vuepress\public
 | [EZGif](https://ezgif.com/)| Animated GIF maker and Image editor including Image optimization and supports WebP conversion |
 | [OnlinePngtools](https://onlinepngtools.com/resize-png)| Resize png for without losing transparent background. |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -957,7 +957,7 @@ typora-root-url: ..\.vuepress\public
 | [React Developer Tool](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) | React debugging tools to the Chrome Developer Tools. It allows you to inspect the React component hierarchies in the Chrome Developer Tools. |
 | [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg) | Wappalyzer is a technology profiler that shows you what websites are built with. |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
@@ -1000,6 +1000,6 @@ typora-root-url: ..\.vuepress\public
 | [papersizes](https://papersizes.io/) | The best resource for International Paper Sizes, Dimensions & Formats. |
 | [Match Stick](https://matchstick.xyz/) | Visually compare your code and designs. Compare your mockups with your live website to pinpoint any missing details. |
 
-<div align="right">
+<div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>

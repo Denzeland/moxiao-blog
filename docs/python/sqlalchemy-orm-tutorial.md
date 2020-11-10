@@ -733,3 +733,197 @@ query.filter(Address.user.has(name='ed'))
 ```python
 session.query(Address).with_parent(someuser, 'addresses')
 ```
+
+## 预加载
+
+预加载就是在一次查询中，预先加载出相关联的表的数据， 预加载是通过调用[`Query.options()`](https://docs.sqlalchemy.org/en/14/orm/query.html#sqlalchemy.orm.Query.options)并传入预加载的函数来实现的，sqlalchemy中有三种预加载的方法：
+
+### Selectin Load
+
+```python
+>>> from sqlalchemy.orm import selectinload
+>>> jack = session.query(User).\
+...                 options(selectinload(User.addresses)).\
+...                 filter_by(name='jack').one()
+>>> jack
+<User(name='jack', fullname='Jack Bean', nickname='gjffdd')>
+
+>>> jack.addresses
+[<Address(email_address='jack@google.com')>, <Address(email_address='j25@yahoo.com')>]
+```
+
+生成的sql语句：
+
+```sql
+SELECT users.id AS users_id,
+        users.name AS users_name,
+        users.fullname AS users_fullname,
+        users.nickname AS users_nickname
+FROM users
+WHERE users.name = ?
+[...] ('jack',)
+SELECT addresses.user_id AS addresses_user_id,
+        addresses.id AS addresses_id,
+        addresses.email_address AS addresses_email_address
+FROM addresses
+WHERE addresses.user_id IN (?)
+ORDER BY addresses.id
+[...] (5,)
+```
+
+### Joined Load
+
+```python
+>>> from sqlalchemy.orm import joinedload
+
+>>> jack = session.query(User).\
+...                        options(joinedload(User.addresses)).\
+...                        filter_by(name='jack').one()
+>>> jack
+<User(name='jack', fullname='Jack Bean', nickname='gjffdd')>
+
+>>> jack.addresses
+[<Address(email_address='jack@google.com')>, <Address(email_address='j25@yahoo.com')>]
+```
+
+生成的sql语句：
+
+```python
+SELECT users.id AS users_id,
+        users.name AS users_name,
+        users.fullname AS users_fullname,
+        users.nickname AS users_nickname,
+        addresses_1.id AS addresses_1_id,
+        addresses_1.email_address AS addresses_1_email_address,
+        addresses_1.user_id AS addresses_1_user_id
+FROM users
+    LEFT OUTER JOIN addresses AS addresses_1 ON users.id = addresses_1.user_id
+WHERE users.name = ? ORDER BY addresses_1.id
+[...] ('jack',)
+```
+
+### 显式join加上预加载
+
+```python
+>>> from sqlalchemy.orm import contains_eager
+>>> jacks_addresses = session.query(Address).\
+...                             join(Address.user).\
+...                             filter(User.name=='jack').\
+...                             options(contains_eager(Address.user)).\
+...                             all()
+>>> jacks_addresses
+[<Address(email_address='jack@google.com')>, <Address(email_address='j25@yahoo.com')>]
+
+>>> jacks_addresses[0].user
+<User(name='jack', fullname='Jack Bean', nickname='gjffdd')>
+```
+
+生成的sql：
+
+```sql
+SELECT users.id AS users_id,
+        users.name AS users_name,
+        users.fullname AS users_fullname,
+        users.nickname AS users_nickname,
+        addresses.id AS addresses_id,
+        addresses.email_address AS addresses_email_address,
+        addresses.user_id AS addresses_user_id
+FROM addresses JOIN users ON users.id = addresses.user_id
+WHERE users.name = ?
+[...] ('jack',)
+```
+
+## 删除
+
+当删除一行数据时， 默认情况下不会删除关联的另一个表的行，要实现关联删除，可以在类的relationship定义配置**cascade**参数：
+
+```python
+...     __tablename__ = 'users'
+...
+...     id = Column(Integer, primary_key=True)
+...     name = Column(String)
+...     fullname = Column(String)
+...     nickname = Column(String)
+...
+...     addresses = relationship("Address", back_populates='user',
+...                     cascade="all, delete, delete-orphan")
+...
+...     def __repr__(self):
+...        return "<User(name='%s', fullname='%s', nickname='%s')>" % (
+...                                self.name, self.fullname, self.nickname)
+```
+
+```python
+>>> class Address(Base):
+...     __tablename__ = 'addresses'
+...     id = Column(Integer, primary_key=True)
+...     email_address = Column(String, nullable=False)
+...     user_id = Column(Integer, ForeignKey('users.id'))
+...     user = relationship("User", back_populates="addresses")
+...
+...     def __repr__(self):
+...         return "<Address(email_address='%s')>" % self.email_address
+```
+
+上面两个表建立了级联删除关系，当删除一个用户时，这个用户关联的邮件地址记录也会删除：
+
+```python
+>>> session.delete(jack)
+
+>>> session.query(User).filter_by(name='jack').count()
+0
+
+>>> session.query(Address).filter(
+...    Address.email_address.in_(['jack@google.com', 'j25@yahoo.com'])
+... ).count()
+0
+```
+
+## 构建多对多关系
+
+要构建多对多关系需要建立一个中间关联表，然后两个关联表的类通过relationship的secondary都指向这个关联表：
+
+```python
+>>> from sqlalchemy import Table, Text
+>>> # association table
+>>> post_keywords = Table('post_keywords', Base.metadata,
+...     Column('post_id', ForeignKey('posts.id'), primary_key=True),
+...     Column('keyword_id', ForeignKey('keywords.id'), primary_key=True)
+... )
+
+>>> class BlogPost(Base):
+...     __tablename__ = 'posts'
+...
+...     id = Column(Integer, primary_key=True)
+...     user_id = Column(Integer, ForeignKey('users.id'))
+...     headline = Column(String(255), nullable=False)
+...     body = Column(Text)
+...
+...     # many to many BlogPost<->Keyword
+...     keywords = relationship('Keyword',
+...                             secondary=post_keywords,
+...                             back_populates='posts')
+...
+...     def __init__(self, headline, body, author):
+...         self.author = author
+...         self.headline = headline
+...         self.body = body
+...
+...     def __repr__(self):
+...         return "BlogPost(%r, %r, %r)" % (self.headline, self.body, self.author)
+
+
+>>> class Keyword(Base):
+...     __tablename__ = 'keywords'
+...
+...     id = Column(Integer, primary_key=True)
+...     keyword = Column(String(50), nullable=False, unique=True)
+...     posts = relationship('BlogPost',
+...                          secondary=post_keywords,
+...                          back_populates='keywords')
+...
+...     def __init__(self, keyword):
+...         self.keyword = keyword
+```
+
+查询多对多关系的表和查询一般的表方法基本上都相同。
