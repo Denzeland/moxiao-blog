@@ -34,6 +34,12 @@ module.exports = {
         search: true,
         friendLink: [
             {
+                title: '午后南杂',
+                desc: 'Enjoy when you can, and endure when you must.',
+                email: 'recoluan@qq.com',
+                link: 'https://www.recoluan.com'
+            },
+            {
                 title: '虚位以待',
                 desc: '您可以联系我或留言您的网站链接、标题、描述、logo信息，欢迎互换友链！',
                 logo: "/favicon.png",
