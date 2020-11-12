@@ -26,6 +26,7 @@ export default {
           serverURL: 'https://leancloudapi.zdctech.top',
           pageSize: 10,
           shuoPla: '今日想说',
+          atComment: 0,
           bgImg: 'http://lc-DoSvyEKc.cn-n1.lcfile.com/f0de4c098cf19c21220e.jpg/shuoshuo-bg.jpg',
           atEmoji: {
                   baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
@@ -76,8 +77,7 @@ export default {
   .artitalk-wraper {
     width: 100% !important;
     padding: 0 !important;
-    margin-top: 0 !important;
-
+  
     #artitalk_main {
       width: 100% !important;
     }
