@@ -72,6 +72,18 @@ export default {
 </script>
 
 <style lang="stylus">
+@media (max-width: $MQMobile) {
+  .artitalk-wraper {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+
+    #artitalk_main {
+      width: 100% !important;
+    }
+  }
+}
+
 .artitalk-wraper {
   padding: 50px 40px;
   border-radius: 8px;
