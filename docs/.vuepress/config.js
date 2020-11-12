@@ -4,7 +4,8 @@ module.exports = {
     title: '墨萧随笔',
     description: '墨萧随笔-让时间见证我们共同的成长',
     head: [
-        ['link', { rel: 'icon', href: '/favicon.png' }]
+        ['link', { rel: 'icon', href: '/favicon.png' }],
+        ['script', {  src: "https://cdn.jsdelivr.net/npm/artitalk" }],
     ],
     themeConfig: {
         logo: '/favicon.png',
@@ -48,6 +49,7 @@ module.exports = {
         ],
         nav: [
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+            { text: '日常动态', link: '/diary/', icon: 'reco-date' },
             {
                 text: 'python资源',
                 items: [
