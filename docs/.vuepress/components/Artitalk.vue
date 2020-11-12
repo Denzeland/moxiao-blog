@@ -49,7 +49,7 @@ export default {
     document
       .querySelectorAll("#at")
       .forEach((element) => element.parentNode.removeChild(element));
-    delete window.AV;
+    // delete window.AV;
   },
   computed: {
     shouldShowNavbar() {
