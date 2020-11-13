@@ -3,7 +3,6 @@ title: Flask-RESTful中文文档
 description: 本文是Flask-RESTful中文文档，没有详尽翻译源文档，但基本保持原文档的主要内容
 date: 2020-11-12
 sidebar: 'auto'
-publish: false
 categories:
  - python集录
 tags:
@@ -338,6 +337,8 @@ $ curl http://localhost:5000/todos/todo3 -d "task=something different" -X PUT -v
 {"task": "something different"}
 ```
 
+下面的内容是对上面讲到的用法的详细说明：
+
 ## 解析请求
 
 Flask-RESTful的请求解析接口[`reqparse`](https://flask-restful.readthedocs.io/en/latest/api.html#module-reqparse)是仿照[argparse](http://docs.python.org/dev/library/argparse.html)构建的，它被设计为提供简单和统一的访问Flask中的flask.request对象中变量的方法。
@@ -448,3 +449,101 @@ parser_copy.remove_argument('foo')
 # parser_copy no longer has 'foo' argument
 ```
 
+## 输出字段
+
+Flask-RESTful提供了一种简单的方法来控制在响应中实际呈现的数据，使用 [`fields`](https://flask-restful.readthedocs.io/en/latest/api.html#module-fields) 模块，你可以在你的资源中使用任何对象(ORM模型/自定义类/等等)。[`fields`](https://flask-restful.readthedocs.io/en/latest/api.html#module-fields) 还可以格式化并过滤你的响应，所以不必担心暴露内部的数据结构。
+
+### 基本用法
+
+可以传递定义要输出字段的字典或有序字典，key是对象的key或属性名，value是格式化或者返回字段值的class，下面的例子定义了三个字段，两个[`String`](https://flask-restful.readthedocs.io/en/latest/api.html#fields.String)和一个[`DateTime`](https://flask-restful.readthedocs.io/en/latest/api.html#fields.DateTime)：
+
+```python
+from flask_restful import Resource, fields, marshal_with
+
+resource_fields = {
+    'name': fields.String,
+    'address': fields.String,
+    'date_updated': fields.DateTime(dt_format='rfc822'),
+}
+
+class Todo(Resource):
+    @marshal_with(resource_fields, envelope='resource')
+    def get(self, **kwargs):
+        return db_get_todo()  # Some function that queries the db
+```
+
+上面例子假设有个数据库对象odoo有属性name`, `address`, 和 `date_updated，对象的其他属性被认为是内部私有属性，不会输出。指定一个可选的envelope关键字参数来封装结果输出。这和下面这个例子是等同的：
+
+```python
+class Todo(Resource):
+    def get(self, **kwargs):
+        return marshal(db_get_todo(), resource_fields), 200
+```
+
+### 重命名属性和默认值
+
+定义字段值时使用attribute参数，定义默认值使用default参数：
+
+```python
+fields = {
+    'name': fields.String(attribute='private_name'),
+    'address': fields.String,
+}
+
+fields = {
+    'name': fields.String(attribute=lambda x: x._private_name),
+    'address': fields.String,
+}
+
+fields = {
+    'name': fields.String(attribute='people_list.0.person_dictionary.name'),
+    'address': fields.String,
+}
+
+fields = {
+    'name': fields.String(default='Anonymous User'),
+    'address': fields.String,
+}
+```
+
+### 自定义字段或字段有多个值
+
+通过继承[`fields.Raw`](https://flask-restful.readthedocs.io/en/latest/api.html#fields.Raw)类并重写format函数自定义输出的字段：
+
+```python
+class UrgentItem(fields.Raw):
+    def format(self, value):
+        return "Urgent" if value & 0x01 else "Normal"
+
+class UnreadItem(fields.Raw):
+    def format(self, value):
+        return "Unread" if value & 0x02 else "Read"
+
+fields = {
+    'name': fields.String,
+    'priority': UrgentItem(attribute='flags'),
+    'status': UnreadItem(attribute='flags'),
+}
+```
+
+### Url字段或添加其他字段
+
+Flask-RESTful包含一个特殊字段[`fields.Url`](https://flask-restful.readthedocs.io/en/latest/api.html#fields.Url)，它为被请求的资源合成一个uri，默认是相对uri，可以改变uri的格式：
+
+```python
+class RandomNumber(fields.Raw):
+    def output(self, key, obj):
+        return random.random()
+
+fields = {
+    'name': fields.String,
+    # todo_resource is the endpoint name when you called api.add_resource()
+    'uri': fields.Url('todo_resource'),
+    'random': RandomNumber,
+}
+
+fields = {
+    'uri': fields.Url('todo_resource', absolute=True),
+    'https_uri': fields.Url('todo_resource', absolute=True, scheme='https')
+}
+```
