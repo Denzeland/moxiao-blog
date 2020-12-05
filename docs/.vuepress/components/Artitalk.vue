@@ -27,7 +27,7 @@ export default {
           pageSize: 10,
           shuoPla: '今日想说',
           atComment: 0,
-          bgImg: 'http://lc-DoSvyEKc.cn-n1.lcfile.com/f0de4c098cf19c21220e.jpg/shuoshuo-bg.jpg',
+          bgImg: '/shuoshuobg1.jpg',
           atEmoji: {
                   baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
                   bishi: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png",

@@ -382,293 +382,293 @@ typora-root-url: ..\.vuepress\public
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Product & Image Mockups
+## 产品或图片模板
 
->Create mockups of devices and other products
+>创建各种屏幕设备和其他产品的模板
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Smart Mockups](https://smartmockups.com/)| Create stunning product mockups (free & premium) |
-| [Shot Snap](https://shotsnapp.com/)| Create beautiful device mockup images for your app or website design |
-| [Screely](https://www.screely.com/)| Instantly turn your screenshot into a mockup |
-| [Screenshot.rocks](https://screenshot.rocks/)| Create beautiful browser & mobile mockups in seconds |
-| [Screen Peak](https://screenpeek.io/)| Create a mockup from a URL |
-| [Mockup World](https://www.mockupworld.co/)| The biggest source of free photo-realistic Mockups online |
-| [Collab Shot](https://www.collabshot.com/)| Real-time screen grabs and image sharing |
-| [Facebook Devices](https://facebook.design/devices)| Images and Sketch files of popular devices  |
-| [Threed.io](https://threed.io)| Generate 3D mockups right in your browser. |
-| [Mockuphone](https://mockuphone.com/)| 100% free mockups for all devices including IOS, Android, Windows Phone, Laptop & Desktop and TV |
-| [Device Shots](https://deviceshots.com/)| Create high-resolution device mockups for social media, for free |
+| [Smart Mockups](https://smartmockups.com/)| 创建令人惊叹的产品模型(有免费和付费) |
+| [Shot Snap](https://shotsnapp.com/)| 为你的应用程序或网站设计创建漂亮的设备模型图像 |
+| [Screely](https://www.screely.com/)| 可以立即把你的截图变成一个模型 |
+| [Screenshot.rocks](https://screenshot.rocks/)| 在几秒钟内创建漂亮的浏览器和移动模型 |
+| [Screen Peak](https://screenpeek.io/)| 根据URL创建一个模型 |
+| [Mockup World](https://www.mockupworld.co/)| 最大的在线免费逼真实物模型照片库 |
+| [Collab Shot](https://www.collabshot.com/)| 实时屏幕抓取和图像共享 |
+| [Facebook Devices](https://facebook.design/devices)| 流行设备的图像和Sketch文件 |
+| [Threed.io](https://threed.io)| 在浏览器中生成3D模型 |
+| [Mockuphone](https://mockuphone.com/)| 包括IOS, Android, Windows Phone，笔记本电脑和桌面和电视在内的所有设备的100%免费模型 |
+| [Device Shots](https://deviceshots.com/)| 为社交媒体创建高分辨率的设备模型，免费 |
 
 <div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## HTML & CSS Templates
+## HTML & CSS模板
 
->Websites that offer free beautiful website templates and themes of all types
-
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
-| ----------------------- | ------------------ |
-| [HTML5Up](https://html5up.net/)| Very modern, unique responsive HTML5/CSS3 themes |
-| [Templatemo](https://templatemo.com/)| Minimal, resume, gallery themes and more |
-| [Templated.co](https://templated.co/)| Tons of minimalistic HTML5/CSS3 themes |
-| [FreeHTML5](https://freehtml5.co/)| Free & premium HTML5 and Bootstrap themes |
-| [StyleShout](https://www.styleshout.com/free-templates/)| Brilliantly crafted free website templates |
-| [Start Bootstrap](https://startbootstrap.com/)| Bootstrap starter themes |
-| [Zerotheme](https://www.zerotheme.com/)| HTML5, Bootstrap, Prestashop templates |
-| [HTML5xCSS3](https://www.html5xcss3.com/)| Collection of wonderful templates in different categories |
-| [Colorlib](https://colorlib.com/wp/templates/)| Almost any category of theme you can think of |
-| [Free CSS](https://www.free-css.com/free-css-templates)| Huge collection of free templates |
-| [Hubspot](https://www.hubspot.com/resources)| Templates, infographics, banners and much more|
-| [Mobirise](https://mobirise.com/html-templates/)| Great looking HTML5/CSS3 templates|
-| [Bootswatch](https://bootswatch.com/)| Free themes for Bootstrap|
-| [Onepagelove](https://onepagelove.com/)| One-page websites, templates and resources|
-| [Themes For App](https://themesfor.app/)| Free Bootstrap themes and landing pages|
-| [BootstrapTaste](https://bootstraptaste.com/)| Premium & Free Bootstrap Templates|
-| [BootstrapMade](https://bootstrapmade.com/)| Elegant, clean and beautiful free templates using Bootstrap. |
-| [W3Layouts](https://w3layouts.com/)| W3Layouts: 3784+ Free Website Templates for 2020 |
-| [Tooplate](https://www.tooplate.com/)| Tooplate: Free HTML Templates for everyone! |
-| [Cruip](https://cruip.com/free-templates/)| Fully coded HTML templates to help you easily build your startup landing page without hassles. |
-| [Shade](https://grayic.com/shade/) | Get High Converting Landing Pages For Free! |
-| [UIdeck](https://uideck.com/) | Free Landing Page Templates and Bootstrap Themes |
-| [Splawr](https://splawr.com/) | Free web templates to kickstart your idea! |
-| [W3css_templates](https://www.w3schools.com/w3css/w3css_templates.asp) | Some responsive W3.CSS website templates for you to use. |
-| [All-Free-Download](https://all-free-download.com/free-website-templates/free-html-css-templates.html) | Download free-website-templates |
-
-
-<div align="right" style="margin-bottom: 1rem;">
-    <b><a href="#列表目录">↥ 回到列表目录</a></b>
-</div>
-
-## CSS Frameworks
-
->CSS/UI frameworks to help build great looking websites and applications
+>提供免费各种漂亮的网站模板和所有类型的主题的网站
 
 | Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
 | ----------------------- | ------------------ |
-| [Tailwind CSS](https://tailwindcss.com/)| Low level, utility-first framework |
-| [Bootstrap](https://getbootstrap.com/)| Popular UI framework with tons of components that use both CSS and JS |
-| [Materialize](https://materializecss.com/)| A modern responsive front-end framework based on Material Design |
-| [Material Design Lite](https://getmdl.io/)| Light framework based on Material Design. No JS dependency |
-| [Bulma](https://bulma.io/)| Modern CSS framework with no JS |
-| [Skeleton](http://getskeleton.com/)| Extremely light framework for basic UI elements |
-| [Semantic UI](https://semantic-ui.com/)| Empowers designers and developers by creating a shared vocabulary for UI  |
-| [Fomantic UI](https://fomantic-ui.com/)| A community fork of Semantic-UI |
-| [Foundation](https://get.foundation/)| Mobile first framework with clean markup |
-| [Pure CSS](https://purecss.io/)| A set of small, responsive CSS modules |
-| [UIKit](https://getuikit.com/)| Lightweight and modular front-end framework |
-| [Susy](https://www.oddbird.net/susy/)| Lightweight, grid-layout engine for Sass |
-| [Milligram.io](https://milligram.io/)| Minimalist CSS framework |
-| [Vanilla Framework](https://vanillaframework.io/)| Simple, extensible CSS framework written in Sass |
-| [Spectre CSS](https://picturepan2.github.io/spectre/)| Lightweight, modern CSS framework |
-| [Picnic CSS](https://picnicss.com/)| Lightweight and beautiful library |
-| [Wing](https://kbrsh.github.io/wing/)| A beautiful CSS framework designed for minimalists  |
-| [Chota](https://jenil.github.io/chota/)| A micro (~3kb) CSS framework  |
-| [Blueprint CSS](https://blueprintcss.dev/)| A lightweight layout library for building great responsive mobile first UIs that work everywhere  |
-| [W3.CSS](https://www.w3schools.com/w3css/) | A modern CSS framework with support for desktop, tablet, and mobile design by default. Designed to be independent of jQuery or any other JavaScript library  |
-| [98.css](https://jdan.github.io/98.css/)| A design system for building faithful recreations of old UIs  |
-| [NES CSS](https://nostalgic-css.github.io/NES.css/)| NES-style CSS Framework  |
-| [Shoelace.css](https://www.shoelace.style/)| Lightweight, forward-thinking CSS library built with future CSS syntax |
-| [MVP.css](https://andybrewer.github.io/mvp/) | A minimalist stylesheet for HTML elements. No class names, no frameworks, just semantic HTML and you're done |
-| [Blaze.css](http://blazecss.com/) | Open source modular CSS toolkit providing great structure for building websites quickly  |
-| [Turret CSS](https://turretcss.com/) | Turret CSS is a styles framework for development of responsive websites.  |
-| [Cutestrap](https://www.cutestrap.com/) | A strong, independent CSS Framework. |
-| [Shorthand](https://shorthandcss.com/) | Shorthand is a free and open source css framework, that allows you to make unique and modern design without writing any css |
-| [XP.css](https://botoxparty.github.io/XP.css/) | XP.css is an extension of 98.css. A CSS library for building interfaces that look like old UIs. |
-| [Framework7](https://framework7.io/) | Framework7 - is a free and open source framework to develop mobile, desktop or web apps with native look and feel. |
-| [Hint.css](https://kushagra.dev/lab/hint/) | A pure CSS tooltip library for your lovely websites. |
-| [imagehover.io](http://imagehover.io/) | Pure CSS Image Hover Effect Library |
-| [mini.css](https://minicss.org/) | minimal, responsive, style-agnostic CSS framework |
-| [Tachyons](https://tachyons.io/) | Create fast loading, highly readable, and 100% responsive interfaces with as little css as possible. |
-| [Material Bootstrap](https://fezvrasta.github.io/bootstrap-material-design/) | Material Design with Bootstrap |
-| [Ivory](https://github.com/IVORY-UI/ivory) | A modern CSS framework for developing powerful web interfaces faster and easier |
-| [Halfmoon UI](https://www.gethalfmoon.com/)| A responsive and lightweight framework, designed for quickly building beautiful dashboards and product pages. |
-| [Metro 4](https://metroui.org.ua/index.html)| Create your site quickly and effectively with Metro 4. impressive components library built on html, css, javascript. |
-
-<div align="right" style="margin-bottom: 1rem;">
-    <b><a href="#列表目录">↥ 回到列表目录</a></b>
-</div>
-
-## CSS Methodologies
-
->CSS methodologies to help write modular, reusable and scalable code
-
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
-| ----------------------- | ------------------ |
-| [OOCSS](http://oocss.org/) | OOCSS concepts help us write components that are flexible, modular and interchangeable. |
-| [Atomic CSS](https://acss.io/) | Atomic CSS is the approach to CSS architecture that favors small, single-purpose classes with names based on visual function. |
-| [BEM](http://getbem.com/) | Block Element Modifier is a methodology that helps you to create reusable components and code sharing in front-end development. |
-| [SMACSS](http://smacss.com/) | SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. |
-
-<div align="right" style="margin-bottom: 1rem;">
-    <b><a href="#列表目录">↥ 回到列表目录</a></b>
-</div>
-
-## CSS Animations
-
->CSS animations to build awesome animations for websites and applications
-
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
-| ----------------------- | ------------------ |
-| [Animate.css](https://animate.style/)| Just-add-water CSS animations |
-| [Bounce.js](http://bouncejs.com/)| Bounce.js is a tool and JS library that lets you create beautiful CSS3 powered animations  |
-| [Anime.js](https://animejs.com/)| Anime.js (/ˈæn.ə.meɪ/) is a lightweight JavaScript animation library with a simple, yet powerful API. It works with CSS properties, SVG, DOM attributes and JavaScript Objects  |
-| [Magic Animations](https://www.minimamente.com/project/magic/)| Animations has been one of the most impressive animation libraries available |
-| [Zdog](https://zzz.dog/)| Round, flat, designer-friendly pseudo-3D engine for canvas & SVG |
-| [CSShake](http://elrumordelaluz.github.io/csshake/)| CSShake delivers exactly what it says on the box — a CSS library designed specifically for shaking elements within your web page  |
-| [Hover.css](http://ianlunn.github.io/Hover/)| Hover.css is a CSS animation library designed for use with buttons and other UI elements in your website  |
-| [AniJS](http://anijs.github.io/)| AniJS is an animation library that allows you to add animations to elements in a simple ‘sentence-like’ structure  |
-| [Animista](http://animista.net/)| CSS Animations On Demand |
-| [Tachyons-animate](https://github.com/anater/tachyons-animate)| Tachyons itself is an atomic CSS library with a ton of utility classes for essentially designing anything by adding classes to what you need   |
-| [Sequence.js](https://www.sequencejs.com/)| Sequence.js is a JavaScript library that provides a responsive CSS framework for creating unique sliders, presentations, banners, and other step-based applications |
-| [Infinite](https://tilomitra.github.io/infinite/)| These animations, like rotations and pulses, that are specifically designed to run and repeat forever |
-| [OBNOXIOUS.CSS](http://tholman.com/obnoxious/)| Animations for the strong of heart, and weak of mind |
-| [MOTION UI](https://zurb.com/playground/motion-ui)| A Sass library for creating flexible CSS transitions and animations |
-| [Keyframes.app](https://keyframes.app/)| A graphical user interface for generating custom CSS keyframe animations |
-| [thoughtbot](https://thoughtbot.com/blog/transitions-and-transforms)| CSS Transitions and Transformations for Beginners |
-| [SVG Artista](https://svgartista.net/)| A useful tool to animate stroke and fill properties in SVG images with plain CSS code |
-
-<div align="right" style="margin-bottom: 1rem;">
-    <b><a href="#列表目录">↥ 回到列表目录</a></b>
-</div>
-
-## Javascript Animation Libraries
-
->javascript animations libraries to build awesome animations for websites and applications
-
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
-| ----------------------- | ------------------ |
-| [Greensock](https://greensock.com/)| A JavaScript library for building high-performance animations that work in every major browser |
-| [Velocity.js](http://velocityjs.org/)| Velocity is a lightweight animation engine with the same API as jQuery's $.animate() |
-| [lax.js](https://github.com/alexfoxy/laxxx)| Simple & light weight vanilla javascript plugin to create smooth & beautiful animations when you scroll! |
-| [Rellax.js](https://github.com/dixonandmoe/rellax)| A buttery smooth, super lightweight, vanilla javascript parallax library |
-| [three.js](https://github.com/mrdoob/three.js/)| An easy to use, lightweight, 3D library with a default WebGL renderer. |
-| [wow.js](https://wowjs.uk/)| Reveal Animations When You Scroll. |
-| [chocolat.js](http://chocolat.insipi.de/)| Free lightbox plugin. |
-| [Animate On Scroll](https://michalsnik.github.io/aos/)| Animate on scroll library to reveal animations when You scroll. |
-| [Tilt.js](http://gijsroge.github.io/tilt.js/)| A tiny requestAnimationFrame powered 60+fps lightweight parallax hover tilt effect for jQuery. |
-| [Roughnotation](https://roughnotation.com/)| Rough Notation is a small JavaScript library to create and animate annotations on a web page |
-| [tsParticles](https://particles.matteobruni.it/)| A lightweight library for creating particles, an improved version of the abandoned and obsolete particles.js |
-| [Particles.js](https://vincentgarreau.com/particles.js/)| A lightweight JavaScript library for creating particles |
-| [mo.js](https://mojs.github.io/)| The motion graphics toolbelt for the web |
-| [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)| A small JS library to overlay images on top of the current page. |
-| [Slick](https://kenwheeler.github.io/slick/)|  Fully responsive carousel |
-| [barba.js](https://barba.js.org/)| Create fluid and smooth transitions between your website’s pages. |
-| [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)| A simple scroll library that provides detection of elements in viewport & smooth scrolling with parallax. |
-| [Owl carousel](https://owlcarousel2.github.io/OwlCarousel2/)| Free responsive jQuery carousel |
+| [HTML5Up](https://html5up.net/)| 非常现代，独特的响应HTML5/CSS3主题 |
+| [Templatemo](https://templatemo.com/)| 简洁的模板，简历，画廊主题和更多模板 |
+| [Templated.co](https://templated.co/)| 大量简约的HTML5/CSS3主题 |
+| [FreeHTML5](https://freehtml5.co/)| 免费和付费的HTML5和Bootstrap主题 |
+| [StyleShout](https://www.styleshout.com/free-templates/)| 精心制作的免费网站模板 |
+| [Start Bootstrap](https://startbootstrap.com/)| Bootstrap首页主题 |
+| [Zerotheme](https://www.zerotheme.com/)| HTML5, Bootstrap, Prestashop模板 |
+| [HTML5xCSS3](https://www.html5xcss3.com/)| 各种不同类别的精美模板集合 |
+| [Colorlib](https://colorlib.com/wp/templates/)| 几乎任何你能想到的主题类别 |
+| [Free CSS](https://www.free-css.com/free-css-templates)| 庞大的免费模板集合 |
+| [Hubspot](https://www.hubspot.com/resources)| 模板，信息图表，轮播图和更多资源 |
+| [Mobirise](https://mobirise.com/html-templates/)| 超漂亮的HTML5/CSS3模板 |
+| [Bootswatch](https://bootswatch.com/)| 免费Bootstrap主题 |
+| [Onepagelove](https://onepagelove.com/)| 单页网站，模板和资源 |
+| [Themes For App](https://themesfor.app/)| 免费Bootstrap主题和登录页面 |
+| [BootstrapTaste](https://bootstraptaste.com/)| 有付费和免费的Bootstrap主题 |
+| [BootstrapMade](https://bootstrapmade.com/)| 使用Bootstrap构建的优雅，干净和精美免费模板 |
+| [W3Layouts](https://w3layouts.com/)| W3Layouts: 2020年有3784个免费网站模板 |
+| [Tooplate](https://www.tooplate.com/)| Tooplate: 每个人都可以使用的免费模板 |
+| [Cruip](https://cruip.com/free-templates/)| 完全编码的HTML模板，帮助你毫不费劲轻松地构建你的网站首页 |
+| [Shade](https://grayic.com/shade/) | 免费获得高转化率登陆页! |
+| [UIdeck](https://uideck.com/) | 免费登陆页面模板和Bootstrap主题 |
+| [Splawr](https://splawr.com/) | 免费网页模板用来开启你的想法! |
+| [W3css_templates](https://www.w3schools.com/w3css/w3css_templates.asp) | 一些响应式的W3.CSS网站模板供您使用 |
+| [All-Free-Download](https://all-free-download.com/free-website-templates/free-html-css-templates.html) | 下载免费网站模板 |
 
 
 <div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## UI Components & Kits
+## CSS框架
 
->Not quite "frameworks", but tools for creating user interfaces with components or UI kits
+>帮助建立有惊艳外观的网站和应用程序的CSS/UI框架
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [TagFold](https://tagfold.com/)| Useful Bootstrap 4, HTML5, CSS3 Code Snippets to Build Web Layouts |
-| [UILang](http://uilang.com/)| A minimal, UI-focused programming language for web designers |
-| [Medialoot CSS Components](https://medialoot.com/free-themes/css-components/)| Calendars, price grids and other UI components |
-| [Froala Design Blocks](https://froala.com/design-blocks)| Over 170 responsive design blocks ready to be used in your web or mobile apps |
-| [Mui Treasury](https://mui-treasury.com)| An open-source project that provides a collection of ready-to-use components based on Material-UI.  |
-| [Material Design For Bootstrap](https://fezvrasta.github.io/bootstrap-material-design/)| Open source toolkit for building material design with Bootstrap |
-| [Photonkit](http://photonkit.com/)| Desktop UI library for Electron |
-| [Flat UI](https://designmodo.github.io/Flat-UI/)| Minimal free user interface kit|
-| [Shards](https://designrevision.com/downloads/shards/)| A free and modern UI toolkit for web makers based on Bootstrap  |
-| [Creative Tim](https://www.creative-tim.com/)| All types of UI libraries and kits including JS frameworks like React |
-| [Brumm Shadow Maker](https://brumm.af/shadows)| An online tool to make css shadows|
-| [AdminLTE](https://adminlte.io/)| Best open source admin dashboard & control panel theme|
-| [SpinKit](https://tobiasahlin.com/spinkit/)| Simple CSS Spinners|
-| [Epic Spinners](https://epic-spinners.epicmax.co/)| CSS spinners collection with Vue.js integration. |
-| [Loading.io](https://loading.io/)| Online service provider for creating simple animations, spinners, progress bar and more |
-| [Moving Letters](https://tobiasahlin.com/moving-letters/)| Animated Text with JavaScript and anime.js|
-| [CSS Layout](https://csslayout.io/)| A collection of popular web layouts and patterns in pure CSS |
-| [CSS Grid Generator](https://cssgrid-generator.netlify.app/)| An open-source project that allow users to quickly create dynamic layout based on CSS Grid. |
-| [Codyhouse](https://codyhouse.co/)| Kick-start your web projects with CodyHouse's front-end framework and library of accessible HTML, CSS, JavaScript components  |
-| [Tailwind Starter Kit](https://github.com/creativetimofficial/tailwind-starter-kit)| Tailwind Starter Kit a beautiful extension for TailwindCSS, Free and Open Source  |
-| [Tailwindtoolbox](https://www.tailwindtoolbox.com/)| Open source starter templates and components, a plugins directory and useful tools/utilities to kick start your Tailwind CSS project. |
-| [tailwindcomponents](https://tailwindcomponents.com/)| A free repository for community components using TailwindCSS |
-| [sweetalert](https://sweetalert.js.org/)| SweetAlert makes popup messages easy and pretty. |
-| [sweetalert2](https://sweetalert2.github.io/)| A beautiful, responsive, customizable, accessible replacement for javascript's popup boxes |
-| [tailblocks](https://mertjf.github.io/tailblocks/)| Open source ready-to-use Tailwind CSS components. |
-| [Soft Components](https://soft-components-docs.web.app/)| A set of framework-agnostic web components based on neumorphic design. |
-| [Fast](https://www.fast.design/)| An interface system that can be used with modern Web Frameworks such as React, Vue and Angular. |
-| [LottieFiles ](https://lottiefiles.com/)| Interactive animations in many formats like json,gif and mp4, libraries and plugins for Web & Mobile . |
-| [Tailwindow ](https://component.tailwindow.com/)| Components created using Tailwind CSS utilities class, so it can be customized to make themes easily. |
-| [Kutty](https://kutty.netlify.app/)| A set of accessible and reusable prebuilt Tailwind components that are commonly used in web applications. |
-| [Tailwind Templates](https://tailwindtemplates.io/)| A free collection of Tailwindcss Templates - tailwind components for rapid UI development. |
-| [Stitches](https://stitches.hyperyolo.com/)| An HTML template generator using functional css. |
-| [Meraki UI Components](https://merakiui.com/)| Beautiful Tailwindcss components that support RTL languages & fully responsive based on Flexbox & CSS Grid. |
+| [Tailwind CSS](https://tailwindcss.com/)| 比较底层，实用优先的框架 |
+| [Bootstrap](https://getbootstrap.com/)| 流行的UI框架，有大量使用CSS和JS的组件 |
+| [Materialize](https://materializecss.com/)| 基于Material设计的现代响应式前端框架 |
+| [Material Design Lite](https://getmdl.io/)| 基于Material设计的没有JS依赖轻量级框架 |
+| [Bulma](https://bulma.io/)| 没有JS的现代CSS框架 |
+| [Skeleton](http://getskeleton.com/)| 为构建基本的UI元素而生非常轻的框架 |
+| [Semantic UI](https://semantic-ui.com/)| 通过为UI创建一个共享词汇表来增强设计人员和开发人员的能力 |
+| [Fomantic UI](https://fomantic-ui.com/)| Semantic-UI的社区版本 |
+| [Foundation](https://get.foundation/)| 带有干净标记的移动优先框架 |
+| [Pure CSS](https://purecss.io/)| 一组小型的、响应式的的CSS模块 |
+| [UIKit](https://getuikit.com/)| 轻量级和模块化的前端框架 |
+| [Susy](https://www.oddbird.net/susy/)| Sass的轻量级网格布局引擎 |
+| [Milligram.io](https://milligram.io/)| 极简主义的CSS框架 |
+| [Vanilla Framework](https://vanillaframework.io/)| 用Sass编写的简单、可扩展的CSS框架 |
+| [Spectre CSS](https://picturepan2.github.io/spectre/)| 轻量级的，现代的CSS框架 |
+| [Picnic CSS](https://picnicss.com/)| 轻量级和漂亮的库 |
+| [Wing](https://kbrsh.github.io/wing/)| 为极简主义者设计的一个漂亮CSS框架 |
+| [Chota](https://jenil.github.io/chota/)| 一个微型(只有3kb)的CSS框架 |
+| [Blueprint CSS](https://blueprintcss.dev/)| 一个轻量级的布局库，用于构建伟大的响应式移动用户界面，在任何地方都可以工作 |
+| [W3.CSS](https://www.w3schools.com/w3css/) | 一个现代CSS框架，默认支持桌面、平板电脑和移动设计。设计为独立于jQuery或任何其他JavaScript库 |
+| [98.css](https://jdan.github.io/98.css/)| 看名字就知道这个一个真实再现旧版UI的设计系统 |
+| [NES CSS](https://nostalgic-css.github.io/NES.css/)| NES-style CSS框架 |
+| [Shoelace.css](https://www.shoelace.style/)| 轻量级的，前瞻性的CSS库构建未来的CSS语法 |
+| [MVP.css](https://andybrewer.github.io/mvp/) | HTML元素的极简样式表。没有类名，没有框架，只需要语义HTML就能完成 |
+| [Blaze.css](http://blazecss.com/) | 开源模块化的CSS工具包，为快速构建网站提供了巨大的结构 |
+| [Turret CSS](https://turretcss.com/) | Turret CSS是一个用于开发响应式网站的样式框架 |
+| [Cutestrap](https://www.cutestrap.com/) | 一个强大的、独立的CSS框架 |
+| [Shorthand](https://shorthandcss.com/) | Shorthand是一个免费和开源的css框架，它可以让你做独特和现代的设计，而不写任何css |
+| [XP.css](https://botoxparty.github.io/XP.css/) | XP.css是98.css的扩展，一个用于构建看起来像旧ui的接口CSS库 |
+| [Framework7](https://framework7.io/) | Framework7 -是一个免费的开源框架，用于开发具有本地外观的移动、桌面或web应用程序。 |
+| [Hint.css](https://kushagra.dev/lab/hint/) | 为您可爱的网站构建提示库的一个纯CSS工具库 |
+| [imagehover.io](http://imagehover.io/) | 纯CSS实现图像悬停效果库 |
+| [mini.css](https://minicss.org/) | 最小的，响应性的，风格无关的CSS框架 |
+| [Tachyons](https://tachyons.io/) | 用尽可能少的css创建快速加载、高可读性、100%响应性的界面 |
+| [Material Bootstrap](https://fezvrasta.github.io/bootstrap-material-design/) | Bootstrap实现的Material设计 |
+| [Ivory](https://github.com/IVORY-UI/ivory) | 一个现代的CSS框架，用于更快更容易地开发强大的web界面 |
+| [Halfmoon UI](https://www.gethalfmoon.com/)| 一个响应迅速且轻量级的框架，旨在快速构建漂亮的仪表板和产品页面。 |
+| [Metro 4](https://metroui.org.ua/index.html)| 使用Metro 4可以快速有效地创建建立在html, css, javascript之上的令人印象深刻的组件库 |
+
+<div align="right" style="margin-bottom: 1rem;">
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
+</div>
+
+## CSS 方法论
+
+>CSS 方法论可以帮助编写模块化、可重用和可扩展的代码
+
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
+| ----------------------- | ------------------ |
+| [OOCSS](http://oocss.org/) | OOCSS概念帮助我们编写灵活、模块化和可互换的组件。 |
+| [Atomic CSS](https://acss.io/) | Atomic CSS是CSS架构的一种方法，它支持基于可视化函数命名的小型、单一用途的类 |
+| [BEM](http://getbem.com/) | 块元素修改器是一种方法，帮助你创建可重用的组件和前端开发的代码共享。 |
+| [SMACSS](http://smacss.com/) | SMACSS是检查设计过程的一种方法，也是将那些严格的框架适应灵活的思维过程的一种方法。 |
+
+<div align="right" style="margin-bottom: 1rem;">
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
+</div>
+
+## CSS动画
+
+>CSS动画为网站和应用程序创建令人惊叹的动画
+
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
+| ----------------------- | ------------------ |
+| [Animate.css](https://animate.style/)| Animate.css是一个可以在你的web项目中使用的、随时可用的跨浏览器动画库。用于强调、主页、滑块和注意力引导提示 |
+| [Bounce.js](http://bouncejs.com/)| Bounce.js是一个工具和JS库，让你创建漂亮的CSS3驱动的动画 |
+| [Anime.js](https://animejs.com/)| Anime.js是一种轻量级的JavaScript动画库用一个简单的,但功能强大的API。它与CSS属性，SVG, DOM属性和JavaScript对象一起工作 |
+| [Magic Animations](https://www.minimamente.com/project/magic/)| 创建CSS3动画与特殊效果的库 |
+| [Zdog](https://zzz.dog/)| 使用canvas & SVG实现的圆，平，设计者友好的伪3d引擎 |
+| [CSShake](http://elrumordelaluz.github.io/csshake/)| CSShake提供了它所说的一个专门为摇动web页面中的元素而设计的CSS库 |
+| [Hover.css](http://ianlunn.github.io/Hover/)| Hover.css是一个CSS动画库，设计用于网站的按钮和其他UI元素 |
+| [AniJS](http://anijs.github.io/)| AniJS是一个动画库，它允许你在一个简单的“像句子”结构中添加动画元素 |
+| [Animista](http://animista.net/)| CSS动画随需应变 |
+| [Tachyons-animate](https://github.com/anater/tachyons-animate)| Tachyons本身是一个原子CSS库，包含大量的实用程序类，基本上可以通过添加类来设计任何你需要的东西 |
+| [Sequence.js](https://www.sequencejs.com/)| Sequence.js是一个JavaScript库，它提供了一个响应式的CSS框架，用于创建独特的滑块、演示、横幅和其他基于渐进式的应用程序 |
+| [Infinite](https://tilomitra.github.io/infinite/)| 这些动画，比如旋转和脉冲，是专门设计用来一直运行和重复的 |
+| [OBNOXIOUS.CSS](http://tholman.com/obnoxious/)| 动画适合心脏强壮的人，和头脑脆弱的人 |
+| [MOTION UI](https://zurb.com/playground/motion-ui)| 一个用于创建灵活的CSS转换和动画的Sass库 |
+| [Keyframes.app](https://keyframes.app/)| 一个用于生成自定义CSS关键帧动画的图形用户界面 |
+| [thoughtbot](https://thoughtbot.com/blog/transitions-and-transforms)| 为初学者提供CSS过度和转换 |
+| [SVG Artista](https://svgartista.net/)| 这是一个有用的工具，可以用简单的CSS代码在SVG图像中动画描边和填充属性 |
+
+<div align="right" style="margin-bottom: 1rem;">
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
+</div>
+
+## Javascript动画库
+
+>javascript动画库为网站和应用程序创建令人惊叹的动画
+
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
+| ----------------------- | ------------------ |
+| [Greensock](https://greensock.com/)| 用于构建在所有主流浏览器上工作的高性能动画JavaScript库 |
+| [Velocity.js](http://velocityjs.org/)| Velocity是一个轻量级动画引擎，API与jQuery的$.animate()相同 |
+| [lax.js](https://github.com/alexfoxy/laxxx)| 简单和轻量级的原生javascript插件，当你滚动时创建平滑和美丽的动画 |
+| [Rellax.js](https://github.com/dixonandmoe/rellax)| 一个顺滑的超级轻量级的原生javascript视差库 |
+| [three.js](https://github.com/mrdoob/three.js/)| 一个易于使用的，轻量级的，带有默认WebGL渲染器的3D库。 |
+| [wow.js](https://wowjs.uk/)| 当滚动时显示动画 |
+| [chocolat.js](http://chocolat.insipi.de/)| 免费的lightbox插件 |
+| [Animate On Scroll](https://michalsnik.github.io/aos/)| 滚动时显示动画的动画滚动库 |
+| [Tilt.js](http://gijsroge.github.io/tilt.js/)| 一个很小的requestAnimationFrame支持60+fps的jQuery轻量级视差悬停倾斜效果 |
+| [Roughnotation](https://roughnotation.com/)| Rough Notation是一个小型JavaScript库，用于在web页面上创建并动画化注释 |
+| [tsParticles](https://particles.matteobruni.it/)| 一个用于创建粒子的轻量级库，是废弃的particles.js的改进版本 |
+| [Particles.js](https://vincentgarreau.com/particles.js/)| 用于创建粒子的轻量级JavaScript库 |
+| [mo.js](https://mojs.github.io/)| 用于web的动态图形工具包 |
+| [Lightbox2](https://lokeshdhakar.com/projects/lightbox2/)| 一个小JS库，覆盖图像在当前页面的顶部 |
+| [Slick](https://kenwheeler.github.io/slick/)| 完全响应式的跑马灯 |
+| [barba.js](https://barba.js.org/)| 在你的网站页面之间创建流畅和平滑的过渡 |
+| [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)| 一个简单的滚动库，提供检测元素在视口&平滑滚动视差 |
+| [Owl carousel](https://owlcarousel2.github.io/OwlCarousel2/)| 免费响应式jQuery跑马灯 |
+
+
+<div align="right" style="margin-bottom: 1rem;">
+    <b><a href="#列表目录">↥ 回到列表目录</a></b>
+</div>
+
+## UI组件& 工具包
+
+>不完全是“框架”，而是用组件或UI工具包创建用户界面的工具
+
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
+| ----------------------- | ------------------ |
+| [TagFold](https://tagfold.com/)| 有用的Bootstrap 4, HTML5, CSS3代码片段来构建网页布局 |
+| [UILang](http://uilang.com/)| 为web设计人员提供的一种最小的、关注ui的编程语言 |
+| [Medialoot CSS Components](https://medialoot.com/free-themes/css-components/)| 日历、价格网格和其他UI组件 |
+| [Froala Design Blocks](https://froala.com/design-blocks)| 超过170个响应式设计模块准备在您的web或移动应用程序中使用 |
+| [Mui Treasury](https://mui-treasury.com)| 一个开源项目，它提供了一组基于Material ui的随时可用的组件 |
+| [Material Design For Bootstrap](https://fezvrasta.github.io/bootstrap-material-design/)| 使用Bootstrap来构建material设计的开源工具包 |
+| [Photonkit](http://photonkit.com/)| Electron桌面UI组件库 |
+| [Flat UI](https://designmodo.github.io/Flat-UI/)| 最小的免费用户界面工具包 |
+| [Shards](https://designrevision.com/downloads/shards/)| 基于Bootstrap为web设计者制作的一个免费的和现代的UI工具包 |
+| [Creative Tim](https://www.creative-tim.com/)| 所有类型的UI库和工具包，包括像React这样的JS框架 |
+| [Brumm Shadow Maker](https://brumm.af/shadows)| 一个制作css阴影在线工具 |
+| [AdminLTE](https://adminlte.io/)| 最好的开源管理仪表板和控制面板主题 |
+| [SpinKit](https://tobiasahlin.com/spinkit/)| 简单的CSS加载指示器 |
+| [Epic Spinners](https://epic-spinners.epicmax.co/)| 与Vue.js集成的CSS加载指示器 |
+| [Loading.io](https://loading.io/)| 在线服务提供者创建简单的动画，加载旋转器，进度条和更多 |
+| [Moving Letters](https://tobiasahlin.com/moving-letters/)| 使用JavaScript和anime.js实现动画文本 |
+| [CSS Layout](https://csslayout.io/)| 一个纯CSS的流行的网页布局和模式的集合 |
+| [CSS Grid Generator](https://cssgrid-generator.netlify.app/)| 一个开源项目，允许用户基于CSS网格快速创建动态布局 |
+| [Codyhouse](https://codyhouse.co/)| 使用CodyHouse的前端框架和可访问性的HTML, CSS, JavaScript组件来快速构建你的web应用 |
+| [Tailwind Starter Kit](https://github.com/creativetimofficial/tailwind-starter-kit)| 一个漂亮的扩展TailwindCSS，免费和开源 |
+| [Tailwindtoolbox](https://www.tailwindtoolbox.com/)| 开源的初始模板和组件，插件目录和有用的工具/实用程序来快速启动你的Tailwind CSS项目 |
+| [tailwindcomponents](https://tailwindcomponents.com/)| 使用TailwindCSS的免费社区组件库 |
+| [sweetalert](https://sweetalert.js.org/)| SweetAlert使弹出消息简单和漂亮 |
+| [sweetalert2](https://sweetalert2.github.io/)| 一个漂亮的，响应性的，可定制的，可访问的替换javascript的弹出框 |
+| [tailblocks](https://mertjf.github.io/tailblocks/)| 开源的、随时可用的Tailwind CSS组件 |
+| [Soft Components](https://soft-components-docs.web.app/)| 一组与框架无关的基于neumorphic设计的web组件 |
+| [Fast](https://www.fast.design/)| 一个可以与React、Vue和Angular等现代Web框架一起使用的界面系统 |
+| [LottieFiles ](https://lottiefiles.com/)| 适合Web和移动端的交互式动画库和插件，有许多格式，如json,gif和mp4 |
+| [Tailwindow ](https://component.tailwindow.com/)| 使用Tailwind CSS工具类创建的组件，因此它可以使主题很容易定制 |
+| [Kutty](https://kutty.netlify.app/)| 在web应用程序中常用的一组可访问、可重用的预构建Tailwind组件 |
+| [Tailwind Templates](https://tailwindtemplates.io/)| 一个免费收集的Tailwind css模板-Tailwind组件的快速UI开发。 |
+| [Stitches](https://stitches.hyperyolo.com/)| 一个使用函数式css的HTML模板生成器 |
+| [Meraki UI Components](https://merakiui.com/)| 漂亮的Tailwind css组件，支持RTL语言和完全响应基于Flexbox和CSS网格 |
 
 <div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
 
-## React UI
+## React组件库
 
->UI and component libraries for the React JavaScript framework
+>基于React JavaScript框架的组件库
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Material UI](https://material-ui.com/)| React components for faster and easier web development, based on Material Design |
-| [Chakra UI](https://chakra-ui.com/)| Build accessible React apps & websites with speed. [Openchakra](https://openchakra.app/) |
-| [React Bootstrap](https://react-bootstrap.github.io/)| Bootstrap rebuilt for React. Include Bootstrap components right in your JavaScript |
-| [ui-playbook](https://uiplaybook.dev/)| The documented collection of UI components |
-| [ReactStrap](https://reactstrap.github.io/)| Another Bootstrap UI library for React |
-| [React Admin](https://marmelab.com/react-admin/)| A frontend Framework for building admin applications. Supports API's out of the box|
-| [BlueprintJS](https://blueprintjs.com/)| React-based UI toolkit for the web |
-| [React Semantic UI](https://react.semantic-ui.com/)| UI components based off of the Semantic UI framework |
-| [Shards React](https://designrevision.com/downloads/shards-react/)| React UI kit featuring a modern design system with dozens of custom components  |
-| [React Virtualized](https://bvaughn.github.io/react-virtualized)| UI set for data. Includes tables, lists, sorting, etc. |
-| [React Toolbox](http://react-toolbox.io/#/)| Material design UI library for React |
-| [Elastic UI](https://elastic.github.io/eui/#/)| Distributes UI React components and static assets for use in building web layouts |
-| [React Desktop](http://reactdesktop.js.org/)| Desktop styled components in React. Includes MacOS and Windows based components |
-| [Theme UI](https://theme-ui.com/home)| Build consistent, themeable React apps based on constraint-based design principles |
-| [Onsen React](https://onsen.io/react/)| Distributes Components for hybrid mobile apps with React and Onsen UI |
-| [Evergreen](https://evergreen.segment.com/)| Design system for React |
-| [Rebass](https://rebassjs.org/)| React primitive UI components built with styled system |
-| [Grommet](https://v2.grommet.io/)| mobile first UI component library |
-| [Rimble](https://rimble.consensys.design/)| React design kit, library and guides |
-| [Landing Page Template](https://github.com/cruip/open-react-template/)| Open source landing page template for react |
-| [Elemental UI](http://elemental-ui.com/)| A UI Toolkit for React.js Websites and Apps |
-| [Ant Design](https://ant.design/)| Open source design React UI library. |
-| [Bumbag](https://bumbag.style/)| Bumbag is a friendly React UI Kit suitable for MVPs or large-scale applications. |
-| [PRIMEREACT](https://www.primefaces.org/primereact/)| The ultimate collection of design-agnostic, flexible and accessible React UI Components |
-| [Primer Components](https://primer.style/components/)| Primer Components are React components which implement GitHub's Primer Design System |
-| [Orbit](https://orbit.kiwi/)| Design system and React UI components for travel projects. |
-| [Base Web](https://baseweb.design/)| Base Web provides a robust suite of components out of the box |
-| [Backpack UI](http://lonelyplanet.github.io/backpack-ui/?path=/story/styles--design-tokens)| Backpack is the Lonely Planet toolset that we use to build front end apps. |
-| [Reaviz](https://reaviz.io)| Data visualization library for React based on D3 |
-| [React Suite](https://rsuitejs.com/en/)| A suite of React components, sensible UI design, and a friendly development experience. |
-| [React Spring](https://www.react-spring.io/)| Spring-physics based animation library for React applications. |
-| [Recharts](http://recharts.org/en-US/)| A composable charting library built on React components. |
-| [Vercel UI](https://github.com/geist-org/react) | Modern and minimalist React UI library |
-| [Framer Motion](https://www.framer.com/motion/) | A React library to power production-ready animations. |
-| [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html) | A React implementation of Spectrum, Adobe’s design system. |
-| [React tsParticles](https://particles.matteobruni.it/)| A lightweight React component for creating particles |
-| [particles-bg](https://github.com/lindelof/particles-bg)| A React particles animation background component |
+| [Material UI](https://material-ui.com/)| React组件，基于Material设计，更快更简单的web开发 |
+| [Chakra UI](https://chakra-ui.com/)| 快速建立易访问的React应用程序和网站. [Openchakra](https://openchakra.app/) |
+| [React Bootstrap](https://react-bootstrap.github.io/)| 使用react重构的Bootstrap，在JavaScript中包含Bootstrap组件 |
+| [ui-playbook](https://uiplaybook.dev/)| UI组件的文档集合 |
+| [ReactStrap](https://reactstrap.github.io/)| React的另一个Bootstrap UI库 |
+| [React Admin](https://marmelab.com/react-admin/)| 用于构建管理应用程序的前端框架，支持API的开箱即用 |
+| [BlueprintJS](https://blueprintjs.com/)| 基于React的web UI工具包 |
+| [React Semantic UI](https://react.semantic-ui.com/)| 基于Semantic UI框架的UI组件 |
+| [Shards React](https://designrevision.com/downloads/shards-react/)| 具有现代设计系统和数十个自定义组件的React UI工具包 |
+| [React Virtualized](https://bvaughn.github.io/react-virtualized)| 包括数据，表、列表、排序等UI组件集 |
+| [React Toolbox](http://react-toolbox.io/#/)| Material设计的React组件库 |
+| [Elastic UI](https://elastic.github.io/eui/#/)| 用于构建web布局的分发UI React组件和静态资产 |
+| [React Desktop](http://reactdesktop.js.org/)| React中的桌面风格组件，包括MacOS和基于Windows的组件 |
+| [Theme UI](https://theme-ui.com/home)| 基于约束的设计原则构建一致的、可主题化的React应用 |
+| [Onsen React](https://onsen.io/react/)| 通过React和Onsen UI发布混合移动应用组件 |
+| [Evergreen](https://evergreen.segment.com/)| React设计系统 |
+| [Rebass](https://rebassjs.org/)| 使用风格的系统构建的React原始的UI组件 |
+| [Grommet](https://v2.grommet.io/)| 移动优先UI组件库 |
+| [Rimble](https://rimble.consensys.design/)| React设计工具包，库和指南 |
+| [Landing Page Template](https://github.com/cruip/open-react-template/)| react开源登陆页面模板 |
+| [Elemental UI](http://elemental-ui.com/)| React.js网站和应用的UI工具包 |
+| [Ant Design](https://ant.design/)| 开源设计React UI库                                           |
+| [Bumbag](https://bumbag.style/)| Bumbag是一款友好的React UI工具包，适合MVPs或大型应用 |
+| [PRIMEREACT](https://www.primefaces.org/primereact/)| 设计无关的，灵活的和可访问的React UI组件的最终集合 |
+| [Primer Components](https://primer.style/components/)| 实现GitHub的Primer设计系统的React组件 |
+| [Orbit](https://orbit.kiwi/)| 为旅游项目而诞生的设计系统和ReactUI组件 |
+| [Base Web](https://baseweb.design/)| Base Web提供了一套健壮的开箱即用的组件 |
+| [Backpack UI](http://lonelyplanet.github.io/backpack-ui/?path=/story/styles--design-tokens)| Backpack是我们用来构建前端应用程序的Lonely Planet工具集 |
+| [Reaviz](https://reaviz.io)| 基于D3的React数据可视化库 |
+| [React Suite](https://rsuitejs.com/en/)| 一套React组件、合理的UI设计和友好的开发体验 |
+| [React Spring](https://www.react-spring.io/)| 用于React应用程序的基于弹簧物理的动画库 |
+| [Recharts](http://recharts.org/en-US/)| 基于React组件构建的可组合图表库 |
+| [Vercel UI](https://github.com/geist-org/react) | 现代和极简的React UI库 |
+| [Framer Motion](https://www.framer.com/motion/) | 为生产环境动画提供动力的React库 |
+| [React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html) | Adobe的设计系统Spectrum的React实现 |
+| [React tsParticles](https://particles.matteobruni.it/)| 用于创建粒子的轻量级React组件 |
+| [particles-bg](https://github.com/lindelof/particles-bg)| React粒子动画背景组件 |
 
 <div align="right" style="margin-bottom: 1rem;">
     <b><a href="#列表目录">↥ 回到列表目录</a></b>
 </div>
 
-## Vue UI
+## Vue组件库
 
->UI and component libraries for the Vue JavaScript framework
+>Vue JavaScript框架UI和组件库
 
-| Website&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description |
+| 网站&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 描述 |
 | ----------------------- | ------------------ |
-| [Vuetify](https://vuetifyjs.com/en/)| Material design component framework |
-| [Bootstrap Vue](https://bootstrap-vue.org/)| Use Bootstrap components with Vue |
-| [Buefy](https://buefy.org/)| Lightweight UI components based on Bulma |
-| [Semantic UI Vue](https://semantic-ui-vue.github.io)| Semantic UI Vue is the Vue integration for Semantic UI |
-| [Quasar](https://quasar.dev/)| High-performance Material Design component suite with builders for SPA, SSR, PWA, Mobile (Cordova & Capacitor), Desktop (Electron) and Browser extensions |
-| [Element](https://element.eleme.io/#/en-US)| Desktop UI library for Vue |
-| [Fish UI](https://myliang.github.io/fish-ui/#/components/index)| Vue UI toolkit for the web |
+| [Vuetify](https://vuetifyjs.com/en/)| Material设计的组件框架 |
+| [Bootstrap Vue](https://bootstrap-vue.org/)| 在Vue中使用Bootstrap组件 |
+| [Buefy](https://buefy.org/)| 基于Bulma的轻量级UI组件 |
+| [Semantic UI Vue](https://semantic-ui-vue.github.io)| Semantic UI Vue是Semantic UI的Vue集成 |
+| [Quasar](https://quasar.dev/)| 适合开发SPA, SSR, PWA，移动(Cordova & Capacitor)，桌面(电子)和浏览器扩展高性能Material设计组件套件 |
+| [Element](https://element.eleme.io/#/en-US)| 桌面Vue UI库 |
+| [Fish UI](https://myliang.github.io/fish-ui/#/components/index)| web开发的Vue UI工具包 |
 | [Keen UI](https://josephuspaye.github.io/Keen-UI)| VueUI library with a simple API, inspired by Google's Material Design |
 | [Onsen Vue](https://onsen.io/vue/)| Distributes Components for hybrid mobile apps with Vue and Onsen UI |
 | [Vuejsexamples](https://vuejsexamples.com)| A nice collection of useful vuejs UI components |

@@ -89,7 +89,7 @@ module.exports = {
                 ]
             }
         ],
-        authorAvatar: 'http://qn.zdctech.top/202005/img_1460hei-bai-2.jpg',
+        authorAvatar: '/avatar.jpg',
         // 博客配置
         blogConfig: {
             category: {
