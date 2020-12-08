@@ -13,25 +13,25 @@ module.exports = {
         subSidebar: 'auto',
         author: "墨萧",
         smoothScroll: true,
-        sidebar: {
-            '/frontend/': [
-                'ui-resource-for-developer',
-                'Keystone5-user-identify',
-                'Cache-API',
-                'TypeScript-understand',
-                'npm-history-docs',
-                'javascript-requestpayment',
-                'web-components',
-                'DOM-measure',
-                'visualization-js-library',
-                'async-func',
-            ],
-            '/summary/': [
-                'ubuntu-odoo12',
-                'linux-bootsrap',
-                'deno-intrdu'
-            ]
-        },
+        // sidebar: {
+        //     '/frontend/': [
+        //         'ui-resource-for-developer',
+        //         'Keystone5-user-identify',
+        //         'Cache-API',
+        //         'TypeScript-understand',
+        //         'npm-history-docs',
+        //         'javascript-requestpayment',
+        //         'web-components',
+        //         'DOM-measure',
+        //         'visualization-js-library',
+        //         'async-func',
+        //     ],
+        //     '/summary/': [
+        //         'ubuntu-odoo12',
+        //         'linux-bootsrap',
+        //         'deno-intrdu'
+        //     ]
+        // },
         search: true,
         friendLink: [
             {
