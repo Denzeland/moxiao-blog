@@ -1,6 +1,17 @@
-# 🦉 Quick Overview 🦉
+---
+description: 本文是对odoo官方开发的前端MVVM框架OWL的快速预览教程文档的中文翻译
+date: 2020-12-10
+sidebar: 'auto'
+categories:
+ - 拨荆集录
+tags:
+ - odoo
+ - owl
+---
 
-Owl components in an application are used to define a (dynamic) tree of components.
+# 🦉 快速预览 🦉
+
+应用程序中的Owl组件用于定义(动态)组件树。
 
 ```
         Root
@@ -10,8 +21,7 @@ Owl components in an application are used to define a (dynamic) tree of componen
      C   D
 ```
 
-**State:** each component can manage its own local state. It is a simple ES6
-class, there are no special rules:
+**State:** 每个组件都可以管理自己的本地状态。它是一个简单的ES6 class，没有特殊的规则:
 
 ```js
 class Counter extends Component {
@@ -29,11 +39,7 @@ class Counter extends Component {
 }
 ```
 
-The example above shows a component with a local state. Note that since there
-is nothing magical to the `state` object, we need to manually call the `render`
-function whenever we update it. This can quickly become annoying (and not
-efficient if we do it too much). There is a better way: using the `useState`
-hook, which transforms an object into a reactive version of itself:
+上面的例子向我们展示了一个带有state的组件，注意到`state` 就是一个普通的对象, 当状态更新时，我们需要手动调用 `render`函数。这很快就会变得很烦人(如果我们做得太多，效率就会降低)。有一个更好的方法:使用`useState`钩子，它将一个对象转换为自身的响应式版本:
 
 ```js
 const { useState } = owl.hooks;
@@ -52,17 +58,13 @@ class Counter extends Component {
 }
 ```
 
-Note that the `t-on-click` handler can even be replaced by an inline statement:
+注意`t-on-click` 处理程序可以使用内联语句：
 
 ```xml
     <button t-on-click="state.value++">
 ```
 
-**Props:** sub components often needs some information from their parents. This
-is done by adding the required information to the template. This will then be
-accessible by the sub component in the `props` object. Note that there is an
-important rule here: the information contained in the `props` object is not
-owned by the sub component, and should never be modified.
+**Props:** 子组件通常需要从父组件获取信息， 这可以通过向模板添加所需信息来实现。子组件可以通过`props`对象来访问这些信息。注意这里有一个重要的规则：`props` 对象中包含的信息不属于子组件，并且永远不应该被修改。
 
 ```js
 class Child extends Component {
@@ -79,13 +81,12 @@ class Parent extends Component {
 }
 ```
 
-**Communication:** there are multiple ways to communicate information between
-components. However, the two most important ways are the following:
+**Communication:** 有多种方式在组件间通信，最重要的是下面两种方式：
 
-- from parent to children: by using `props`,
-- from a children to one of its parent: by triggering events.
+- 从父组件到子组件: 通过使用 `props`,
+- 从子组件到父组件: 通过触发事件
 
-The following example illustrate both mechanisms:
+下面的例子演示了这两种机制：
 
 ```js
 class OrderLine extends Component {
@@ -121,13 +122,6 @@ class Parent extends Component {
 }
 ```
 
-In this example, the `OrderLine` component trigger a `add-to-order` event. This
-will generate a DOM event which will bubble along the DOM tree. It will then be
-intercepted by the parent component, which will then get the line (from the
-`detail` key) and then increment its quantity. See the page on [event handling](../reference/event_handling.md)
-for more details on how events work.
+在上面的例子中, `OrderLine`组件触发`add-to-order` 事件。 这将生成一个DOM事件，它将沿着DOM树冒泡。它将被父组件拦截，然后父组件将获得该数据(从`detail`键)，然后增加其数量。有关事件如何工作的详细信息，请参阅[事件处理](../reference/event_handling.md)页面。 
 
-Note that this example would have also worked if the `OrderLine` component
-directly modifies the `line` object. However, this is not a good practice: this
-only works because the `props` object received by the child component is reactive,
-so the child component is then coupled to the parents implementation.
+注意到在这个例子中如果`OrderLine` 组件直接修改`line` 对象，这个示例也可以工作。然而这是不好的做法，这样能工作的原因是子组件接收的`props` 对象是响应式的，子组件然后耦合到父组件实现。

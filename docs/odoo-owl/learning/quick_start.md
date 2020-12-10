@@ -1,30 +1,32 @@
-# 🦉 How to start an Owl project 🦉
+---
+description: odoo官方开发的前端MVVM框架OWL的快速如何开始一个Owl项目文档的中文翻译
+date: 2020-12-10
+sidebar: 'auto'
+categories:
+ - 拨荆集录
+tags:
+ - odoo
+ - owl
+---
 
-## Content
+# 🦉 如何开始一个Owl项目🦉
 
-- [Overview](#overview)
-- [Simple html file](#simple-html-file)
-- [With a static server](#with-a-static-server)
-- [Standard Javascript project](#standard-javascript-project)
+## 目录
 
-## Overview
+- [概述](#概述)
+- [简单的html文件](#简单的html文件)
+- [使用静态服务器](#使用静态服务器)
+- [标准的Javascript项目](#标准的Javascript项目)
 
-Each software project has its specific needs. Many of these needs can be solved
-with some tooling: `webpack`, `gulp`, css preprocessor, bundlers, transpilers, ...
+## 概述
 
-Because of that, it is usually not simple to just start a project. Some
-frameworks provide their own tooling to help with that. But then, you have to
-integrate and learn how these applications work.
+正因为如此，仅仅开始一个项目通常不是一件简单的事情。一些框架提供了自己的工具来帮助实现这一点。但是，您必须集成并了解这些应用程序是如何工作的。
 
-Owl is designed to be used with no tooling at all. Because of that, Owl can
-"easily" be integrated in a modern build toolchain. In this section, we will
-discuss a few different setups to start a project. Each of these setups has
-advantages and disadvantages in different situations.
+Owl被设计为完全不需要工具就可以使用。正因为如此，Owl可以“轻松地”集成到现代构建工具链中。在本节中，我们将讨论启动项目的几种不同设置，每种设置在不同的情况下都有优缺点。
 
-## Simple html file
+## 简单的html文件
 
-The simplest possible setup is the following: a simple javascript file with your
-code. To do that, let us create the following file structure:
+最简单的设置如下：一个包含你自己代码的简单javascript文件。为此，让我们创建以下文件结构：
 
 ```
 hello_owl/
@@ -33,11 +35,9 @@ hello_owl/
   app.js
 ```
 
-The file `owl.js` can be downloaded from the last release published at
-[https://github.com/odoo/owl/releases](https://github.com/odoo/owl/releases). It
-is a single javascript file which export all Owl into the global `owl` object.
+`owl.js`可以从[https://github.com/odoo/owl/releases](https://github.com/odoo/owl/releases)上下载一个最新版本， 它是一个单独的javascript文件，将所有的Owl内容导出到全局`owl`对象中。
 
-Now, `index.html` should contain the following:
+现在, `index.html` 应当包含如下内容：
 
 ```html
 <!DOCTYPE html>
@@ -51,7 +51,7 @@ Now, `index.html` should contain the following:
 </html>
 ```
 
-And `app.js` should look like this:
+并且`app.js` 的内容如下：
 
 ```js
 const { Component, mount } = owl;
@@ -63,7 +63,7 @@ class App extends Component {
   static template = xml`<div>Hello Owl</div>`;
 }
 
-// Setup code
+// 初始化代码
 function setup() {
   mount(App, target: { document.body })
 }
@@ -71,24 +71,15 @@ function setup() {
 whenReady(setup);
 ```
 
-Now, simply loading this html file in a browser should display a welcome message.
-This setup is not fancy, but it is extremely simple. There are no tooling at
-all required. It can be slightly optimized by using the minified build of Owl.
+现在，只要在浏览器中加载这个html文件，就会显示一条欢迎消息。这种设置并不花哨，但非常简单。根本不需要工具，还可以通过使用Owl的缩小构建进行轻微的优化。
 
-## With a static server
+## 使用静态服务器
 
-The previous setup has a big disadvantage: the application code is located in a
-single file. Obviously, we could split it in several files and add multiple
-`<script>` tags in the html page, but then we need to make sure the script are
-inserted in the proper order, we need to export each file content in global
-variables and we lose autocompletion across files.
+前面的设置有一个很大的缺点:应用程序代码位于单个文件中。显然，我们可以将它分割成几个文件，并在html页面中添加多个`<script>`标记，但随后我们需要确保以适当的顺序插入脚本，我们需要在全局变量中导出每个文件内容，并且在文件中丢失自动完成功能。
 
-There is a low tech solution to this issue: using native javascript modules.
-This however has a requirement: for security reasons, browsers will not accept
-modules on content served through the `file` protocol. This means that we need
-to use a static server.
+这个问题有一个低技术含量的解决方案：使用原生javascript模块。但是，这有一个要求:出于安全原因，浏览器将不接受通过`file`协议提供的内容上的模块。这意味着我们需要使用静态服务器。
 
-Let us start a new project with the following file structure:
+现在把项目结构改成如下形式：
 
 ```
 hello_owl/
@@ -99,10 +90,9 @@ hello_owl/
     owl.js
 ```
 
-As previously, the file `owl.js` can be downloaded from the last release published at
-[https://github.com/odoo/owl/releases](https://github.com/odoo/owl/releases).
+像上面描述的，`owl.js`可以从[https://github.com/odoo/owl/releases](https://github.com/odoo/owl/releases)上下载一个最新版本。
 
-Now, `index.html` should contain the following:
+现在, `index.html` 包含如下内容：
 
 ```html
 <!DOCTYPE html>
@@ -116,10 +106,9 @@ Now, `index.html` should contain the following:
 </html>
 ```
 
-Not that the `main.js` script tag has the `type="module"` attribute. This means
-that the browser will parse the script as a module, and load all its dependencies.
+注意到`main.js` script标签有属性`type="module"` . 这意味着浏览器将把脚本解析为模块，并加载它的所有依赖项。
 
-Here is the content of `app.js` and `main.js`:
+下面是文件`app.js` 和`main.js`的内容：
 
 ```js
 // app.js ----------------------------------------------------------------------
@@ -140,20 +129,16 @@ function setup() {
 owl.utils.whenReady(setup);
 ```
 
-The `main.js` file import the `app.js` file. Note that the import statement has
-a `.js` suffix, which is important. Most text editor can understand this syntax
-and will provide autocompletion.
+`main.js`文件导入`app.js`文件。注意，import语句有一个.js后缀，这一点很重要。大多数文本编辑器都能理解这种语法，并提供自动完成功能。
 
-Now, to execute this code, we need to serve the `src` folder statically. A low
-tech way to do that is to use for example the python `SimpleHTTPServer` feature:
+现在，为了执行这段代码，我们需要静态地为src文件夹提供服务。我们使用一个低技术的方法来做到这一点，例如使用python `SimpleHTTPServer`功能:
 
 ```
 $ cd src
 $ python -m SimpleHTTPServer 8022    # now content is available at localhost:8022
 ```
 
-Another more "javascripty" way to do it is to create a `npm` application. To do
-that, we can add the following `package.json` file at the root of the project:
+另一种更“javascript”的方法是创建一个`npm`应用程序。为此，我们在项目的根目录下创建如下内容的文件`package.json`：
 
 ```json
 {
@@ -172,20 +157,15 @@ that, we can add the following `package.json` file at the root of the project:
 }
 ```
 
-We can now install the `serve` tool with the command `npm install`, and then,
-start a static server with the simple `npm run serve` command.
+我们现在可以使用命令`npm install`安装`serve`工具，然后使用简单的`npm run serve`命令启动一个静态服务器。
 
-## Standard Javascript project
+## 标准的Javascript项目
 
-The previous setup works, and is certainly good for some usecases, including
-quick prototyping. However, it lacks some useful features, such as livereload,
-a test suite, or bundling the code in a single file.
+上面的项目结构在某些应用场景很有用，比如快速原型。但是，它缺少一些有用的特性，比如热加载，测试套件或者将代码打包在一个文件中。
 
-Each of these features, and many others, can be done in many different ways.
-Since it is really not trivial to configure such a project, we provide here an
-example that can be used as a starting point.
+这些特性和许多其他特性可以通过许多不同的方式实现。由于配置这样的项目确实不是一件简单的事情，所以我们在这里提供一个示例，它可以用作起点。
 
-Our standard Owl project has the following file structure:
+我们的标准Owl项目有以下文件结构：
 
 ```
 hello_owl/
@@ -204,11 +184,9 @@ hello_owl/
   webpack.config.js
 ```
 
-This project as a `public` folder, meant to contain all static assets, such as
-images and styles. The `src` folder has the javascript source code, and finally,
-`tests` contains the test suite.
+`public` 文件夹包含所有静态资产，如图像和样式，`src` 文件夹包含javascript源代码，最后`tests` 包含测试套件。
 
-Here is the content of `index.html`:
+下面是`index.html`文件的内容：
 
 ```html
 <!DOCTYPE html>
@@ -220,8 +198,7 @@ Here is the content of `index.html`:
 </html>
 ```
 
-Note that there are no `<script>` tag here. They will be injected by webpack.
-Now, let's have a look at the javascript files:
+注意到这里没有`<script>`标签，将会被webpack注入，现在让我们看下javascript文件：
 
 ```js
 // src/components/App.js -------------------------------------------------------
@@ -294,8 +271,7 @@ export function click(elem, selector) {
 }
 ```
 
-Finally, here is the configuration files `.gitignore`, `package.json` and
-`webpack.config.js`:
+最后看看配置文件`.gitignore`, `package.json` 和`webpack.config.js`的内容：
 
 ```
 node_modules/
@@ -397,12 +373,12 @@ module.exports = function (env, argv) {
 };
 ```
 
-With this setup, we can now use the following script commands:
+有了这个设置，我们现在可以使用以下脚本命令：
 
 ```
-npm run build # build the full application in prod mode in dist/
+npm run build # 打包完整的应用到目录dist/
 
-npm run dev # start a dev server with livereload
+npm run dev # 开启带有热加载的开发服务器
 
-npm run test # run the jest test suite
+npm run test # 运行jest测试套件
 ```
