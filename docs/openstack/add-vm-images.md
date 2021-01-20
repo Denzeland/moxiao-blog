@@ -8,7 +8,7 @@ tags:
  - OpenStack
 ---
 
-# Ubuntu 20.04安装OpenStack(四)：添加虚拟机镜像到Glance
+# Ubuntu 20.04安装OpenStack(五)：添加虚拟机镜像到Glance
 
 ```md
 ::: tip
