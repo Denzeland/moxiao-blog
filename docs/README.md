@@ -6,5 +6,6 @@ bgImageStyle: {
 }
 heroText: null
 tagline: 对美好的事物永远热爱
+sidebar: false
 ---
 

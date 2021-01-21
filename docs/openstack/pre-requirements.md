@@ -12,13 +12,15 @@ tags:
 
 有一些组件需要需要一些通用的服务，这里主要包含NTP服务，MariaDB，RabbitMQ和Memcached，下面的例子是ubuntu虚拟机的环境：
 
-eth0|192.168.56.102
+```
+eth0|192.168.56.102 
 +-----------+-----------+
 |    [ 计算节点 ]   |
 |                       |
 |  MariaDB    RabbitMQ  |
-|  Memcached            |
+|  Memcached  httpd     |
 +-----------------------+
+```
 
 1. 安装NTP服务调整日期，安装配置Chrony
 

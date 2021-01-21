@@ -5,7 +5,7 @@ module.exports = {
     description: '墨萧随笔-让时间见证我们共同的成长',
     head: [
         ['link', { rel: 'icon', href: '/favicon.png' }],
-        ['script', {  src: "https://cdn.jsdelivr.net/npm/artitalk" }],
+        ['script', { src: "https://cdn.jsdelivr.net/npm/artitalk" }],
     ],
     themeConfig: {
         logo: '/favicon.png',
@@ -13,28 +13,40 @@ module.exports = {
         subSidebar: 'auto',
         author: "墨萧",
         smoothScroll: true,
-        // sidebar: {
-        //     '/frontend/': [
-        //         'ui-resource-for-developer',
-        //         'Keystone5-user-identify',
-        //         'Cache-API',
-        //         'TypeScript-understand',
-        //         'npm-history-docs',
-        //         'javascript-requestpayment',
-        //         'web-components',
-        //         'DOM-measure',
-        //         'visualization-js-library',
-        //         'async-func',
-        //     ],
-        //     '/summary/': [
-        //         'ubuntu-odoo12',
-        //         'linux-bootsrap',
-        //         'deno-intrdu'
-        //     ]
-        // },
+        sidebar: {
+            '/openstack/': [
+                    ['', 'openstack基本概述'],
+                    ['pre-requirements', '安装前环境准备'],
+                    ['install-keystone', '安装配置keystone'],
+                    ['install-glance', '安装配置glance'],
+                    ['add-vm-images', '添加虚拟机镜像'],
+                    ['configure-nova', '安装配置nova'],
+                    ['configure-neutron', '安装配置neutron'],
+                    ['configure-neutron-network', '配置实例的网络'],
+                    ['add-users', '创建openstack系统用户'],
+                    ['create-instances', '创建虚拟机实例'],
+                    ['configure-horizon', '安装配置看板服务horizon']
+                ]
+                //     '/frontend/': [
+                //         'ui-resource-for-developer',
+                //         'Keystone5-user-identify',
+                //         'Cache-API',
+                //         'TypeScript-understand',
+                //         'npm-history-docs',
+                //         'javascript-requestpayment',
+                //         'web-components',
+                //         'DOM-measure',
+                //         'visualization-js-library',
+                //         'async-func',
+                //     ],
+                //     '/summary/': [
+                //         'ubuntu-odoo12',
+                //         'linux-bootsrap',
+                //         'deno-intrdu'
+                //     ]
+        },
         search: true,
-        friendLink: [
-            {
+        friendLink: [{
                 title: '午后南杂',
                 desc: 'Enjoy when you can, and endure when you must.',
                 email: 'recoluan@qq.com',
@@ -52,8 +64,7 @@ module.exports = {
             { text: '日常动态', link: '/diary/', icon: 'reco-date' },
             {
                 text: 'python资源',
-                items: [
-                    {
+                items: [{
                         text: 'web服务',
                         items: [
                             { text: 'Django', link: 'https://docs.djangoproject.com/zh-hans/3.0/', target: '_blank' },
@@ -93,16 +104,16 @@ module.exports = {
         // 博客配置
         blogConfig: {
             category: {
-                location: 1,     // 在导航栏菜单中所占的位置，默认2
+                location: 1, // 在导航栏菜单中所占的位置，默认2
                 text: '分类' // 默认文案 “分类”
             },
             tag: {
-                location: 3,     // 在导航栏菜单中所占的位置，默认3
-                text: '标签'      // 默认文案 “标签”
+                location: 3, // 在导航栏菜单中所占的位置，默认3
+                text: '标签' // 默认文案 “标签”
             },
         },
         valineConfig: {
-            appId: 'DoSvyEKcqjWoviK5ujHi8ktC-gzGzoHsz',// your appId
+            appId: 'DoSvyEKcqjWoviK5ujHi8ktC-gzGzoHsz', // your appId
             appKey: '6gLTWDi4N6jy309QICj5syhy', // your appKey
         },
         lastUpdated: '最后更新',
@@ -136,8 +147,7 @@ module.exports = {
         }],
         ["vuepress-plugin-code-copy", {
             successText: '复制成功!'
-        }
-        ],
+        }],
         [
             'crisp', {
                 siteID: "20de650e-477b-4d5d-b048-0c26c12f3cfb" // if you don't have a crisp account go to <https://crisp.chat/en/> and create an account then get the website ID and put it here.
@@ -257,8 +267,7 @@ module.exports = {
             '@vuepress-reco/vuepress-plugin-bgm-player',
             {
                 autoShrink: true,
-                audios: [
-                    {
+                audios: [{
                         name: '平凡之路',
                         artist: '朴树',
                         url: '/music/ordinary_load.mp3',

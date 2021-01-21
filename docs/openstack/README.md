@@ -10,9 +10,7 @@ tags:
 
 # Ubuntu 20.04安装OpenStack(一)：概述
 
-最近用虚拟机在Ubuntu 20.04上折腾了一下OpenStack， 初次学习，按照官方文档一步一步安装下来还是会遇到很多问题，本系列文章主要记录在安装所有
-
-OpenStack组件的过程，以备以后查阅。用到的虚拟机是virtualbox，系统是Ubuntu 20.04，安装的OpenStack版本是**Victoria**。
+最近用虚拟机在Ubuntu 20.04上折腾了一下OpenStack， 初次学习，按照官方文档一步一步安装下来还是会遇到很多问题，本系列文章主要记录在安装所有OpenStack组件的过程，以备以后查阅。用到的虚拟机是virtualbox，系统是Ubuntu 20.04，安装的OpenStack版本是**Victoria**。
 
 ## 概述
 
