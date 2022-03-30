@@ -36,7 +36,7 @@ tags:
    #OPENSTACK_KEYSTONE_URL = "http://%s/identity/v3" % OPENSTACK_HOST
    OPENSTACK_KEYSTONE_URL = "http://192.168.56.102:5000/v3"
    # line 131: set your timezone
-   TIME_ZONE = "Asia/Tokyo"
+   TIME_ZONE = "Asia/Shanghai"
    # add to the end
    OPENSTACK_KEYSTONE_MULTIDOMAIN_SUPPORT = True
    OPENSTACK_KEYSTONE_DEFAULT_DOMAIN = 'Default'

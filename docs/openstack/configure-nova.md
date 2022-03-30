@@ -365,8 +365,8 @@ root@dlp ~(keystone)# vi /etc/nova/nova.conf
 [vnc]
 enabled = True
 server_listen = 0.0.0.0
-server_proxyclient_address = 10.0.0.30
-novncproxy_base_url = http://10.0.0.30:6080/vnc_auto.html 
+server_proxyclient_address = 192.168.56.102
+novncproxy_base_url = http://192.168.56.102:6080/vnc_auto.html 
 ```
 
 8. 开启Nova Compute服务

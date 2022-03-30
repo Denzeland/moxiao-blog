@@ -1,3 +1,9 @@
+// 载入模块
+var Segment = require('segment');
+// 创建实例
+var segment = new Segment();
+// 使用默认的识别模块及字典，载入字典文件需要1秒，仅初始化时执行一次即可
+segment.useDefault();
 module.exports = {
     theme: 'reco',
     cache: false,
@@ -126,6 +132,37 @@ module.exports = {
     plugins: [
         [require('vue-github-buttons/plugins/vuepress'), {
             useCache: true
+        }],
+        ['flexsearch', {
+            /*
+              Plugin custom options
+            */
+            maxSuggestions: 10, // how many search suggestions to show on the menu, the default is 10.
+            searchPaths: ['path1', 'path2'], // an array of paths to search in, keep it null to search all docs.
+            searchHotkeys: ['s'], // Hot keys to activate the search input, the default is "s" but you can add more.
+            searchResultLength: 60, // the length of the suggestion result text by characters, the default is 60 characters.
+            /*
+              Default FlexSearch options
+              To override the default options you can see available options at https://github.com/nextapps-de/flexsearch
+            */
+            search_options: {
+                encode: false,
+                tokenize: function(str) {
+                    console.log('中文分词', segment.doSegment(str, {
+                        simple: true
+                    }));
+                    return segment.doSegment(str, {
+                        simple: true
+                    });
+                },
+                // threshold: 1,
+                // depth: 4,
+                resolution: 9,
+                doc: {
+                    id: "key",
+                    field: ["title", "content", "headers"],
+                }
+            }
         }],
         [
             'vuepress-plugin-sponsor',
